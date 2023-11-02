@@ -279,19 +279,17 @@ const TopNav: FC<Props> = ({ children }) => {
                     }
                   >
                     <p
-                      className={`${
-                        active === item.name &&
+                      className={`${active === item.name &&
                         "text-[var(--primary-500)] font-[500]"
-                      }`}
+                        }`}
                     >
                       {item.name}
                     </p>
                     {item.subs.length > 0 && (
                       <HiOutlineChevronDown
-                        className={`${
-                          active === item.name &&
+                        className={`${active === item.name &&
                           "text-[var(--primary-500)] font-[500]"
-                        }`}
+                          }`}
                       />
                     )}
                   </div>
@@ -331,10 +329,9 @@ const TopNav: FC<Props> = ({ children }) => {
                     <Link
                       href={item.link}
                       target={item.new === "tab" ? "_blank" : "_parent"}
-                      className={`${
-                        active === item.name &&
+                      className={`${active === item.name &&
                         "text-[var(--primary-500)] font-[500]"
-                      }`}
+                        }`}
                     >
                       {item.name}
                     </Link>
@@ -353,13 +350,12 @@ const TopNav: FC<Props> = ({ children }) => {
               return (
                 <div
                   key={index}
-                  className={`relative flex px-4 h-16 items-center gap-[1px] lg:gap-[3px] justify-center hover:cursor-pointer hover:active-nav ${
-                    pathName === "home" && active === "/"
-                      ? "active-nav"
-                      : pathName === active
+                  className={`relative flex px-4 h-16 items-center gap-[1px] lg:gap-[3px] justify-center hover:cursor-pointer hover:active-nav ${pathName === "home" && active === "/"
+                    ? "active-nav"
+                    : pathName === active
                       ? "active-nav"
                       : "[&>*]:font-[500]"
-                  } overflow-visible`}
+                    } overflow-visible`}
                   onMouseEnter={() => setHoveredNav(item.name)}
                   onMouseLeave={() => setHoveredNav("")}
                   onClick={() =>
@@ -374,12 +370,11 @@ const TopNav: FC<Props> = ({ children }) => {
                   )}
                   {hoveredNav === item.name && item.subs.length > 0 && (
                     <div
-                      className={`absolute top-16 bg-[#fffffff6] -left-4 lg:left-0 min-w-full ${
-                        item.name.toLowerCase() === "pathways" ||
+                      className={`absolute top-16 bg-[#fffffff6] -left-4 lg:left-0 min-w-full ${item.name.toLowerCase() === "pathways" ||
                         item.name.toLowerCase() === "education services"
-                          ? "w-[28vw] lg:w-[20vw]"
-                          : "w-full"
-                      } p-4 rounded-sm transition-transform duration-500`}
+                        ? "w-[28vw] lg:w-[20vw]"
+                        : "w-full"
+                        } p-4 rounded-sm transition-transform duration-500`}
                     >
                       {item.subs.map((sub, index) => (
                         <Link href={sub.link} key={index}>
@@ -421,9 +416,8 @@ const TopNav: FC<Props> = ({ children }) => {
                 <p className="relative text-[#b8bec0] font-inter">
                   (+237) 650 663 001{" "}
                   <span
-                    className={`absolute -bottom-0 left-[2px] w-[90%] ${
-                      cursorIn === 0 ? "scale-x-10" : "scale-x-0"
-                    } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
+                    className={`absolute -bottom-0 left-[2px] w-[90%] ${cursorIn === 0 ? "scale-x-10" : "scale-x-0"
+                      } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
                   />
                 </p>
               </a>
@@ -437,9 +431,8 @@ const TopNav: FC<Props> = ({ children }) => {
                 <p className="relative text-[#b8bec0] font-inter">
                   info@aecoedu.com
                   <span
-                    className={`absolute -bottom-0 left-[2px] w-[90%] ${
-                      cursorIn === 1 ? "scale-x-10" : "scale-x-0"
-                    } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
+                    className={`absolute -bottom-0 left-[2px] w-[90%] ${cursorIn === 1 ? "scale-x-10" : "scale-x-0"
+                      } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
                   />
                 </p>
               </a>
@@ -452,9 +445,8 @@ const TopNav: FC<Props> = ({ children }) => {
                 <p className="relative text-[#b8bec0] font-inter">
                   No. 237 Rue Dibombé{" "}
                   <span
-                    className={`absolute -bottom-0 left-[2px] w-[90%] ${
-                      cursorIn === 2 ? "scale-x-10" : "scale-x-0"
-                    } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
+                    className={`absolute -bottom-0 left-[2px] w-[90%] ${cursorIn === 2 ? "scale-x-10" : "scale-x-0"
+                      } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
                   />
                 </p>
               </a>
@@ -470,9 +462,8 @@ const TopNav: FC<Props> = ({ children }) => {
                 <p className="relative text-[#b8bec0] font-inter">
                   Douala, Cameroon{" "}
                   <span
-                    className={`absolute -bottom-0 left-[2px] w-[90%] ${
-                      cursorIn === 3 ? "scale-x-10" : "scale-x-0"
-                    } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
+                    className={`absolute -bottom-0 left-[2px] w-[90%] ${cursorIn === 3 ? "scale-x-10" : "scale-x-0"
+                      } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
                   />
                 </p>
               </a>
@@ -501,11 +492,10 @@ const TopNav: FC<Props> = ({ children }) => {
                               <p className="relative text-[#b8bec0] font-inter hover:text-[var(--secondary-500)]">
                                 {sub.name}
                                 <span
-                                  className={`absolute -bottom-0 left-[2px] w-[90%] ${
-                                    cursorIn === unique + index
-                                      ? "scale-x-10"
-                                      : "scale-x-0"
-                                  } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
+                                  className={`absolute -bottom-0 left-[2px] w-[90%] ${cursorIn === unique + index
+                                    ? "scale-x-10"
+                                    : "scale-x-0"
+                                    } h-[2px] bg-[var(--secondary-500)] transform transition-transform duration-500 origin-left`}
                                 />
                               </p>
                             </Link>
@@ -519,32 +509,37 @@ const TopNav: FC<Props> = ({ children }) => {
             </div>
           </div>
         </div>
-        <hr className="mt-8 border-t-2 text-[var(--neutral-100)] opacity-70" />
         <div className="grid grid-cols-1 gap-y-6 md:grid-cols-5 lg:grid-cols-7 gap-x-2 md:gap-x-10 lg:gap-x-28 w-full items-center font-inter text-[var(--neutral-600)] [&>*]:hover:cursor-pointer p-2 mt-8">
-          <a className="grid gap-2 col-span-2 text-[var(--secondary-300)] font-semibold font-inter">
-            <p>Privacy Policy</p>
+          <a className="grid gap-2 col-span-2 text-[#b8bec0]  font-inter">
+            <p>Contact Us</p>
           </a>
           <div className="grid col-span-1 md:col-span-5 grid-cols-1 gap-y-6 lg:grid-cols-3">
             <Link
-              className="text-[var(--secondary-300)] font-semibold font-inter"
+              className="text-[#b8bec0]  font-inter"
+              href={"/contact-us"}
+            >
+              <p>Privacy Policy</p>
+            </Link>
+            <Link
+              className="text-[#b8bec0]  font-inter"
               href={"/cookie-policy"}
             >
               <p>Cookie Policy</p>
             </Link>
+
             <Link
-              className="text-[var(--secondary-300)] font-semibold font-inter"
-              href={"/contact-us"}
-            >
-              <p>Contact Us</p>
-            </Link>
-            <Link
-              className="text-[var(--secondary-300)] font-semibold font-inter"
+              className="text-[#b8bec0]  font-inter"
               href={"/environmental-policies"}
             >
               <p>Environmental Policies</p>
             </Link>
           </div>
+
         </div>
+        <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
+        <span className="font-light text-sm">
+          Aeco Education  ©  {(new Date()).getFullYear()}
+        </span>
       </div>
     </div>
   );

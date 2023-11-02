@@ -69,13 +69,23 @@ export default function Home() {
         <div>
           <TopNav>
             <div className="pb-12 overflow-x-hidden">
+
               <div
                 className="bg-cover bg-center w-full h-[80vh] overflow-hidden relative"
                 style={{ backgroundImage: `url("/assets/hero.png")` }}
               >
 
-                <div className="absolute backdrop-blur-xl bg-[#ffffff3b] bottom-0">
+                <div className="absolute backdrop-blur-lg bg-[#ffffff7f] bottom-0">
                   <PartnersLogo />
+                </div>
+                <div className="h-full w-[80%] md:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
+                  <h2 className="text-4xl font-bold">Your Journey Starts here</h2>
+                  <p className=" font-normal text-lg ">
+                    Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
+                  </p>
+                  <button className="btn-secondary w-[200px]">
+                    Apply
+                  </button>
                 </div>
               </div>
 
@@ -98,6 +108,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
+
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
                   <p className="text-center mb-2 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
@@ -133,7 +144,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col mx-4 md:mx-10">
+              <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
                   <p className="text-center mb-4 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl my-2">
                     Testimonials

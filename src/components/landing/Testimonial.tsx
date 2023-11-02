@@ -18,7 +18,7 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
   const whole = Math.floor(rating);
   const decimal = rating - whole;
   return (
-    <div className="grid shadow bg-white" style={{ background: "white" }}>
+    <div className="grid shadow-md rounded-md bg-white h-[500px]" style={{ background: "white" }}>
       <div className="overflow-hidden w-full  h-48 relative">
         <div
           className="absolute inset-0 bg-cover bg-center grid transition-transform duration-500 rounded-t-sm"
@@ -28,7 +28,7 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
       <div className="flex flex-col justify-between py-8 px-8  rounded-b-sm">
         <div className="grid gap-y-6">
           <div className="grid ">
-            <p className=" font-inter font-semibold text-lg mb-4">
+            <p className=" font-inter  text-md text-gray-700 mb-4">
               {`"${testimonial.message}"`}
             </p>
             <hr />
@@ -43,16 +43,16 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
                     <BsStarFill
                       size={18}
                       key={index}
-                      className=""
+                      className="text-[#FFC107]"
                     />
                   ))}
                 {decimal !== 0 && (
-                  <BsStarHalf size={18} className="" />
+                  <BsStarHalf size={18} className=" text-[#FFC107]" />
                 )}
               </div>
             </div>
             <div>
-              <p className="mt-2 px-2 font-[550] font-inter italic ">
+              <p className="mt-2 px-2 font-[550] font-inter  ">
                 {testimonial.university} <br />({testimonial.program})
               </p>
             </div>
