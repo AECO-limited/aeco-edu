@@ -31,21 +31,19 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div
-        className="absolute inset-0 bg-cover bg-center grid transition-transform duration-500 hover:scale-110"
+        className="absolute inset-0 bg-cover bg-center grid transition-transform duration-500 "
         style={{ backgroundImage: `url(${service.image})` }}
       >
         <div
-          className={`grid hover:cursor-pointer w-full h-fit items-center ${
-            top ? "self-start top-0" : "self-end bottom-0"
-          } right-0 left-0`}
+          className={`grid hover:cursor-pointer w-full h-fit items-center ${top ? "self-start top-0" : "self-end bottom-0"
+            } right-0 left-0`}
         >
           {!top && (
             <span className="w-0 h-0 border-b-[24px] border-b-[#45220c63] self-center m-auto border-l-[24px] border-r-[24px] border-l-transparent border-r-transparent" />
           )}
           <div
-            className={`relative w-full grid items-center transition-height justify-center ${
-              isHovered ? "h-60" : "h-24"
-            } bg-[#45220c63] duration-500 ease-out p-6`}
+            className={`relative w-full grid items-center transition-height justify-center ${isHovered ? "h-60" : "h-24"
+              } bg-[#45220c63] duration-500 ease-out p-6`}
             style={{
               maxHeight: isHovered ? "15rem" : "6rem",
               overflow: "hidden",
@@ -54,11 +52,10 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
           >
             {top && (
               <div
-                className={`absolute left-0 right-0 bottom-0 duration-700 ease-in-out ${
-                  isHovered
-                    ? "-translate-y-8"
-                    : "-translate-y-[calc(100%+4rem)]"
-                }`}
+                className={`absolute left-0 right-0 bottom-0 duration-700 ease-in-out ${isHovered
+                  ? "-translate-y-8"
+                  : "-translate-y-[calc(100%+4rem)]"
+                  }`}
               >
                 <div className="grid mx-8 my-2 self-center">
                   <p
@@ -82,21 +79,19 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
               </div>
             )}
             <p
-              className={`uppercase text-center text-[var(--neutral-10)] font-inter font-extrabold text-lg lg:text-[24px] lg:leading-[30px] ${
-                isHovered
-                  ? top
-                    ? "-translate-y-8"
-                    : "-translate-y-16"
-                  : "translate-y-0"
-              }`}
+              className={`uppercase text-center text-[var(--neutral-10)] duration-700 ease-in-out font-inter font-extrabold text-lg lg:text-[24px] lg:leading-[30px] ${isHovered
+                ? top
+                  ? "-translate-y-8"
+                  : "-translate-y-16"
+                : "translate-y-0"
+                }`}
             >
               {service.title}
             </p>
             {!top && (
               <div
-                className={`absolute left-0 right-0 bottom-0 duration-700 ease-in-out ${
-                  isHovered ? "-translate-y-16" : "translate-y-full"
-                }`}
+                className={`absolute left-0 right-0 bottom-0  duration-200 ease-in-out ${isHovered ? "-translate-y-16 opacity-100" : "-translate-y-14 opacity-0"
+                  }`}
               >
                 <div className="grid mx-8 my-2 self-center">
                   <p

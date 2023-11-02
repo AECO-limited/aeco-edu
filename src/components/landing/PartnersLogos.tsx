@@ -97,20 +97,20 @@ const PartnersLogo: FC = () => {
   }, []);
 
   return (
-    <div className="w-[96vw]">
+    <div className="w-[100vw]">
       <Slider {...settings} ref={sliderRef}>
         {partnerLogos.map((partner, index) => {
           return (
             <div
-              className="grid h-36 items-center justify-center   rounded-lg"
+              className="grid h-30 items-center justify-center   rounded-lg"
               key={index}
             >
-              <div className="w-[80%] h-[80%]  m-auto my-4 grid">
+              <div className="w-[80%] h-[80%] flex flex-col  m-auto my-4  justify-center">
                 <Image
                   src={partner.image}
                   alt={partner.name}
-                  width={96}
-                  height={64}
+                  width={96 / 1.3}
+                  height={64 / 1.3}
                   className="m-auto self-center"
                 />
               </div>

@@ -8,19 +8,19 @@ const services = [
   {
     title: "Study abroad",
     tag: "Explore our study abroad programmes",
-    image: "/assets/study_abrod.jpeg",
+    image: "https://ileiwe.com/wp-content/uploads/2021/07/STUDY-ABROAD-101.jpg",
     link: "/student-placement/study-abroad",
   },
   {
     title: "International year programme",
     tag: "Unlock a world of opportunities with language preparation",
-    image: "/assets/language_prep.jpeg",
+    image: "https://i0.wp.com/theblackexpat.com/wp-content/uploads/2022/04/Black-Students-Abroad.jpg",
     link: "/pathways/international-year-programme",
   },
   {
     title: "Local student placement",
     tag: "Unlock new opportunities by working overseas",
-    image: "/assets/work_overseas.jpeg",
+    image: "https://www.turing-scheme.org.uk/wp-content/uploads/2022/01/pexels-keira-burton-6146935-1-scaled.jpg",
     link: "/student-placement/local-student-placement",
   },
 ];

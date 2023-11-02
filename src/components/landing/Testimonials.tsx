@@ -119,7 +119,7 @@ const Testimonials: FC = () => {
         {testimonials.map((testimonial, index) => {
           return (
             <div
-              className="grid h-full items-center justify-center   rounded-lg"
+              className="grid h-full items-center justify-center rounded-lg"
               key={index}
             >
               <div className="w-[95%]  m-auto my-4 grid">

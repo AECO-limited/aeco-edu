@@ -15,7 +15,7 @@ const partners = [
   {
     name: "Opuvia",
     logo: "/assets/opuvia.png",
-    image: "https://media.licdn.com/dms/image/C4E22AQGJaLLipRm0XQ/feedshare-shrink_800/0/1664358048541?e=1700697600&v=beta&t=mKmPGNeCwE1aJrNNLmul2tvE_nCSVKg8KSCdFFYoSQE",
+    image: "",
     tag: "We Power Human Capital Globally",
     body: "Opuvia is on a mission to close the gap between education and employment and curb the global problem of graduate under and unemployment. Opuvia believes that every person deserves an opportunity to succeed and thrive in their chosen career, and are committed to providing the tools and resources necessary to make that a reality",
     link: "https://opuvia.co",
@@ -23,7 +23,7 @@ const partners = [
   {
     name: "The University of Law",
     logo: "/assets/ulaw_logo.png",
-    image: "https://images.shiksha.com/mediadata/images/1410954202phpOGBpwY.jpeg",
+    image: "",
     tag: "Ulaw - A Place for Everyone",
     body: "ULaw's guiding principle that future lawyers and business leaders should learn in a realistic, professional and contemporary context, with plenty of practical interactive engagement sets them apart from other universities. With 16 campuses in the UK, international sites in Hong Kong and Berlin, and a dedicated Online Campus you have plenty of choices in where to study with us.",
     link: "https://law.ac.uk",
@@ -31,7 +31,7 @@ const partners = [
   {
     name: "Texila American University",
     logo: "/assets/texila.png",
-    image: "https://s1.stabroeknews.com/images/2018/06/texila.jpg",
+    image: "",
     tag: "Pushing Forward Bounderies of Knowledge",
     body: "Texila American University has been developing great minds in medicine for more than a decade. With state-of-the-art libraries and laboratories, we offer our students the opportunity to explore extensive and world-class learning material",
     link: "https://tauedu.org/",
@@ -39,7 +39,7 @@ const partners = [
   {
     name: "Trebas Institute",
     logo: "/assets/trebas.png",
-    image: "https://www.trebas.com/media/1543/trebas-classroom.jpeg",
+    image: "",
     tag: "Dedicated to Training Talents of Tomorrow",
     body: "Trebas Institute Quebec and Ontario Inc. offers a vast portfolio in the areas of music, film, business and technology, as well as management programmes. With the combination of expert instructors and state-of-the-art equipment, their students are truly prepared to leave their mark in their chosen field",
     link: "https://www.trebas.com/",
@@ -70,21 +70,49 @@ export default function Home() {
           <TopNav>
             <div className="pb-12 overflow-x-hidden">
               <div
-                className="bg-cover bg-center w-full h-[80vh] overflow-hidden relative"
+                className="bg-cover bg-center w-full h-[80vh] overflow-hidden"
                 style={{ backgroundImage: `url("/assets/hero.png")` }}
               >
-
-                <div className="absolute backdrop-blur-xl bg-[#ffffff3b] bottom-0">
-                  <PartnersLogo />
+                <div className="w-[90vw] md:w-[75vw] lg:w-[60vw] m-auto h-full  grid items-center justify-center">
+                  <div className="grid w-full bg-[#000508c1] p-8  px-[15%] col-span-2 gap-1">
+                    <p className="text-center pb-6 text-[var(--neutral-10)] font-inter font-bold text-xl lg:text-4xl lg:leading-10">
+                      Your Journey Starts Here!
+                    </p>
+                    <p className="text-center text-[var(--tetiary-500)] font-inter font-light text-[16px] leeading-[24px]">
+                      Kick start your higher education journey globally with
+                      AECO Education and unlock a world of opportunities through
+                      our International year Programme, Direct Placement in Home
+                      and Abroad Universities.
+                    </p>
+                  </div>
+                  {/* <div className="col-span-1">
+                    <div
+                      ref={containerRef}
+                      id="script-container"
+                      className="mr-10"
+                    >
+                      <Iframe
+                        url="https://ams4you.net/panel/webinq.php?ag=13059&wfid=1100&url='+location.href.replace('&', '[P]')+'&ptit='+document.title+'"
+                        width="400px"
+                        height="320px"
+                        id=""
+                        className=""
+                        display="block"
+                        position="relative"
+                      />
+                    </div>
+                  </div> */}
                 </div>
               </div>
-
+              <div className="my-16">
+                <PartnersLogo />
+              </div>
               <div className="my-16 mb-28 mx-4 md:mx-10">
                 <Services />
               </div>
-              <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
+              <div className="mt-2  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-3 uppercase text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
                     Partner Highlights
                   </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
@@ -92,16 +120,16 @@ export default function Home() {
                     alliances to achieve success together.
                   </p>
                 </div>
-                <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
+                <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
                   {partners.map((partner, index) => (
                     <PartnerCard key={index} partner={partner} />
                   ))}
                 </div>
               </div>
-              <div className="mt-12 py-10 items-center justify-center flex flex-col">
+              <div className="mt-12 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
                   <p className="text-center mb-2 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
-                    News
+                    NEWS
                   </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
@@ -133,13 +161,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col mx-4 md:mx-10">
+              <div className="mt-20 items-center justify-center flex flex-col mx-4 md:mx-10">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-4 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl my-2">
+                  <p className="text-center uppercase mb-4 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl my-2">
                     Testimonials
                   </p>
                 </div>
-                <div className="mt-4  ">
+                <div className="mt-4">
                   <Testimonials />
                 </div>
               </div>
