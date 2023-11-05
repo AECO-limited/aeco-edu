@@ -244,10 +244,10 @@ const TopNav: FC<Props> = ({ children }) => {
                 target="_blank"
                 className="btn-primary"
               >
-                User Portal
+                Partner Portal
               </Link>
               <Link className="btn-secondary" href={"/apply"}>
-                Apply
+                User Portal
               </Link>
             </div>
           </div>
@@ -261,13 +261,13 @@ const TopNav: FC<Props> = ({ children }) => {
         </div>
         {menuOpen && (
           <div
-            className="md:hidden absolute left-0 right-0 w-full bg-[var(--neutral-100)] py-4"
+            className="md:hidden absolute left-0 right-0 w-full bg-black text-white py-4"
             ref={menuRef}
           >
             {navItems.map((item, index) => {
               return (
                 <div
-                  className="mb-4 border-b border-[var(--neutral-300)]"
+                  className="mb-4 border-b border-[#2b2b2b]"
                   key={index}
                 >
                   <div
@@ -280,7 +280,7 @@ const TopNav: FC<Props> = ({ children }) => {
                   >
                     <p
                       className={`${active === item.name &&
-                        "text-[var(--primary-500)] font-[500]"
+                        "text-white font-[500]"
                         }`}
                     >
                       {item.name}
@@ -294,7 +294,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     )}
                   </div>
                   {active === item.name && item.subs.length > 0 && (
-                    <div className="mt-3 bg-gray-200 border-t border-[var(--neutral-300)]">
+                    <div className="mt-3 text-white border-t bg-black border-[#2b2b2b]">
                       {item.subs.map((sub, index) => {
                         return (
                           <div
@@ -315,7 +315,7 @@ const TopNav: FC<Props> = ({ children }) => {
             {others.map((item, index) => {
               return (
                 <div
-                  className="mb-4 border-b border-[var(--neutral-300)]"
+                  className="mb-4 border-b border-[#2b2b2b]"
                   key={index}
                 >
                   <div
@@ -342,7 +342,7 @@ const TopNav: FC<Props> = ({ children }) => {
           </div>
         )}
       </div>
-      <div className="hidden md:block  fixed top-24 right-0 left-0 h-16 bg-[var(--neutral-10)] px-8 lg:px-10 z-[99999]">
+      <div className="hidden md:block  fixed top-24 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
         <div className="flex w-full h-full items-center justify-between">
           <div className="flex items-center">
             {navItems.map((item, index) => {
@@ -362,7 +362,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     item.name.toLocaleLowerCase() === "home" && router.push("/")
                   }
                 >
-                  <p className="font-inter uppercase truncate text-[12px] lg:text-[16px] text-[var(--neutral-600)]">
+                  <p className="font-inter capitalize truncate text-[12px] lg:text-[16px] text-white">
                     {item.name}
                   </p>
                   {item.subs.length > 0 && (
@@ -370,7 +370,7 @@ const TopNav: FC<Props> = ({ children }) => {
                   )}
                   {hoveredNav === item.name && item.subs.length > 0 && (
                     <div
-                      className={`absolute top-16 bg-[#fffffff6] -left-4 lg:left-0 min-w-full ${item.name.toLowerCase() === "pathways" ||
+                      className={`absolute top-16 bg-black -left-4 lg:left-0 min-w-full ${item.name.toLowerCase() === "pathways" ||
                         item.name.toLowerCase() === "education services"
                         ? "w-[28vw] lg:w-[20vw]"
                         : "w-full"

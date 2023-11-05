@@ -71,14 +71,14 @@ export default function Home() {
             <div className="pb-12 overflow-x-hidden">
 
               <div
-                className="bg-cover bg-center w-full h-[80vh] overflow-hidden relative"
+                className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[80vh] overflow-hidden relative"
                 style={{ backgroundImage: `url("/assets/hero.png")` }}
               >
 
-                <div className="absolute backdrop-blur-lg bg-[#ffffff7f] bottom-0">
+                <div className="absolute backdrop-blur-md bg-[#ffffffe7] bottom-0">
                   <PartnersLogo />
                 </div>
-                <div className="h-full w-[80%] md:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
+                <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
                   <h2 className="text-4xl font-bold">Your Journey Starts here</h2>
                   <p className=" font-normal text-lg ">
                     Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.

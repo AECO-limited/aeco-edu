@@ -102,7 +102,7 @@ const PartnersLogo: FC = () => {
         {partnerLogos.map((partner, index) => {
           return (
             <div
-              className="grid h-30 items-center justify-center   rounded-lg"
+              className="grid h-30 items-center justify-center rounded-lg "
               key={index}
             >
               <div className="w-[80%] h-[80%] flex flex-col  m-auto my-4  justify-center">

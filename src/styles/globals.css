@@ -91,6 +91,6 @@
   }
 
   .active-nav {
-    @apply bg-[var(--tetiary-500)] font-extrabold;
+    @apply bg-[#262626] font-extrabold;
   }
 }
