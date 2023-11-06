@@ -3,9 +3,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { FC, useEffect, useRef, useState } from "react";
 import {
-  AiOutlineFacebook,
-  AiOutlineInstagram,
-  AiOutlineLinkedin,
   AiOutlineMenu,
 } from "react-icons/ai";
 import { VscLocation } from "react-icons/vsc";
@@ -203,16 +200,18 @@ const TopNav: FC<Props> = ({ children }) => {
 
   return (
     <div>
-      <div className="fixed top-0 right-0 left-0 h-24 bg-[#ffffffdf] backdrop-blur-sm px-4 md:px-8 lg:px-14 z-[99999]">
+      <div className="fixed top-0 right-0 left-0 h-16 bg-[#ffffffdf] backdrop-blur-sm px-4 md:px-8 lg:px-14 z-[99999]">
         <div className="h-full w-full flex relative items-center justify-between">
           <div>
-            <Image
-              src={"/assets/logo.png"}
-              alt={"Logo"}
-              width={120}
-              height={64}
-              className="w-24 md:w-32"
-            />
+            <Link href="/">
+              <Image
+                src={"/assets/logo.png"}
+                alt={"Logo"}
+                width={120}
+                height={64}
+                className="w-24 md:w-32"
+              />
+            </Link>
           </div>
           <div className="gap-8   items-center hidden md:flex">
             <div className="flex gap-6">
@@ -248,7 +247,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 Partner Portal
               </Link>
               <Link className="btn-secondary" href={"/apply"}>
-                User Portal
+                Student Portal
               </Link>
             </div>
           </div>
@@ -343,7 +342,7 @@ const TopNav: FC<Props> = ({ children }) => {
           </div>
         )}
       </div>
-      <div className="hidden md:block  fixed top-24 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
+      <div className="hidden md:block  fixed top-16 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
         <div className="flex w-full h-full items-center justify-between">
           <div className="flex items-center">
             {navItems.map((item, index) => {
@@ -390,9 +389,12 @@ const TopNav: FC<Props> = ({ children }) => {
               );
             })}
           </div>
+          <Link className="text-[var(--secondary-500)]" href={"/apply"}>
+            Apply Now
+          </Link>
         </div>
       </div>
-      <main className="mt-24 md:mt-40">{children}</main>
+      <main className="mt-20 md:mt-32">{children}</main>
       <div className="bottom-0 right-0 left-0 bg-[var(--primary-800)] text-[var(--tetiary-500)] px-14 py-12 z-[99999]">
         <div className="w-full h-full gap-2">
           <div className=" items-center justify-center gap-4">

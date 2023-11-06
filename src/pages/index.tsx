@@ -37,11 +37,11 @@ const partners = [
     link: "https://tauedu.org/",
   },
   {
-    name: "Trebas Institute",
-    logo: "/assets/trebas.png",
-    image: "https://www.trebas.com/media/1543/trebas-classroom.jpeg",
+    name: "Norquest College",
+    logo: "https://yt3.googleusercontent.com/raJE8PNdHgBYvNLdbQWedzd1Br1e0eLHawRfonrK44KoZWBZkJqOZHjjN09WBgBV1birjX5J7Q=s900-c-k-c0x00ffffff-no-rj",
+    image: "https://www.norquest.ca/NorquestCollege/media/images/about/about-norquest-college/about-us.jpg",
     tag: "Dedicated to Training Talents of Tomorrow",
-    body: "Trebas Institute Quebec and Ontario Inc. offers a vast portfolio in the areas of music, film, business and technology, as well as management programmes. With the combination of expert instructors and state-of-the-art equipment, their students are truly prepared to leave their mark in their chosen field",
+    body: "Norquest College offers a vast portfolio in the areas of music, film, business and technology, as well as management programmes. With the combination of expert instructors and state-of-the-art equipment, their students are truly prepared to leave their mark in their chosen field",
     link: "https://www.trebas.com/",
   },
 ];
@@ -102,7 +102,7 @@ export default function Home() {
                     alliances to achieve success together.
                   </p>
                 </div>
-                <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
+                <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 2xl:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
                   {partners.map((partner, index) => (
                     <PartnerCard key={index} partner={partner} />
                   ))}
@@ -119,24 +119,24 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4 px-6 lg:px-10 md:px-8 w-full">
-                  <div className="grid row-span-1">
+                  <div className="md:grid row-span-1">
                     <FullNews news={news?.data[0]} />
                   </div>
-                  <div className="grid row-span-1 grid-cols-2 gap-4">
-                    <div className="grid row-span-1  grid-rows-2 gap-4">
+                  <div className="grid row-span-1 md:grid-cols-2  gap-4">
+                    <div className="md:grid row-span-1  grid-rows-2 gap-4">
                       {news?.data
                         .slice(1, 3)
                         .map((news: any, index: number) => (
-                          <div className="col-span-1 " key={index}>
+                          <div className="col-span-1 mb-3" key={index}>
                             <SubNews news={news} />
                           </div>
                         ))}
                     </div>
-                    <div className="grid row-span-1  grid-rows-2 gap-4">
+                    <div className="md:grid row-span-1  grid-rows-2 gap-4">
                       {news?.data
                         .slice(3, 5)
                         .map((news: any, index: number) => (
-                          <div className="col-span-1 " key={index}>
+                          <div className="col-span-1 mb-3" key={index}>
                             <SubNews news={news} />
                           </div>
                         ))}

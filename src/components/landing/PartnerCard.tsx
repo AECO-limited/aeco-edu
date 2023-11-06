@@ -37,7 +37,7 @@ const PartnerCard: FC<Props> = ({ partner }) => {
           {partner.body}
         </p>
         <Link
-          className="btn-primary w-[100%] text-[12px] lg:text-[15px] p-4  mt-5 mb-3"
+          className="btn-secondary w-[100%] text-[12px] lg:text-[15px] p-4  mt-5 mb-3"
           href={partner.link}
           target="_blank"
         >

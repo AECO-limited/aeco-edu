@@ -18,7 +18,7 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
   const whole = Math.floor(rating);
   const decimal = rating - whole;
   return (
-    <div className="grid shadow-md rounded-md bg-white h-[500px]" style={{ background: "white" }}>
+    <div className="grid shadow-md rounded-md bg-white xl:h-[500px]" style={{ background: "white" }}>
       <div className="overflow-hidden w-full  h-48 relative">
         <div
           className="absolute inset-0 bg-cover bg-center grid transition-transform duration-500 rounded-t-sm"
