@@ -84,7 +84,7 @@ export default function Home() {
                     Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
                   </p>
                   <button className="btn-secondary w-[200px]">
-                    Apply
+                    Get Started
                   </button>
                 </div>
               </div>
