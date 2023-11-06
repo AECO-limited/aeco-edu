@@ -33,7 +33,7 @@ const FullNews: FC<Props> = ({ news }) => {
             </p>
           </div>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center hover:gap-x-5 transition-all">
           <Link className="btn-link w-fit my-3" href={"/"}>
             Learn more
           </Link>

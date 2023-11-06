@@ -43,11 +43,11 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
                     <BsStarFill
                       size={18}
                       key={index}
-                      className="text-[#FFC107]"
+                      className="text-[#ff8f49]"
                     />
                   ))}
                 {decimal !== 0 && (
-                  <BsStarHalf size={18} className=" text-[#FFC107]" />
+                  <BsStarHalf size={18} className=" text-[#ff8f49]" />
                 )}
               </div>
             </div>

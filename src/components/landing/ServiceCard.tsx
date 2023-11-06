@@ -43,7 +43,7 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
           )}
           <div
             className={`relative w-full grid items-center transition-height justify-center ${isHovered ? "h-60" : "h-24"
-              } bg-[#45220c63] duration-500 ease-out p-6`}
+              } bg-[#45220cb3] duration-500 ease-out p-6`}
             style={{
               maxHeight: isHovered ? "15rem" : "6rem",
               overflow: "hidden",

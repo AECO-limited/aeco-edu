@@ -15,6 +15,7 @@ import {
   HiOutlineGlobeEuropeAfrica,
   HiOutlinePhone,
 } from "react-icons/hi2";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 type Props = {
   children?: any;
@@ -202,7 +203,7 @@ const TopNav: FC<Props> = ({ children }) => {
 
   return (
     <div>
-      <div className="fixed top-0 right-0 left-0 h-24 bg-[var(--tetiary-500)] px-4 md:px-8 lg:px-14 z-[99999]">
+      <div className="fixed top-0 right-0 left-0 h-24 bg-[#ffffffdf] backdrop-blur-sm px-4 md:px-8 lg:px-14 z-[99999]">
         <div className="h-full w-full flex relative items-center justify-between">
           <div>
             <Image
@@ -213,13 +214,13 @@ const TopNav: FC<Props> = ({ children }) => {
               className="w-24 md:w-32"
             />
           </div>
-          <div className="gap-8 items-center hidden md:flex">
-            <div className="flex gap-3">
+          <div className="gap-8   items-center hidden md:flex">
+            <div className="flex gap-6">
               <Link
                 href={"https://www.facebook.com/aecoeducation"}
                 target="_blank"
               >
-                <AiOutlineFacebook className="text-2xl text-[var(--neutral-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsFacebook className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
               <Link
                 href={
@@ -227,7 +228,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 }
                 target="_blank"
               >
-                <AiOutlineInstagram className="text-2xl text-[var(--neutral-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsInstagram className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
               <Link
                 href={
@@ -235,7 +236,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 }
                 target="_blank"
               >
-                <AiOutlineLinkedin className="text-2xl text-[var(--neutral-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsLinkedin className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
             </div>
             <div className="flex gap-2">
@@ -510,25 +511,25 @@ const TopNav: FC<Props> = ({ children }) => {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-y-6 md:grid-cols-5 lg:grid-cols-7 gap-x-2 md:gap-x-10 lg:gap-x-28 w-full items-center font-inter text-[var(--neutral-600)] [&>*]:hover:cursor-pointer p-2 mt-8">
-          <a className="grid gap-2 col-span-2 text-[#b8bec0]  font-inter">
+          <a className="grid gap-2 col-span-2 text-[#b8bec0] hover:text-[var(--secondary-500)]  font-inter">
             <p>Contact Us</p>
           </a>
           <div className="grid col-span-1 md:col-span-5 grid-cols-1 gap-y-6 lg:grid-cols-3">
             <Link
-              className="text-[#b8bec0]  font-inter"
+              className="text-[#b8bec0] hover:text-[var(--secondary-500)]  font-inter"
               href={"/contact-us"}
             >
               <p>Privacy Policy</p>
             </Link>
             <Link
-              className="text-[#b8bec0]  font-inter"
+              className="text-[#b8bec0] hover:text-[var(--secondary-500)]  font-inter"
               href={"/cookie-policy"}
             >
               <p>Cookie Policy</p>
             </Link>
 
             <Link
-              className="text-[#b8bec0]  font-inter"
+              className="text-[#b8bec0] hover:text-[var(--secondary-500)]  font-inter"
               href={"/environmental-policies"}
             >
               <p>Environmental Policies</p>

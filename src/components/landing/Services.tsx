@@ -8,8 +8,8 @@ const services = [
   {
     title: "Study abroad",
     tag: "Explore our study abroad programmes",
-    image: "https://ileiwe.com/wp-content/uploads/2021/07/STUDY-ABROAD-101.jpg",
     link: "/student-placement/study-abroad",
+    image: "https://www.turing-scheme.org.uk/wp-content/uploads/2022/01/pexels-keira-burton-6146935-1-scaled.jpg",
   },
   {
     title: "International year programme",
@@ -20,7 +20,7 @@ const services = [
   {
     title: "Local student placement",
     tag: "Unlock new opportunities by working overseas",
-    image: "https://www.turing-scheme.org.uk/wp-content/uploads/2022/01/pexels-keira-burton-6146935-1-scaled.jpg",
+    image: "https://ileiwe.com/wp-content/uploads/2021/07/STUDY-ABROAD-101.jpg",
     link: "/student-placement/local-student-placement",
   },
 ];

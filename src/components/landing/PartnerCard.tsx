@@ -14,7 +14,7 @@ type Props = {
 };
 const PartnerCard: FC<Props> = ({ partner }) => {
   return (
-    <div className="grid  self-center bg-white rounded border-[1px]  hover:cursor-pointer transition-all duration-500">
+    <div className="grid  self-center bg-white rounded border-[1px]  hover:cursor-pointer hover:shadow-md hover:-translate-y-2 transition-all duration-500">
       <div className="flex border-b-1 p-4 pt-6 gap-2 items-center w-full">
         <img
           src={partner.logo}
