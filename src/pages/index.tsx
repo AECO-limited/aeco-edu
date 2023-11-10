@@ -71,7 +71,7 @@ export default function Home() {
             <div className="pb-12 overflow-x-hidden">
 
               <div
-                className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[80vh] overflow-hidden relative"
+                className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[95vh] overflow-hidden relative"
                 style={{ backgroundImage: `url("/assets/hero.png")` }}
               >
 
