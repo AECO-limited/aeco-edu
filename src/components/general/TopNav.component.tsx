@@ -294,7 +294,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     )}
                   </div>
                   {active === item.name && item.subs.length > 0 && (
-                    <div className="mt-3 text-white border-t  bg-gray-900 border-[#2b2b2b]">
+                    <div className="mt-3 text-white border-t  bg-[rgb(29,17,11)] border-[#2b2b2b]">
                       {item.subs.map((sub, index) => {
                         return (
                           <div

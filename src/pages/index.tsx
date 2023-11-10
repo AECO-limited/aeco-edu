@@ -21,7 +21,7 @@ const partners = [
     link: "https://opuvia.co",
   },
   {
-    name: "The University of Law",
+    name: "ONCAMPUS",
     logo: "/assets/ulaw_logo.png",
     image: "https://images.shiksha.com/mediadata/images/1410954202phpOGBpwY.jpeg",
     tag: "Ulaw - A Place for Everyone",
@@ -70,24 +70,25 @@ export default function Home() {
           <TopNav>
             <div className="pb-12 overflow-x-hidden">
 
-              <div
-                className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[95vh] overflow-hidden relative"
-                style={{ backgroundImage: `url("/assets/hero.png")` }}
-              >
-
-                <div className="absolute backdrop-blur-md bg-[#ffffffe7] bottom-0">
+              <section className="relative">
+                <div
+                  className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[85vh] overflow-hidden relative"
+                  style={{ backgroundImage: `url("/assets/hero.png")` }}
+                >
+                  <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
+                    <h2 className="text-4xl font-bold">Your Journey Starts here</h2>
+                    <p className=" font-normal text-lg ">
+                      Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
+                    </p>
+                    <button className="btn-secondary w-[200px]">
+                      Get Started
+                    </button>
+                  </div>
+                </div>
+                <div className=" md-height:absolute bottom-0 backdrop-blur-md bg-[#ffffffe7] ">
                   <PartnersLogo />
                 </div>
-                <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                  <h2 className="text-4xl font-bold">Your Journey Starts here</h2>
-                  <p className=" font-normal text-lg ">
-                    Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
-                  </p>
-                  <button className="btn-secondary w-[200px]">
-                    Get Started
-                  </button>
-                </div>
-              </div>
+              </section>
 
               <div className="my-16 mb-28 mx-4 md:mx-10">
                 <Services />
@@ -102,7 +103,7 @@ export default function Home() {
                     alliances to achieve success together.
                   </p>
                 </div>
-                <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 2xl:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
+                <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 xl:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
                   {partners.map((partner, index) => (
                     <PartnerCard key={index} partner={partner} />
                   ))}
