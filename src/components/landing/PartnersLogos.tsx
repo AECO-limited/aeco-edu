@@ -7,40 +7,78 @@ import Image from "next/image";
 const partnerLogos = [
   {
     name: "Avila University USA",
-    image: "/assets/avila.png",
+    image: "/assets/Avila_University.png",
   },
   {
-    name: "Berlin School of Business and Innovation",
-    image: "/assets/berlin.png",
+    name: "Birmingham City University",
+    image: "/assets/birmingham.png"
   },
   {
-    name: "Elmira College, USA",
-    image: "/assets/elmira.png",
+    name: "Coventry University",
+    image: "/assets/coventry.png"
+  },
+  {
+    name: "De Montfort University",
+    image: "/assets/demontfort.png"
+  },
+  {
+    name: "Eu Business School",
+    image: "/assets/eu_business_school.png"
   },
   {
     name: "Global College Malta",
-    image: "/assets/global_college_malta.png",
+    image: "/assets/Global_College_Malta.png",
+  },
+
+  {
+    name: "Norquest College",
+    image: "/assets/norquest.png",
+  },
+
+  {
+    name: "Nottingham Trent University",
+    image: "/assets/Nottingham_Trent_Uni.png",
   },
   {
-    name: "Norquest College, Canada",
-    image: "/assets/norquest.png",
+    name: "Anglla Ruskin University",
+    image: "/assets/pngwing.com (4).png",
   },
   {
     name: "Opuvia",
     image: "/assets/opuvia.png",
   },
+
   {
-    name: "St. Alessandro University Institute",
-    image: "/assets/sau.png",
+    name: "University of Greenwich",
+    image: "/assets/pngwing.com (5).png",
+  },
+  {
+    name: "BSBI - Berlin School of Business and Innovation",
+    image: "/assets/bsbi.png"
+  },
+  {
+    name: "BSBI - Berlin School of Business and Innovation",
+    image: "/assets/bsbi.png"
   },
   {
     name: "Texila American University",
     image: "/assets/texila.png",
   },
   {
-    name: "Trebas Institute Canada",
-    image: "/assets/trebas.png",
+    name: "Ulaw - A Place for Everyone",
+    image: "/assets/UniLaw_Primary_CMYK (002).png",
   },
+  {
+    name: "Ulster University",
+    image: "/assets/ulster-university-logo-big.png",
+  },
+  {
+    name: "ONCAMPUS",
+    image: "/assets/ONCAMPUS.png",
+  },
+  //
+
+
 ];
 
 const PartnersLogo: FC = () => {
@@ -105,13 +143,11 @@ const PartnersLogo: FC = () => {
               className="grid h-30 items-center justify-center rounded-lg "
               key={index}
             >
-              <div className="w-[80%] h-[80%] flex flex-col  m-auto my-4  justify-center">
-                <Image
+              <div className="w-[80] h-[80%] flex flex-col  m-auto my-4  justify-center">
+                <img
                   src={partner.image}
                   alt={partner.name}
-                  width={96 / 1.3}
-                  height={64 / 1.3}
-                  className="m-auto self-center"
+                  className="m-auto self-center h-10"
                 />
               </div>
             </div>

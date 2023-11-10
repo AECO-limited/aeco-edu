@@ -22,7 +22,7 @@ const PartnerCard: FC<Props> = ({ partner }) => {
           className={"h-12 object-contain"}
         />
         <p className="font-inter font-semibold text-[var(--neutral-500)] text-[16px] leading-[18px]">
-          {partner.name}
+          {/* {partner.name} */}
         </p>
       </div>
       <img

@@ -22,9 +22,9 @@ const partners = [
   },
   {
     name: "ONCAMPUS",
-    logo: "/assets/ulaw_logo.png",
-    image: "https://images.shiksha.com/mediadata/images/1410954202phpOGBpwY.jpeg",
-    tag: "Ulaw - A Place for Everyone",
+    logo: "/assets/ONCAMPUS.png",
+    image: "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_264812.jpg",
+    tag: "ONCAMPUS",
     body: "ULaw's guiding principle that future lawyers and business leaders should learn in a realistic, professional and contemporary context, with plenty of practical interactive engagement sets them apart from other universities. With 16 campuses in the UK, international sites in Hong Kong and Berlin, and a dedicated Online Campus you have plenty of choices in where to study with us.",
     link: "https://law.ac.uk",
   },
@@ -38,7 +38,7 @@ const partners = [
   },
   {
     name: "Norquest College",
-    logo: "https://yt3.googleusercontent.com/raJE8PNdHgBYvNLdbQWedzd1Br1e0eLHawRfonrK44KoZWBZkJqOZHjjN09WBgBV1birjX5J7Q=s900-c-k-c0x00ffffff-no-rj",
+    logo: "/assets/norquest.png",
     image: "https://www.norquest.ca/NorquestCollege/media/images/about/about-norquest-college/about-us.jpg",
     tag: "Dedicated to Training Talents of Tomorrow",
     body: "Norquest College offers a vast portfolio in the areas of music, film, business and technology, as well as management programmes. With the combination of expert instructors and state-of-the-art equipment, their students are truly prepared to leave their mark in their chosen field",
@@ -85,7 +85,7 @@ export default function Home() {
                     </button>
                   </div>
                 </div>
-                <div className=" md-height:absolute bottom-0 backdrop-blur-md bg-[#ffffffe7] ">
+                <div className=" md-height:absolute bottom-0 backdrop-blur-md bg-[#ffffffc4] ">
                   <PartnersLogo />
                 </div>
               </section>

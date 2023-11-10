@@ -18,7 +18,7 @@ const services = [
     link: "/pathways/international-year-programme",
   },
   {
-    title: "Local student placement",
+    title: "Study Locally",
     tag: "Unlock new opportunities by working overseas",
     image: "https://ileiwe.com/wp-content/uploads/2021/07/STUDY-ABROAD-101.jpg",
     link: "/student-placement/local-student-placement",

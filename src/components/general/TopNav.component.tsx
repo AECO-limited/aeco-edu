@@ -246,7 +246,7 @@ const TopNav: FC<Props> = ({ children }) => {
               >
                 Partner Portal
               </Link>
-              <Link className="btn-secondary" href={"/apply"}>
+              <Link className="btn-secondary" href={"https://aeco.ams4you.net/amslogin.html"}>
                 Student Portal
               </Link>
             </div>
@@ -389,7 +389,7 @@ const TopNav: FC<Props> = ({ children }) => {
               );
             })}
           </div>
-          <Link className="text-[var(--secondary-500)]" href={"/apply"}>
+          <Link className="text-[var(--secondary-400)] uppercase  font-bold" href={"/apply"}>
             Apply Now
           </Link>
         </div>

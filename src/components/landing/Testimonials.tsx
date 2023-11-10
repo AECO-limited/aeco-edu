@@ -115,6 +115,12 @@ const Testimonials: FC = () => {
 
   return (
     <div className="w-screen px-4 md:px-6 lg:px-[34px]">
+      <div >
+        <aside className="lg:w-[40vw] m-auto" >
+          <iframe style={{ width: "100%", height: "500px", borderRadius: "10px" }} className="border border-[var(--secondary-500)] mb-20" src="https://www.youtube.com/embed/1RXX5yRpZjU?si=01yE2MKsOW1RpcER" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+        </aside>
+      </div>
       <Slider {...settings} ref={sliderRef}>
         {testimonials.map((testimonial, index) => {
           return (
