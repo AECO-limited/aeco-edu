@@ -52,13 +52,10 @@ const partnerLogos = [
     name: "University of Greenwich",
     image: "/assets/pngwing.com (5).png",
   },
+
   {
     name: "BSBI - Berlin School of Business and Innovation",
-    image: "/assets/bsbi.png"
-  },
-  {
-    name: "BSBI - Berlin School of Business and Innovation",
-    image: "/assets/bsbi.png"
+    image: "/assets/bsbi.jpg"
   },
   {
     name: "Texila American University",

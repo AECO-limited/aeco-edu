@@ -8,7 +8,23 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 export const clash = localFont({
   src: [
     {
-      path: "../../public/fonts/ClashDisplay-Semibold.ttf",
+      path: "../../public/fonts/ClashDisplay-ExtraLight.ttf",
+      weight: "200",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Light.ttf",
+      weight: "300",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Regular.ttf",
+      weight: "400",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-Medium.ttf",
+      weight: "500",
+    },
+    {
+      path: "../../public/fonts/ClashDisplay-SemiBold.ttf",
       weight: "600",
     },
     {

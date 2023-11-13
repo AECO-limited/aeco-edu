@@ -10,6 +10,10 @@ import {
 } from "@/components";
 import { useGetAllNews } from "@/hooks/newsHooks";
 import Head from "next/head";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
+
 
 const partners = [
   {
@@ -65,7 +69,7 @@ export default function Home() {
           sizes="<generated>"
         />
       </Head>
-      <main>
+      <main className={inter.className}>
         <div>
           <TopNav>
             <div className="pb-12 overflow-x-hidden">
@@ -95,10 +99,10 @@ export default function Home() {
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
+                  <h2 className="text-center mb-3 capitalize text-[var(--neutral-600)] font-clash font-bold text-4xl lg:text-5xl">
                     Partner Highlights
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
+                  </h2>
+                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     We believe in the power of collaboration and building strong
                     alliances to achieve success together.
                   </p>
@@ -112,10 +116,10 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl">
+                  <h2 className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
                     News
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
+                  </h2>
+                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
                   </p>
                 </div>
@@ -147,9 +151,9 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-4 text-[var(--neutral-600)] font-inter font-bold text-4xl lg:text-5xl my-2">
+                  <h2 className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
                     Testimonials
-                  </p>
+                  </h2>
                 </div>
                 <div className="mt-4  ">
                   <Testimonials />
@@ -166,7 +170,7 @@ export default function Home() {
 /******REFERENCE */
 {
   /* <div className="w-screen h-screen">
-<h1 className={`font-inter uppercase`}>aeco education</h1>
+<h1 className={`uppercase`}>aeco education</h1>
 <h1 className={`font-clash font-bold uppercase`}>aeco education</h1>
 <h1 className={`font-clash font-semibold uppercase`}>aeco education</h1>
 <h1 className="uppercase">aeco education</h1>
