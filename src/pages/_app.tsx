@@ -31,6 +31,7 @@ export const clash = localFont({
       path: "../../public/fonts/ClashDisplay-Bold.ttf",
       weight: "800",
     },
+
   ],
   variable: "--font-clash",
 });
