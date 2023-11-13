@@ -294,12 +294,12 @@ const TopNav: FC<Props> = ({ children }) => {
                     )}
                   </div>
                   {active === item.name && item.subs.length > 0 && (
-                    <div className="mt-3 text-white border-t  bg-[rgb(29,17,11)] border-[#2b2b2b]">
+                    <div className="mt-3 text-white border-t  bg-[rgba(13,15,18,0.99)] border-[#2b2b2b]">
                       {item.subs.map((sub, index) => {
                         return (
                           <div
                             key={index}
-                            className="pl-10  p-4 border-b border-[#2b2b2b]"
+                            className="pl-10  p-4 border-b border-[#0e1720]"
                           >
                             <Link href={sub.link} className="pb-4">
                               {sub.name}
