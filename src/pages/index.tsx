@@ -80,7 +80,7 @@ export default function Home() {
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
                   <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                    <h2 className="text-4xl font-bold">Your Journey Starts here</h2>
+                    <h2 className="text-6xl font-bold">Your Journey Starts here</h2>
                     <p className=" font-normal text-lg ">
                       Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
                     </p>
@@ -99,9 +99,9 @@ export default function Home() {
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <h2 className="text-center mb-3 capitalize text-[var(--neutral-600)] font-clash font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
                     Partner Highlights
-                  </h2>
+                  </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     We believe in the power of collaboration and building strong
                     alliances to achieve success together.
@@ -116,9 +116,9 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <h2 className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
                     News
-                  </h2>
+                  </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
                   </p>
@@ -151,9 +151,9 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <h2 className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
+                  <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
                     Testimonials
-                  </h2>
+                  </p>
                 </div>
                 <div className="mt-4  ">
                   <Testimonials />

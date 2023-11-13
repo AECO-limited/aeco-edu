@@ -27,7 +27,7 @@ const navItems = [
     name: "Student Placement",
     subs: [
       {
-        name: "Local Student Placement",
+        name: "Study Locally",
         link: "/student-placement/local",
       },
       {
