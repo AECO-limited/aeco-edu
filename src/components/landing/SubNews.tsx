@@ -22,7 +22,7 @@ const SubNews: FC<Props> = ({ news }) => {
           }}
         >
           <div className="grid inset-0 from-[#000000ea] to-transparent bg-gradient-to-t  [*>&]:transition-all [*>&]:duration-500">
-            <div className="grid p-1 md:p-4 gap-2 bg-transparent self-end w-full">
+            <div className="grid p-4 gap-2 bg-transparent self-end w-full">
               <p className="text-[var(--neutral-10)] font-inter text-sm md:text-[20px] leading-6 font-bold">
                 {news.title}
               </p>
