@@ -13,6 +13,7 @@ import {
   HiOutlinePhone,
 } from "react-icons/hi2";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { IoArrowForward } from "react-icons/io5";
 
 type Props = {
   children?: any;
@@ -83,6 +84,12 @@ const navItems = [
       },
     ],
   },
+  {
+    name: "Events",
+    subs: [
+
+    ],
+  }
 ];
 
 const bottomNavItems = [
@@ -104,6 +111,10 @@ const bottomNavItems = [
       {
         name: "FAQ",
         link: "/faq",
+      },
+      {
+        name: "Events",
+        link: "/events",
       },
     ],
   },
@@ -389,8 +400,8 @@ const TopNav: FC<Props> = ({ children }) => {
               );
             })}
           </div>
-          <Link className="text-[var(--secondary-400)] uppercase  font-bold" href={"/apply"}>
-            Apply Now
+          <Link className="text-[var(--secondary-400)] uppercase  font-bold flex gap-x-3 items-center" href={"/apply"}>
+            Apply Now <IoArrowForward className="text-2xl" />
           </Link>
         </div>
       </div>

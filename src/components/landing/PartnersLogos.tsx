@@ -86,7 +86,7 @@ const PartnersLogo: FC = () => {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 200,
     initialSlide: 0,
     // cssEase: "linear",
     responsive: [

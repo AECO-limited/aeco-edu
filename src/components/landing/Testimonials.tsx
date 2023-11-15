@@ -117,7 +117,7 @@ const Testimonials: FC = () => {
     <div className="w-screen px-4 md:px-6 lg:px-[34px]">
       <div >
         <aside className="lg:w-[40vw] m-auto" >
-          <video controls src="/assets/aeco-testimonials.mp4"></video>
+          <video className="cursor-pointer" poster={"/assets/testimonial_thumbnail.png"} onClick={(e: any) => { e.target.controls = true }} src="/assets/aeco-testimonials.mp4"></video>
         </aside>
       </div>
       <Slider {...settings} ref={sliderRef}>
