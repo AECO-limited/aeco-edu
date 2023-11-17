@@ -46,12 +46,12 @@ const events = [
 const EventCards = () => {
     return (
         <div className='p-10'>
-            <div className=" md:grid grid-cols-4 gap-10">
+            <div className=" grid md:grid-cols-2 xl:grid-cols-4 gap-10">
                 {
                     events.map((event, index) => {
                         return (
-                            <div className="shadow bg-white rounded-lg">
-                                <img src={event.image} className='w-100 rounded-t-lg' alt="" />
+                            <div className="shadow bg-white rounded-lg ">
+                                <img src={event.image} className='w-full rounded-t-lg' alt="" />
                                 <div className="px-6 py-10">
                                     <div className="flex gap-7">
                                         <section>
