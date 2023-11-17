@@ -11,6 +11,7 @@ import {
 import { useGetAllNews } from "@/hooks/newsHooks";
 import Head from "next/head";
 import { Inter } from 'next/font/google'
+import EventCards from "@/components/landing/EventCards";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -113,6 +114,21 @@ export default function Home() {
                   ))}
                 </div>
               </div>
+
+
+              <section className="mt-12 py-10 items-center justify-center flex flex-col">
+                <div className="grid items-center justify-center px-10">
+                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
+                    Upcoming Events
+                  </p>
+                  {/* <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
+                    Breaking News: Stay updated with the latest opportunities
+                  </p> */}
+                </div>
+                <div >
+                  <EventCards />
+                </div>
+              </section>
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
