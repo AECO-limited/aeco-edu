@@ -27,7 +27,7 @@ const partnerLogos = [
   },
   {
     name: "Global College Malta",
-    image: "/assets/Global_College_Malta.png",
+    image: "/assets/malta.png",
   },
 
   {
