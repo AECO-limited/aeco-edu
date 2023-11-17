@@ -8,6 +8,7 @@ type Props = {
     date: string;
     image: string;
     body: string;
+    tag: string;
   };
 };
 
@@ -23,8 +24,11 @@ const SubNews: FC<Props> = ({ news }) => {
         >
           <div className="grid inset-0 from-[#000000ea] to-transparent bg-gradient-to-t  [*>&]:transition-all [*>&]:duration-500">
             <div className="grid p-4 gap-2 bg-transparent self-end w-full">
-              <p className="text-[var(--neutral-10)] font-inter text-sm md:text-[20px] leading-6 font-bold">
+              <p className="text-[var(--neutral-10)] font-inter text-xl md:text-[20px] leading-6 font-bold">
                 {news.title}
+              </p>
+              <p className="text-gray-300 font-inter text-sm leading-6 ">
+                {news.tag}
               </p>
               <div className="flex gap-2 items-center  hover:gap-x-5 transition-all">
                 <Link className="btn-link mt-2 md:mt-0" href={"/"}>
