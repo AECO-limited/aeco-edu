@@ -62,7 +62,7 @@ const EventCards = () => {
                                             <div className="font-bold text-xl mb-2">{event.title}</div>
                                             <p className="text-gray-600 text-sm">
                                                 {event.description.length > 200 ? event.description.substring(0, 200) + '...' : event.description}
-                                            </p>
+                                            </p><div></div>
                                         </section>
                                     </div>
                                 </div>
