@@ -7,19 +7,19 @@ import ServiceCard from "./ServiceCard";
 const services = [
   {
     title: "Study abroad",
-    tag: "Explore our study abroad programmes",
+    tag: "Explore our unique study abroad opportunities",
     link: "/student-placement/study-abroad",
     image: "https://www.turing-scheme.org.uk/wp-content/uploads/2022/01/pexels-keira-burton-6146935-1-scaled.jpg",
   },
   {
-    title: "International year programme",
-    tag: "Unlock a world of opportunities with language preparation",
+    title: "International Year Programme (IYP)",
+    tag: "We prepare you for the next step in education and employment.",
     image: "https://i0.wp.com/theblackexpat.com/wp-content/uploads/2022/04/Black-Students-Abroad.jpg",
     link: "/pathways/international-year-programme",
   },
   {
     title: "Study Locally",
-    tag: "Unlock new opportunities by working overseas",
+    tag: "Make the best of your education aspirations in your region.",
     image: "https://ileiwe.com/wp-content/uploads/2021/07/STUDY-ABROAD-101.jpg",
     link: "/student-placement/local-student-placement",
   },

@@ -36,7 +36,7 @@ const navItems = [
         link: "/student-placement/study-abroad",
       },
       {
-        name: "Online Studies",
+        name: "Study Online",
         link: "/student-placement/online-studies",
       },
     ],
@@ -45,7 +45,7 @@ const navItems = [
     name: "Pathways",
     subs: [
       {
-        name: "International Year Programme",
+        name: "International Year Programme (IYP)",
         link: "/pathways/international-year-programme",
       },
       {
@@ -71,8 +71,8 @@ const navItems = [
     name: "Education services",
     subs: [
       {
-        name: "School Management Systems",
-        link: "/education-services/school-management-system",
+        name: "Teachmint ISP",
+        link: "/education-services/teachmin-isp",
       },
       {
         name: "Partnership development",
@@ -164,7 +164,7 @@ const bottomNavItems = [
 
 const others = [
   {
-    name: "User Portal",
+    name: "Student Portal",
     link: "https://aeco.ams4you.net/amslogin.html",
     new: "tab",
   },

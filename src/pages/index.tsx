@@ -23,15 +23,16 @@ const partners = [
     image: "https://media.licdn.com/dms/image/C4E22AQGJaLLipRm0XQ/feedshare-shrink_800/0/1664358048541?e=1700697600&v=beta&t=mKmPGNeCwE1aJrNNLmul2tvE_nCSVKg8KSCdFFYoSQE",
     tag: "We Power Human Capital Globally",
     body: "Opuvia is on a mission to close the gap between education and employment and curb the global problem of graduate under and unemployment. Opuvia believes that every person deserves an opportunity to succeed and thrive in their chosen career, and are committed to providing the tools and resources necessary to make that a reality",
-    link: "https://opuvia.co",
+    link: "https://opuvia.org/",
   },
   {
     name: "ONCAMPUS",
     logo: "/assets/ONCAMPUS.png",
     image: "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_264812.jpg",
     tag: "ONCAMPUS",
-    body: "ULaw's guiding principle that future lawyers and business leaders should learn in a realistic, professional and contemporary context, with plenty of practical interactive engagement sets them apart from other universities. With 16 campuses in the UK, international sites in Hong Kong and Berlin, and a dedicated Online Campus you have plenty of choices in where to study with us.",
-    link: "https://law.ac.uk",
+    body: `ONCAMPUS teaches pre-university programmes leading to a wide range of undergraduate and Master's degrees at leading universities across the UK, USA and mainland Europe. 
+    Our programmes are designed for international students who do not meet the requirements for direct entry to university study, and benefit from the support we offer in preparing them to progress to their chosen university. Since 2008, we have helped thousands of students progress to the best universities in the UK, USA and Europe…`,
+    link: "https://www.oncampus.global/",
   },
   {
     name: "Texila American University",
@@ -47,7 +48,7 @@ const partners = [
     image: "https://www.norquest.ca/NorquestCollege/media/images/about/about-norquest-college/about-us.jpg",
     tag: "Dedicated to Training Talents of Tomorrow",
     body: "Norquest College offers a vast portfolio in the areas of music, film, business and technology, as well as management programmes. With the combination of expert instructors and state-of-the-art equipment, their students are truly prepared to leave their mark in their chosen field",
-    link: "https://www.trebas.com/",
+    link: "https://www.norquest.ca/home.aspx",
   },
 ];
 export default function Home() {
