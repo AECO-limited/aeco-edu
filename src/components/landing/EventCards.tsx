@@ -52,7 +52,7 @@ const EventCards = () => {
                     events.map((event, index) => {
                         return (
                             <div key={index} className="shadow bg-white rounded-lg ">
-                                <Image width={100} height={100} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />
+                                <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />
                                 <div className="px-6 py-10">
                                     <div className="flex gap-7">
                                         <section>
