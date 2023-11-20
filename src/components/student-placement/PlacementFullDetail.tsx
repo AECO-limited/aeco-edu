@@ -40,7 +40,7 @@ const PlacementFullDetail = () => {
                         Study Locally
                     </h3>
                     <p>
-                        Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country.
+                        {" Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country."}
                     </p>
                 </div>
                 <section className="grid md:grid-cols-3 p-2 mb-10 col-span-10 py-14 gap-3 ">
@@ -74,7 +74,7 @@ const PlacementFullDetail = () => {
                         Study Abroad
                     </h3>
                     <p>
-                        Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country.
+                        {" Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country."}
                     </p>
 
                 </div>
@@ -106,7 +106,7 @@ const PlacementFullDetail = () => {
                         Study Online
                     </h3>
                     <p>
-                        Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country.
+                        {"  Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country."}
                     </p>
                     <button className="btn-secondary w-[200px]">
                         Get Started
