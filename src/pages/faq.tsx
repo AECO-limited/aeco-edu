@@ -4,7 +4,7 @@ import React, { FC } from "react";
 const Main: FC = () => {
   return (
     <TopNav>
-      <div>FAQ</div>
+      <div>FAQ </div>
     </TopNav>
   );
 };
