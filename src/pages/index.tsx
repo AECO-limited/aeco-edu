@@ -16,7 +16,7 @@ import EventCards from "@/components/landing/EventCards";
 const inter = Inter({ subsets: ['latin'] })
 
 
-const partners = [
+export const partners = [
   {
     name: "Opuvia",
     logo: "/assets/opuvia.png",

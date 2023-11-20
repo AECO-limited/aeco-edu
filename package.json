@@ -19,7 +19,7 @@
     "axios": "^1.5.1",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.16.5",
     "http": "^0.0.1-security",
     "json-server": "^0.17.4",
     "next": "13.5.4",
