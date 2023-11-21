@@ -31,7 +31,7 @@ const PlacementFullDetail = () => {
 
     return (
         <section className='pt-14 p-5 md:p-10'>
-            <div className="grid mb-14 md:grid-cols-10  md:w-[75vw] m-auto ">
+            <div className="md:grid mb-14 grid-cols-10  md:w-[75vw] m-auto ">
                 <div className='col-span-4'>
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
@@ -51,7 +51,7 @@ const PlacementFullDetail = () => {
                             Get Started
                         </button>
                     </div>
-                    <div className='col-span-2 grid-cols-4 grid'>
+                    <div className='col-span-2 grid-cols-2 md:grid-cols-4 grid'>
                         {/* list of countries and flags */}
                         {
                             countries.map((country) => (
@@ -68,7 +68,7 @@ const PlacementFullDetail = () => {
             </div>
 
 
-            <div id="study-abroad" className="grid md:grid-cols-10 mb-14  md:w-[80vw] m-auto ">
+            <div id="study-abroad" className="lg:grid grid-cols-10 mb-14  md:w-[80vw] m-auto ">
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
                     <h3 className='text-2xl font-semibold'>
                         Study Abroad
@@ -89,7 +89,7 @@ const PlacementFullDetail = () => {
                             Get Started
                         </button>
                     </div>
-                    <div className='col-span-2'>
+                    <div className='col-span-2 my-8'>
                         <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
                     </div>
 
