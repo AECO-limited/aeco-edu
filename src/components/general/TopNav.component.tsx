@@ -284,50 +284,52 @@ const TopNav: FC<Props> = ({ children }) => {
             >
               {navItems.map((item, index) => {
                 return (
-                  <div
-                    className="mb-4 border-b border-[#2b2b2b]"
-                    key={index}
-                  >
+                  <Link href={item.link + ""}>
                     <div
-                      className="flex gap-2 mb-2 items-center px-4 hover:cursor-pointer"
-                      onClick={() =>
-                        active === item.name
-                          ? setActive("/")
-                          : setActive(item.name)
-                      }
+                      className="mb-4 border-b border-[#2b2b2b]"
+                      key={index}
                     >
-                      <p
-                        className={`${active === item.name &&
-                          "text-white font-[500]"
-                          }`}
+                      <div
+                        className="flex gap-2 mb-2 items-center px-4 hover:cursor-pointer"
+                        onClick={() =>
+                          active === item.name
+                            ? setActive("/")
+                            : setActive(item.name)
+                        }
                       >
-                        {item.name}
-                      </p>
-                      {item.subs.length > 0 && (
-                        <HiOutlineChevronDown
+                        <p
                           className={`${active === item.name &&
-                            "text-[var(--primary-500)] font-[500]"
+                            "text-white font-[500]"
                             }`}
-                        />
+                        >
+                          {item.name}
+                        </p>
+                        {item.subs.length > 0 && (
+                          <HiOutlineChevronDown
+                            className={`${active === item.name &&
+                              "text-[var(--primary-500)] font-[500]"
+                              }`}
+                          />
+                        )}
+                      </div>
+                      {active === item.name && item.subs.length > 0 && (
+                        <div className="mt-3 text-white border-t  bg-[rgba(13,15,18,0.99)] border-[#2b2b2b]">
+                          {item.subs.map((sub, index) => {
+                            return (
+                              <div
+                                key={index}
+                                className="pl-10  p-4 border-b border-[#0e1720]"
+                              >
+                                <Link href={sub.link} className="pb-4">
+                                  {sub.name}
+                                </Link>
+                              </div>
+                            );
+                          })}
+                        </div>
                       )}
                     </div>
-                    {active === item.name && item.subs.length > 0 && (
-                      <div className="mt-3 text-white border-t  bg-[rgba(13,15,18,0.99)] border-[#2b2b2b]">
-                        {item.subs.map((sub, index) => {
-                          return (
-                            <div
-                              key={index}
-                              className="pl-10  p-4 border-b border-[#0e1720]"
-                            >
-                              <Link href={sub.link} className="pb-4">
-                                {sub.name}
-                              </Link>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
+                  </Link>
                 );
               })}
               {others.map((item, index) => {

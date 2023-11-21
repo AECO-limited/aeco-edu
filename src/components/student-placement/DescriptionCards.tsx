@@ -5,7 +5,7 @@ const DescriptionCards = () => {
     return (
         <div>
 
-            <div className="grid md:grid-cols-3  m-auto gap-x-5 p-10 md:w-[80vw]">
+            <div className="grid md:grid-cols-3  m-auto gap-5 p-10 md:w-[80vw]">
                 <div className="shadow p-4 space-y-4 bg-white py-10">
                     <button className="p-2 bg-blue-500 rounded-md">
                         <IoSchoolOutline className="text-2xl text-white" />
