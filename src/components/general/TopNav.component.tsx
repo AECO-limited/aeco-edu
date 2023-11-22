@@ -295,10 +295,9 @@ const TopNav: FC<Props> = ({ children }) => {
             >
               {navItems.map((item, index) => {
                 return (
-                  <Link href={item.link + ""}>
+                  <Link key={index} href={item.link + ""}>
                     <div
                       className="mb-4 border-b border-[#2b2b2b]"
-                      key={index}
                     >
                       <div
                         className="flex gap-2 mb-2 items-center px-4 hover:cursor-pointer"
