@@ -64,7 +64,7 @@ const PlacementFullDetail = () => {
                     </div>
                 </section>
             </section>
-
+            <div className="h-4 my-10 bg-gray-50"></div>
 
             <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
@@ -94,6 +94,7 @@ const PlacementFullDetail = () => {
                 </section>
             </section>
 
+            <div className="h-4 my-10 bg-gray-50"></div>
 
             <section className="grid md:grid-cols-10  md:w-[80vw] m-auto" id='study-online'>
                 <div className='col-span-4'>

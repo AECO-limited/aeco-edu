@@ -40,7 +40,7 @@ export default function Events() {
                         <div className="overflow-x-hidden bg-gray-50">
                             <section className="relative mb-14">
                                 <div
-                                    className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
+                                    className="bg-cover bg-center w-full h-[70vh] sm:h-[75vh] md:h-[70vh] overflow-hidden relative"
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">

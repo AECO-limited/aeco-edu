@@ -8,7 +8,7 @@ const AboutPathways = () => {
 
             <div className="m-auto md:w-[85vw]">
                 <div className="md:p-10">
-                    <section className="shadow pl-5  bg-[var(--primary-500)] grid md:grid-cols-2 text-white">
+                    <section className="shadow md:pl-5  bg-[var(--primary-500)] grid md:grid-cols-2 text-white">
                         <div className='flex flex-col justify-center p-5 ' >
 
                             <section className="space-y-4">

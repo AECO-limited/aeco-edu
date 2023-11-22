@@ -12,7 +12,7 @@ const AecoPathways = () => {
             <section className=" bg-white">
                 <div className=' md:w-[86vw] m-auto pb-16' >
                     <div className="md:p-10 ">
-                        <section className=" px-4  grid md:grid-cols-2">
+                        <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-5xl font-semibold'>International Year Programs (IYP)</h3>
@@ -43,10 +43,10 @@ const AecoPathways = () => {
 
             <div className="h-4 bg-gray-50"></div>
 
-            <section className="bg-white">
+            <section className="bg-white py-10 md:py-0">
                 <section className="m-auto md:w-[86vw] ">
                     <section className="md:p-10 ">
-                        <section className=" px-4  grid md:grid-cols-2">
+                        <section className=" px-4  grid md:grid-cols-2 gap-6">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-4xl font-semibold'>Why Join a pathway</h3>
@@ -77,7 +77,7 @@ const AecoPathways = () => {
                         {
                             [1, 1, 1, 1].map((item, index) => {
                                 return (
-                                    <div key={index} className=''>
+                                    <div key={index} className='text-center'>
                                         <WhatCanYouStudyCard />
                                     </div>
                                 )
@@ -144,7 +144,7 @@ const AecoPathways = () => {
 
             <section className="m-auto md:w-[86vw] ">
                 <div className="md:p-10 mb-5">
-                    <section className=" px-4  grid md:grid-cols-2">
+                    <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2">
 
                         <div className='md:flex gap-x-4 hidden '>
                             <Image width="500" height="500" style={{

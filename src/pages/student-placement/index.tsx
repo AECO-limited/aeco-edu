@@ -37,7 +37,7 @@ export default function StudentPlacement() {
             <main className={inter.className}>
                 <div>
                     <TopNav>
-                        <div className="pb-12 overflow-x-hidden">
+                        <div className="pb-12 overflow-x-hidden bg-gray-50">
 
                             <section className="relative">
                                 <div
@@ -56,21 +56,19 @@ export default function StudentPlacement() {
                                 </div>
 
                             </section>
-                            <section>
-                                <section className="bg-gray-50 mb-14">
-                                    <DescriptionCards />
-                                </section>
+                            <section className=" -translate-y-28">
+                                <DescriptionCards />
+                            </section>
 
-
+                            <section className="bg-white">
                                 <section className="mb-14">
                                     <PlacementFullDetail />
                                 </section>
 
 
+                                <div className="h-4 my-10 bg-gray-50"></div>
 
-
-
-                                <div className=" bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
+                                <div className="items-center justify-center flex flex-col px-4 md:px-10 pb-20">
                                     <div className="grid items-center justify-center px-10">
                                         <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
                                             Testimonials
