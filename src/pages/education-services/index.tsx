@@ -207,7 +207,7 @@ function PartnershipDevelopment() {
                                 {
                                     [1, 1, 1, 1, 1].map((item, index) => {
                                         return (
-                                            <p className="text-sm p-3 text-gray-700 border-gray-300 border-[1px] rounded ">Institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                                            <p key={index} className="text-sm p-3 text-gray-700 border-gray-300 border-[1px] rounded ">Institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
                                         )
                                     })
                                 }
