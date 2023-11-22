@@ -15,6 +15,7 @@ import EventCards from "@/components/landing/EventCards";
 import { IoAirplaneOutline, IoChevronDown, IoSchoolOutline, IoWifiOutline } from "react-icons/io5";
 import DescriptionCards from "@/components/student-placement/DescriptionCards";
 import PlacementFullDetail from "@/components/student-placement/PlacementFullDetail";
+import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,12 +54,13 @@ export default function Events() {
                                     </div>
                                 </div>
                             </section>
-                            <div className="px-10 mb-24">
 
+                            <div className="px-10 -translate-y-28">
                                 <section className="bg-[var(--primary-500)] p-3 rounded-xl">
-                                    <div className="grid grid-cols-3 p-8 gap-10">
+                                    <div className="md:grid grid-cols-3 p-8 py-3 gap-10 gap-y-5 space-y-5">
+                                        <div className="text-2xl font-bold col-span-3 text-white">Search Event</div>
                                         <div className="border-b border-white text-white">
-                                            <label htmlFor="">Search Event</label>
+                                            <label htmlFor="">Event Name</label>
                                             <input type="text" className="border-none w-full text-sm font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="border-b border-white text-white">
@@ -69,38 +71,39 @@ export default function Events() {
                                             <label htmlFor="">Time</label>
                                             <input type="time" className="border-none w-full text-sm font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
+                                        <div className="col-span-3 flex justify-end">
+                                            <button className="btn-primary bg-[var(--primary-700)] w-[140px]">Search</button>
+                                        </div>
                                     </div>
                                 </section>
-
                             </div>
+
+
                             <section>
                                 <section className="">
-                                    <div className="flex justify-between w-full px-10">
-                                        <p className="text-center mb-2 font-bold text-3xl">
+                                    <div className="md:flex justify-between w-full px-10">
+                                        <p className="text-center mb-5 md:mb-2 font-bold text-3xl">
                                             Upcoming Events
                                         </p>
-                                        <div className="flex gap-x-4">
-                                            <button className="bg-gray-200 flex items-center gap-3 rounded-full px-4 p-2 text-sm font-light">
-
+                                        <div className="flex gap-x-4 justify-center md:justify-end">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Weekdays</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 flex items-center gap-3 rounded-full px-4 p-2 text-sm font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Category</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 flex items-center gap-3 rounded-full px-4 p-2 text-sm font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Event Type</option>
                                                 </select>
                                             </button>
-
                                         </div>
-
                                     </div>
-                                    <div >
+                                    <div className="pt-4">
                                         <EventCards />
                                     </div>
                                 </section>

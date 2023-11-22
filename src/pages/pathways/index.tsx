@@ -38,7 +38,7 @@ export default function Pathways() {
             <main className={inter.className}>
                 <div>
                     <TopNav>
-                        <div className="overflow-x-hidden">
+                        <div className="overflow-x-hidden bg-gray-50">
                             <section className="relative">
                                 <div
                                     className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
@@ -55,13 +55,11 @@ export default function Pathways() {
                                     </div>
                                 </div>
                             </section>
+                            <section className=" -translate-y-[100px]" >
+                                <AboutPathways />
+                            </section>
                             <section>
-                                <section className="bg-gray-50">
-                                    <AboutPathways />
-                                </section>
-                                <section>
-                                    <AecoPathways />
-                                </section>
+                                <AecoPathways />
                             </section>
                         </div>
                     </TopNav>

@@ -7,12 +7,11 @@ import WhatCanYouStudyCard from './WhatCanYouStudyCard'
 
 const AecoPathways = () => {
     return (
-        <div className=' px-2 md:px-0'>
-            <div className="h-20"></div>
+        <div className=' px-2 md:px-0 bg-white'>
 
             <section className=" bg-white">
-                <div className=' md:w-[86vw] m-auto' >
-                    <div className="md:p-10 pb-20">
+                <div className=' md:w-[86vw] m-auto pb-16' >
+                    <div className="md:p-10 ">
                         <section className=" px-4  grid md:grid-cols-2">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
@@ -42,10 +41,11 @@ const AecoPathways = () => {
             </section >
 
 
+            <div className="h-4 bg-gray-50"></div>
 
             <section className="bg-white">
-                <div className="m-auto md:w-[86vw] mb-24">
-                    <div className="md:p-10 mb-24">
+                <section className="m-auto md:w-[86vw] ">
+                    <section className="md:p-10 ">
                         <section className=" px-4  grid md:grid-cols-2">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
@@ -62,26 +62,34 @@ const AecoPathways = () => {
                                     src="/assets/landscape/international1.jpg" alt='' ></Image>
                             </div>
                         </section>
-                    </div>
+                    </section>
+                </section>
+
+                <div className="h-4 bg-gray-50 my-16"></div>
 
 
-                    <div className='pb-24'>
-                        <h3 className='text-4xl mb-4 font-semibold text-center '>
-                            What you can study
-                        </h3>
-                        <aside className="p-2 md:grid-cols-4 gap-5 grid " >
-                            {
-                                [1, 1, 1, 1].map((item, index) => {
-                                    return (
-                                        <div key={index} className=''>
-                                            <WhatCanYouStudyCard />
-                                        </div>
-                                    )
-                                })
-                            }
-                        </aside>
-                    </div>
+                <section className="m-auto md:w-[86vw] ">
 
+                    <h3 className='text-4xl mb-4 font-semibold text-center '>
+                        What you can study
+                    </h3>
+                    <aside className="p-2 md:grid-cols-4 gap-5 grid " >
+                        {
+                            [1, 1, 1, 1].map((item, index) => {
+                                return (
+                                    <div key={index} className=''>
+                                        <WhatCanYouStudyCard />
+                                    </div>
+                                )
+                            })
+                        }
+                    </aside>
+                </section>
+
+
+                <div className="h-4 bg-gray-50 my-16"></div>
+
+                <section className="m-auto md:w-[86vw] mb-24">
 
                     <div className='mb-24'>
                         <h3 className='text-4xl font-semibold text-center mb-6'>
@@ -98,21 +106,28 @@ const AecoPathways = () => {
                         </aside>
                     </div>
 
+                </section>
+            </section>
 
 
-                    <div className='mb-24'>
+            {/* <div className="h-4 bg-gray-50 my-16"></div> */}
+
+
+            <section className="bg-gray-50 py-16">
+                <section className="m-auto md:w-[86vw] ">
+                    <div className=''>
                         <h3 className='text-4xl font-semibold text-center mb-6'>
                             Progression Options
                         </h3>
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >
                             {[1, 1, 1, 1, 1, 1, 1, 1].map((item, index) => {
                                 return (
-                                    <section key={index} className='shadow-xl space-y-4 rounded-md py-6 bg-white'>
-                                        <div className='text-xl font-bold p-3 text-center text-[var(--secondary-300)]'>Progression {index + 1}</div>
+                                    <section key={index} className='shadow-xl text-center space-y-4 rounded-md py-6 bg-[var(--primary-500)] text-white'>
+                                        <div className='text-xl font-bold p-3 text-center '>Progression {index + 1}</div>
                                         <div >
-                                            <IoSchoolOutline className='text-6xl m-auto text-[var(--secondary-300)]' />
+                                            <IoSchoolOutline className='text-6xl m-auto ' />
                                         </div>
-                                        <p className='p-3 text-gray-600 text-sm'>
+                                        <p className='p-3 text-sm font-light'>
                                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
                                         </p>
 
@@ -121,59 +136,60 @@ const AecoPathways = () => {
                             })}
                         </aside>
                     </div>
+                </section>
+            </section>
+
+            {/* <div className="h-10 bg-gray-50 my-16"></div> */}
+
+
+            <section className="m-auto md:w-[86vw] ">
+                <div className="md:p-10 mb-5">
+                    <section className=" px-4  grid md:grid-cols-2">
+
+                        <div className='md:flex gap-x-4 hidden '>
+                            <Image width="500" height="500" style={{
+                                height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
+                            }}
+                                className='rounded-md'
+                                src="/assets/landscape/international1.jpg" alt='' ></Image>
+                            <Image width="500" height="500" style={{
+                                height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
+                            }}
+                                className='rounded-md'
+                                src="/assets/landscape/international.jpg" alt='' ></Image>
+
+                        </div>
+
+                        <div className='md:flex flex-col justify-center md:p-5' >
+
+                            <section className="space-y-4">
+                                <h3 className='text-5xl font-semibold'>Partner Pathways</h3>
+                                <p className="text-sm text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                            </section>
+                        </div>
+
+
+                    </section>
+
                 </div>
-
             </section>
 
+            <div className="h-4 bg-gray-50 my-16"></div>
 
-            <section className="bg-white">
-                <div className="m-auto md:w-[86vw] ">
-                    <div className="md:p-10 mb-5">
-                        <section className=" px-4  grid md:grid-cols-2">
-
-                            <div className='md:flex gap-x-4 hidden '>
-                                <Image width="500" height="500" style={{
-                                    height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
-                                }}
-                                    className='rounded-md'
-                                    src="/assets/landscape/international1.jpg" alt='' ></Image>
-                                <Image width="500" height="500" style={{
-                                    height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
-                                }}
-                                    className='rounded-md'
-                                    src="/assets/landscape/international.jpg" alt='' ></Image>
-
-                            </div>
-
-                            <div className='md:flex flex-col justify-center md:p-5' >
-
-                                <section className="space-y-4">
-                                    <h3 className='text-5xl font-semibold'>Partner Pathways</h3>
-                                    <p className="text-sm text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
-                                </section>
-                            </div>
-
-
-                        </section>
-
-                    </div>
-                    <div className='py-24'>
-                        <h3 className='text-4xl mb-6 font-semibold text-center '>
-                            Partner institutions
-                        </h3>
-                        <aside className="p-2 md:grid-cols-4 gap-5 grid " >
-                            {partners.map((item, index) => {
-                                return (
-                                    <section key={index} >
-                                        <PartnerPathwayCard partner={item} />
-                                    </section>
-                                )
-                            })}
-                        </aside>
-                    </div>
-                </div >
+            <section className='m-auto md:w-[86vw] mb-24'>
+                <h3 className='text-4xl mb-6 font-semibold text-center '>
+                    Partner institutions
+                </h3>
+                <aside className="p-2 md:grid-cols-4 gap-5 grid " >
+                    {partners.map((item, index) => {
+                        return (
+                            <section key={index} >
+                                <PartnerPathwayCard partner={item} />
+                            </section>
+                        )
+                    })}
+                </aside>
             </section>
-
         </div >
     )
 }

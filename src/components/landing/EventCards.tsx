@@ -82,7 +82,7 @@ const events = [
 
 const EventCards = () => {
     return (
-        <div className='p-10'>
+        <div className=' p-4 md:p-10'>
             <div className=" grid md:grid-cols-2 xl:grid-cols-4 gap-10">
                 {
                     events.map((event, index) => {
