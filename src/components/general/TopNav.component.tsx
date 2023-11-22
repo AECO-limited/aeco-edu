@@ -93,7 +93,18 @@ const navItems = [
     name: "Events",
     link: "/events",
     subs: [
-
+      {
+        name: "Upcoming Events",
+        link: "/events/#upcoming-events"
+      }
+      , {
+        name: "Past Events",
+        link: "/events/#past-events",
+      }
+      , {
+        name: "Recent Events",
+        link: "/events/#recent-events",
+      }
     ],
   }
 ];

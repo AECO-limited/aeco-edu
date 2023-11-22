@@ -57,12 +57,12 @@ export default function StudentPlacement() {
 
                             </section>
                             <section>
-                                <section className="bg-gray-50">
+                                <section className="bg-gray-50 mb-14">
                                     <DescriptionCards />
                                 </section>
 
 
-                                <section>
+                                <section className="mb-14">
                                     <PlacementFullDetail />
                                 </section>
 
@@ -70,7 +70,7 @@ export default function StudentPlacement() {
 
 
 
-                                <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
+                                <div className=" bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                                     <div className="grid items-center justify-center px-10">
                                         <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
                                             Testimonials

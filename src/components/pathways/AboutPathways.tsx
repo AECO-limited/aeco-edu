@@ -6,9 +6,9 @@ const AboutPathways = () => {
     return (
         <div>
 
-            <div className="m-auto md:w-[80vw]">
-                <div className="p-10">
-                    <section className="shadow px-4  bg-white grid md:grid-cols-2">
+            <div className="m-auto md:w-[85vw]">
+                <div className="md:p-10">
+                    <section className="shadow md:px-4  bg-white grid md:grid-cols-2">
                         <div className='flex flex-col justify-center p-5' >
 
                             <section className="space-y-4">

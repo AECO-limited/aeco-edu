@@ -38,11 +38,10 @@ export default function Pathways() {
             <main className={inter.className}>
                 <div>
                     <TopNav>
-                        <div className="pb-12 overflow-x-hidden">
-
+                        <div className="overflow-x-hidden">
                             <section className="relative">
                                 <div
-                                    className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[85vh] overflow-hidden relative"
+                                    className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
                                     style={{ backgroundImage: `url("/assets/landscape/pathways-hero.jpg")` }}
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
@@ -55,26 +54,14 @@ export default function Pathways() {
                                         </button>
                                     </div>
                                 </div>
-
                             </section>
                             <section>
                                 <section className="bg-gray-50">
                                     <AboutPathways />
                                 </section>
-
-
                                 <section>
                                     <AecoPathways />
                                 </section>
-
-
-                                <section>
-
-                                </section>
-
-
-
-
                             </section>
                         </div>
                     </TopNav>

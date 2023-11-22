@@ -11,7 +11,7 @@ const DescriptionCards = () => {
                         <IoSchoolOutline className="text-2xl text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3>Study Locally</h3>
+                        <h3 className='text-2xl font-medium'>Study Locally</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <p className="text-sm text-gray-700">
@@ -24,7 +24,7 @@ const DescriptionCards = () => {
                         <IoAirplaneOutline className="text-2xl text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3>Study Locally</h3>
+                        <h3 className='text-2xl font-medium'>Study Abroad</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <p className="text-sm text-gray-700">
@@ -37,7 +37,7 @@ const DescriptionCards = () => {
                         <IoWifiOutline className="text-2xl text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3>Study Locally</h3>
+                        <h3 className='text-2xl font-medium'>Study Online</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <p className="text-sm text-gray-700">
