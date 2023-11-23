@@ -58,18 +58,18 @@ export default function Events() {
                             <div className="px-10 -translate-y-28">
                                 <section className="bg-[var(--primary-500)] p-3 rounded-xl">
                                     <div className="md:grid grid-cols-3 p-8 py-3 gap-10 gap-y-5 space-y-5">
-                                        <div className="text-2xl font-bold col-span-3 text-white">Search Event</div>
+                                        <div className="text-3xl font-bold col-span-3 text-white">Search Event</div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Event Name</label>
-                                            <input type="text" className="border-none w-full text-sm font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="text" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Place</label>
-                                            <input type="text" className="border-none w-full text-sm font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="text" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Time</label>
-                                            <input type="time" className="border-none w-full text-sm font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="time" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="col-span-3 flex justify-end">
                                             <button className="btn-primary bg-[var(--primary-700)] w-[140px]">Search</button>
@@ -82,21 +82,21 @@ export default function Events() {
                             <section>
                                 <section className="">
                                     <div className="md:flex justify-between w-full px-10">
-                                        <p className="text-center mb-5 md:mb-2 font-bold text-3xl">
+                                        <p className="text-center mb-5 md:mb-2 font-bold text-4xl">
                                             Upcoming Events
                                         </p>
                                         <div className="flex gap-x-4 justify-center md:justify-end">
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Weekdays</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Category</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-sm font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Event Type</option>
                                                 </select>

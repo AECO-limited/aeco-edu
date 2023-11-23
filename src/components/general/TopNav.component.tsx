@@ -248,7 +248,7 @@ const TopNav: FC<Props> = ({ children }) => {
                   href={"https://www.facebook.com/aecoeducation"}
                   target="_blank"
                 >
-                  <BsFacebook className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
+                  <BsFacebook className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
                 </Link>
                 <Link
                   href={
@@ -256,7 +256,7 @@ const TopNav: FC<Props> = ({ children }) => {
                   }
                   target="_blank"
                 >
-                  <BsInstagram className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
+                  <BsInstagram className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
                 </Link>
                 <Link
                   href={
@@ -264,7 +264,7 @@ const TopNav: FC<Props> = ({ children }) => {
                   }
                   target="_blank"
                 >
-                  <BsLinkedin className="text-2xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
+                  <BsLinkedin className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
                 </Link>
               </div>
               <div className="flex gap-2">
@@ -285,7 +285,7 @@ const TopNav: FC<Props> = ({ children }) => {
               onClick={() => setMenuOpen(!menuOpen)}
               ref={buttonRef}
             >
-              <AiOutlineMenu className="text-3xl hover:cursor-pointer" />
+              <AiOutlineMenu className="text-4xl hover:cursor-pointer" />
             </div>
           </div>
           {menuOpen && (
@@ -409,7 +409,7 @@ const TopNav: FC<Props> = ({ children }) => {
                       >
                         {item.subs.map((sub, index) => (
                           <Link href={sub.link} key={index}>
-                            <p className="text-sm font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
+                            <p className="text-lg font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
                               {sub.name}
                             </p>
                           </Link>
@@ -421,7 +421,7 @@ const TopNav: FC<Props> = ({ children }) => {
               })}
             </div>
             <Link className="text-[var(--secondary-400)] uppercase  font-bold flex gap-x-3 items-center" href={"/apply"}>
-              Apply Now <IoArrowForward className="text-2xl" />
+              Apply Now <IoArrowForward className="text-3xl" />
             </Link>
           </div>
         </div>
@@ -510,7 +510,7 @@ const TopNav: FC<Props> = ({ children }) => {
                       className="col-span-1 [&>*]:hover:cursor-pointer w-fit"
                       key={index}
                     >
-                      <p className="mb-8 text-[var(--tetiary-500)] text-sm font-inter font-semibold">
+                      <p className="mb-8 text-[var(--tetiary-500)] text-lg font-inter font-semibold">
                         {item.name.toUpperCase()}
                       </p>
                       <div className="grid gap-2">
@@ -571,7 +571,7 @@ const TopNav: FC<Props> = ({ children }) => {
 
           </div>
           <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
-          <span className="font-light text-sm">
+          <span className="font-light text-lg">
             Aeco Education  ©  {(new Date()).getFullYear()}
           </span>
         </div>

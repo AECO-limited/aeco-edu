@@ -92,16 +92,16 @@ const EventCards = () => {
                                 <div className="px-6 py-10">
                                     <div className="flex gap-7">
                                         <section>
-                                            <small className='text-sm text-[var(--secondary-500)]'>{event.date.month}</small>
-                                            <h2 className='text-2xl font-semibold'>{event.date.day}</h2>
+                                            <small className='text-lg text-[var(--secondary-500)]'>{event.date.month}</small>
+                                            <h2 className='text-3xl font-semibold'>{event.date.day}</h2>
                                         </section>
                                         <section>
-                                            <div className="font-bold text-xl mb-2">{event.title}</div>
-                                            <p className="text-gray-600 text-sm">
+                                            <div className="font-bold text-2xl mb-2">{event.title}</div>
+                                            <p className="text-gray-600 text-lg">
                                                 {event.description.length > 100 ? event.description.substring(0, 100) + '...' : event.description}
                                             </p>
                                             <div className="h-2"></div>
-                                            <span className='bg-orange-200 text-sm p-2 px-3 rounded-full border-orange-500 '>Education</span>
+                                            <span className='bg-orange-200 text-lg p-2 px-3 rounded-full border-orange-500 '>Education</span>
                                         </section>
                                     </div>
                                 </div>

@@ -25,7 +25,7 @@ const FullNews: FC<Props> = ({ news }) => {
             Date: {news?.date}
           </p>
           <div className="grid gap-3">
-            <p className="text-[var(--neutral-600)] font-inter text-xl font-bold">
+            <p className="text-[var(--neutral-600)] font-inter text-2xl font-bold">
               {news?.title}
             </p>
             <p className="text-[var(--neutral-600)] font-inter font-[500] text-[15px]">
@@ -39,7 +39,7 @@ const FullNews: FC<Props> = ({ news }) => {
           </Link>
           <BsArrowRight
             size={24}
-            className="text-center text-[var(--secondary-500)] font-bold font-inter text-xl"
+            className="text-center text-[var(--secondary-500)] font-bold font-inter text-2xl"
           />
         </div>
       </div>

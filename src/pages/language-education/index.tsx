@@ -19,10 +19,14 @@ import EducationServicesOverView from "@/components/educational-services/Educati
 import EducationServicesStakeHolders from "@/components/educational-services/EducationServicesStakeHolders";
 import PartnershipDevelopment from "@/components/educational-services/PartnershipDevelopment";
 import StudentRecruitments from "@/components/educational-services/StudentRecruitments";
+import ExamOverview from "@/components/language-education/ExamOverview";
+import LanguageServices from "@/components/language-education/LanguageServices";
+import LanguageExam from "@/components/language-education/LanguageExam";
+import LanguageTraining from "./LanguageTraining";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function EducationServices() {
+export default function LanguageEducation() {
 
     return (
         <>
@@ -44,12 +48,12 @@ export default function EducationServices() {
                             <section className="relative">
                                 <div
                                     className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
-                                    style={{ backgroundImage: `url("/assets/landscape/education-hero.jpg")` }}
+                                    style={{ backgroundImage: `url("/assets/landscape/language-hero.jpg")` }}
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                                        <h2 className="text-6xl font-bold">Education Services</h2>
+                                        <h2 className="text-6xl font-bold">Language Education</h2>
                                         <p className=" font-normal text-lg ">
-                                            Our Education Services provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
+                                            Our Language Education provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
                                         </p>
                                         <button className="btn-secondary w-[200px]">
                                             Get Started
@@ -58,26 +62,29 @@ export default function EducationServices() {
                                 </div>
                             </section>
                             <section className=" -translate-y-28">
-                                <EducationServicesOverView />
+                                <LanguageServices />
                             </section>
                             <section className="bg-white">
                                 <section>
-                                    <EducationServiceOverview />
+                                    <ExamOverview />
                                 </section>
                                 <section>
-                                    <EducationServicesStakeHolders />
+                                    <LanguageExam />
+                                </section>
+                                <section>
+                                    <LanguageTraining />
                                 </section>
                                 <section>
                                     {/* <EducationServicesStakeHolders /> */}
                                 </section>
                             </section>
 
-                            <section className="bg-white">
+                            {/* <section className="bg-white">
                                 <PartnershipDevelopment />
                             </section>
                             <section>
                                 <StudentRecruitments />
-                            </section>
+                            </section> */}
                         </div>
                     </TopNav>
                 </div>

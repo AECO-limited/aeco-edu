@@ -15,8 +15,8 @@ const AecoPathways = () => {
                         <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='text-5xl font-semibold'>International Year Programs (IYP)</h3>
-                                    <p className="text-sm text-gray-700">
+                                    <h3 className='text-6xl font-semibold'>International Year Programs (IYP)</h3>
+                                    <p className="text-lg text-gray-700">
                                         Our International Year Program is a transformative experience that prepares you for success in higher education. Designed for international students, this program combines language development, academic skills enhancement, and cultural integration, setting you up for a seamless transition to universities abroad. Immerse yourself in a supportive learning environment, gain invaluable cross-cultural insights, and develop the academic and personal skills needed to thrive in your future studies.
                                     </p>
                                 </section>
@@ -49,8 +49,8 @@ const AecoPathways = () => {
                         <section className=" px-4  grid md:grid-cols-2 gap-6">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='text-4xl font-semibold'>Why Join a pathway</h3>
-                                    <p className="text-sm text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                                    <h3 className='text-5xl font-semibold'>Why Join a pathway</h3>
+                                    <p className="text-lg text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
 
                                 </section>
                             </div>
@@ -70,7 +70,7 @@ const AecoPathways = () => {
 
                 <section className="m-auto md:w-[86vw] ">
 
-                    <h3 className='text-4xl mb-4 font-semibold text-center '>
+                    <h3 className='text-5xl mb-4 font-semibold text-center '>
                         What you can study
                     </h3>
                     <aside className="p-2 md:grid-cols-4 gap-5 grid " >
@@ -92,7 +92,7 @@ const AecoPathways = () => {
                 <section className="m-auto md:w-[86vw] mb-24">
 
                     <div className='mb-24'>
-                        <h3 className='text-4xl font-semibold text-center mb-6'>
+                        <h3 className='text-5xl font-semibold text-center mb-6'>
                             Where can you take our Pathways?
                         </h3>
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >
@@ -116,18 +116,18 @@ const AecoPathways = () => {
             <section className="bg-gray-50 py-16">
                 <section className="m-auto md:w-[86vw] ">
                     <div className=''>
-                        <h3 className='text-4xl font-semibold text-center mb-6'>
+                        <h3 className='text-5xl font-semibold text-center mb-6'>
                             Progression Options
                         </h3>
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >
                             {[1, 1, 1, 1, 1, 1, 1, 1].map((item, index) => {
                                 return (
                                     <section key={index} className='shadow-xl text-center space-y-4 rounded-md py-6 bg-[var(--primary-500)] text-white'>
-                                        <div className='text-xl font-bold p-3 text-center '>Progression {index + 1}</div>
+                                        <div className='text-2xl font-bold p-3 text-center '>Progression {index + 1}</div>
                                         <div >
                                             <IoSchoolOutline className='text-6xl m-auto ' />
                                         </div>
-                                        <p className='p-3 text-sm font-light'>
+                                        <p className='p-3 text-lg font-light'>
                                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
                                         </p>
 
@@ -163,8 +163,8 @@ const AecoPathways = () => {
                         <div className='md:flex flex-col justify-center md:p-5' >
 
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold'>Partner Pathways</h3>
-                                <p className="text-sm text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                                <h3 className='text-6xl font-semibold'>Partner Pathways</h3>
+                                <p className="text-lg text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
                             </section>
                         </div>
 
@@ -177,7 +177,7 @@ const AecoPathways = () => {
             <div className="h-4 bg-gray-50 my-16"></div>
 
             <section className='m-auto md:w-[86vw] mb-24'>
-                <h3 className='text-4xl mb-6 font-semibold text-center '>
+                <h3 className='text-5xl mb-6 font-semibold text-center '>
                     Partner institutions
                 </h3>
                 <aside className="p-2 md:grid-cols-4 gap-5 grid " >

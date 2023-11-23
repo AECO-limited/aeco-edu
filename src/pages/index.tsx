@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
                     Partner Highlights
                   </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -119,7 +119,7 @@ export default function Home() {
 
               <section className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
                     Upcoming Events
                   </p>
                   {/* <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -133,7 +133,7 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl">
+                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
                     News
                   </p>
                   <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -168,7 +168,7 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
+                  <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
                     Testimonials
                   </p>
                 </div>

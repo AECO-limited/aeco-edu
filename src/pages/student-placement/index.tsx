@@ -70,7 +70,7 @@ export default function StudentPlacement() {
 
                                 <div className="items-center justify-center flex flex-col px-4 md:px-10 pb-20">
                                     <div className="grid items-center justify-center px-10">
-                                        <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl lg:text-5xl my-2">
+                                        <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
                                             Testimonials
                                         </p>
                                     </div>

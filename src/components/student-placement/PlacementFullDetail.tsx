@@ -36,7 +36,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div id="study-locally" className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-5xl font-semibold'>
+                    <h3 className='text-6xl font-semibold'>
                         Study Locally
                     </h3>
                     <p>
@@ -45,7 +45,7 @@ const PlacementFullDetail = () => {
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14 gap-3 ">
                     <div className='flex flex-col justify-center gap-y-6 '>
-                        <h2 className='text-2xl font-semibold' >Supported Countries</h2>
+                        <h2 className='text-3xl font-semibold' >Supported Countries</h2>
                         <p>Aeco Education currently supports local student placement in the following countries</p>
                         <button className="btn-secondary w-[200px]">
                             Get Started
@@ -68,7 +68,7 @@ const PlacementFullDetail = () => {
 
             <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-5xl font-semibold'>
+                    <h3 className='text-6xl font-semibold'>
                         Study Abroad
                     </h3>
                     <p>
@@ -81,7 +81,7 @@ const PlacementFullDetail = () => {
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14">
                     <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold text-2xl'>Our Partners</h2>
+                        <h2 className='font-semibold text-3xl'>Our Partners</h2>
                         <p>We have Partners all Over the world, we are here to help you get the best education. Find Courses, Courses and programs provided by these partners</p>
                         <button className="btn-secondary w-[200px]">
                             Get Started
@@ -101,7 +101,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-5xl font-semibold'>
+                    <h3 className='text-6xl font-semibold'>
                         Study Online
                     </h3>
                     <p>
