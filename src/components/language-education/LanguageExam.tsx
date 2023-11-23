@@ -58,7 +58,7 @@ export default function LanguageExam() {
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='text-5xl font-semibold'>Administration of Exams</h3>
+                                    <h3 className='text-5xl font-semibold mb-10'>Administration of Exams</h3>
                                 </section>
                             </div>
                             <section className='md:grid-cols-3 grid gap-10'>
@@ -89,7 +89,7 @@ export default function LanguageExam() {
                     <section className="px-4">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold'>Our Language Exams</h3>
+                                <h3 className='text-5xl font-semibold mb-10'>Our Language Exams</h3>
                             </section>
                         </div>
                         <section className='md:grid-cols-3 grid gap-10'>
@@ -115,7 +115,7 @@ export default function LanguageExam() {
             <section className=' md:w-[85vw] m-auto'>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 ">
                     <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold text-5xl'>Exam Centers</h2>
+                        <h2 className='font-semibold text-5xl '>Exam Centers</h2>
                         <p className="text-lg">These are our Exam centers around the world</p>
 
                     </div>

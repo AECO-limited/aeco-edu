@@ -41,10 +41,10 @@ export default function LanguageTraining() {
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='text-5xl font-semibold'>Our Languages</h3>
+                                    <h3 className='text-5xl font-semibold mb-10'>Our Languages</h3>
                                 </section>
                             </div>
-                            <section className='md:grid-cols-3 grid gap-10'>
+                            <section className='md:grid-cols-3 grid gap-5 md:gap-10'>
                                 {[1, 1, 1].map((item, index) => {
                                     return (
                                         <div key={index} className='p-4 md:p-10 bg-[var(--primary-500)] space-y-2 text-white'>
@@ -72,7 +72,7 @@ export default function LanguageTraining() {
                     <section className="px-4">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold'>Our Language Exams</h3>
+                                <h3 className='text-5xl font-semibold mb-10'>Our Language Exams</h3>
                             </section>
                         </div>
                         <section className='md:grid-cols-3 grid gap-10'>
@@ -96,7 +96,7 @@ export default function LanguageTraining() {
             <div className="h-4 bg-gray-50 my-16"></div>
 
             <section className=' md:w-[85vw] m-auto'>
-                <h3 className='text-5xl mb-6 font-semibold text-center '>
+                <h3 className='text-5xl mb-10 font-semibold text-center '>
                     Premium language training centers
                 </h3>
                 <aside className="p-2 md:grid-cols-4 gap-5 grid " >
