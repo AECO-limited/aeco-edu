@@ -64,7 +64,7 @@ export default function LanguageEducation() {
                             <section className=" -translate-y-28">
                                 <LanguageServices />
                             </section>
-                            <section className="bg-white">
+                            <section className="bg-white px-5 md:px-0">
                                 <section>
                                     <ExamOverview />
                                 </section>
