@@ -85,7 +85,7 @@ export default function Home() {
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
                   <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                    <h2 className="text-7xl font-bold">Your Journey Starts here</h2>
+                    <h2 className="text-6xl md:text-8xl font-bold">Your Journey Starts here</h2>
                     <div className=" font-normal text-xl ">
                       Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
                     </div>
@@ -137,7 +137,7 @@ export default function Home() {
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-3 capitalize font-bold font-clash text-6xl">
+                  <div className="text-center mb-3 capitalize font-bold font-inter text-3xl md:text-6xl">
                     Partner Highlights
                   </div>
                   <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4 text-xl">
@@ -155,7 +155,7 @@ export default function Home() {
 
               <section className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-bold text-6xl font-clash">
+                  <div className="text-center mb-2 font-bold text-3xl md:text-6xl font-inter">
                     Upcoming Events
                   </div>
                   {/* <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -169,7 +169,7 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-clash font-bold text-6xl">
+                  <div className="text-center mb-2 font-inter font-bold text-3xl md:text-6xl">
                     News
                   </div>
                   <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -204,8 +204,8 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-4 font-clash font-bold text-6xl my-2">
-                    Testimonials
+                  <div className="text-center font-inter font-bold text-3xl md:text-6xl my-2 mb-6">
+                    What People Say About Us
                   </div>
                 </div>
                 <div className="mt-4  ">
@@ -224,8 +224,8 @@ export default function Home() {
 {
   /* <div className="w-screen h-screen">
 <h1 className={`uppercase`}>aeco education</h1>
-<h1 className={`font-clash font-bold uppercase`}>aeco education</h1>
-<h1 className={`font-clash font-semibold uppercase`}>aeco education</h1>
+<h1 className={`font-inter font-bold uppercase`}>aeco education</h1>
+<h1 className={`font-inter font-semibold uppercase`}>aeco education</h1>
 <h1 className="uppercase">aeco education</h1>
 <button className="btn-primary">Primary</button>
 <button className="btn-secondary">Secondary</button>

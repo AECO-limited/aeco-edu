@@ -33,7 +33,7 @@ export const clash = localFont({
     },
 
   ],
-  variable: "--font-clash",
+  variable: "--font-inter",
 });
 
 export const inter = localFont({

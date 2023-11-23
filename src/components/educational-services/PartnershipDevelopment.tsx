@@ -9,8 +9,8 @@ export default function PartnershipDevelopment() {
                     <section className=" px-4  grid md:grid-cols-2 gap-6">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-6xl font-semibold'>Partnership Development</h3>
-                                <div className="text-lg font-light">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
+                                <h3 className='text-4xl md:text-7xl font-semibold'>Partnership Development</h3>
+                                <div className=" font-light">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
 
                             </section>
                         </div>
@@ -36,7 +36,7 @@ export default function PartnershipDevelopment() {
                         </div>
                         <div className='md:flex justify-center md:p-5 flex-col-reverse' >
                             <section className="space-y-4">
-                                <h3 className='text-6xl font-semibold'>What we do</h3>
+                                <h3 className='text-4xl md:text-7xl font-semibold'>What we do</h3>
                                 {
                                     [1, 1, 1, 1, 1].map((item, index) => {
                                         return (
@@ -57,8 +57,8 @@ export default function PartnershipDevelopment() {
                     <section className=" px-4  grid md:grid-cols-2 gap-6">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-6xl font-semibold'>How we Orchestrate Partnerships</h3>
-                                <div className="text-lg text-gray-700">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
+                                <h3 className='text-4xl md:text-7xl font-semibold'>How we Orchestrate Partnerships</h3>
+                                <div className=" text-gray-700">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
 
                             </section>
                         </div>

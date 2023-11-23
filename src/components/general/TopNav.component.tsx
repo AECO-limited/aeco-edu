@@ -29,13 +29,14 @@ const navItems = [
     name: "Student Placement",
     link: "/student-placement",
     subs: [
-      {
-        name: "Study Locally",
-        link: "/student-placement/#study-locally",
-      },
+
       {
         name: "Study Abroad",
         link: "/student-placement/#study-abroad",
+      },
+      {
+        name: "Study Locally",
+        link: "/student-placement/#study-locally",
       },
       {
         name: "Study Online",
@@ -400,15 +401,15 @@ const TopNav: FC<Props> = ({ children }) => {
                   )}
                   {hoveredNav === item.name && item.subs.length > 0 && (
                     <div
-                      className={`absolute top-16 bg-black -left-4 lg:left-0 min-w-full ${item.name.toLowerCase() === "pathways" ||
+                      className={`absolute top-16 bg-black -left-4 lg:left-0 min-w-full w-fit ${item.name.toLowerCase() === "pathways" ||
                         item.name.toLowerCase() === "education services"
-                        ? "w-[28vw] lg:w-[20vw]"
-                        : "w-full"
+                        ? "w-fit"
+                        : "w-fit"
                         } p-4 rounded-sm transition-transform duration-500`}
                     >
                       {item.subs.map((sub, index) => (
                         <Link href={sub.link || ""} key={index}>
-                          <div className="text-lg font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
+                          <div className="text-md font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
                             {sub.name}
                           </div>
                         </Link>
@@ -511,7 +512,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     className="col-span-1 [&>*]:hover:cursor-pointer w-fit"
                     key={index}
                   >
-                    <div className="mb-8 text-[var(--tetiary-500)] text-lg font-inter font-semibold">
+                    <div className="mb-8 text-[var(--tetiary-500)] text-md font-inter font-semibold">
                       {item.name.toUpperCase()}
                     </div>
                     <div className="grid gap-2">
@@ -572,7 +573,7 @@ const TopNav: FC<Props> = ({ children }) => {
 
         </div>
         <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
-        <span className="font-light text-lg">
+        <span className="font-light text-md">
           Aeco Education  ©  {(new Date()).getFullYear()}
         </span>
       </div>

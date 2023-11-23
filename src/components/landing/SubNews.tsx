@@ -27,7 +27,7 @@ const SubNews: FC<Props> = ({ news }) => {
               <div className="text-[var(--neutral-10)] font-inter text-2xl md:text-[20px] leading-6 font-bold">
                 {news.title}
               </div>
-              <div className="text-gray-300 font-inter text-lg leading-6 ">
+              <div className="text-gray-300 font-inter  leading-6 ">
                 {news.tag}
               </div>
               <div className="flex gap-2 items-center  hover:gap-x-5 transition-all">

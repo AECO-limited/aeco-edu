@@ -45,8 +45,8 @@ export default function StudentPlacement() {
                                     style={{ backgroundImage: `url("/assets/landscape/student-placement1.jpg")` }}
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                                        <h2 className="text-6xl font-bold">Student Placement</h2>
-                                        <div className=" font-normal text-lg ">
+                                        <h2 className="text-6xl md:text-8xl font-bold">Student Placement</h2>
+                                        <div className=" font-normal  ">
                                             Discover the perfect educational path for your future success with AECO Education's Student Placement services.
                                         </div>
                                         <button className="btn-secondary w-[200px]">
@@ -70,8 +70,8 @@ export default function StudentPlacement() {
 
                                 <div className="items-center justify-center flex flex-col px-4 md:px-10 pb-20">
                                     <div className="grid items-center justify-center px-10">
-                                        <div className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
-                                            Testimonials
+                                        <div className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-3xl md:text-6xl my-2">
+                                            What People Say About Us
                                         </div>
                                     </div>
                                     <div className="mt-4  ">

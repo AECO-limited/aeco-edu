@@ -14,7 +14,7 @@ const DescriptionCards = () => {
                         <h3 className='text-3xl font-medium'>Study Locally</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
-                    <div className="text-lg text-gray-700">
+                    <div className=" text-gray-700">
                         Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options
                     </div>
 
@@ -27,7 +27,7 @@ const DescriptionCards = () => {
                         <h3 className='text-3xl font-medium'>Study Abroad</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
-                    <div className="text-lg text-gray-700">
+                    <div className=" text-gray-700">
                         Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options
                     </div>
 
@@ -40,7 +40,7 @@ const DescriptionCards = () => {
                         <h3 className='text-3xl font-medium'>Study Online</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
-                    <div className="text-lg text-gray-700">
+                    <div className=" text-gray-700">
                         Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options
                     </div>
 

@@ -79,7 +79,7 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
               </div>
             )}
             <div
-              className={`uppercase text-center text-[var(--neutral-10)] duration-700 ease-in-out font-inter font-extrabold text-lg lg:text-[24px] lg:leading-[30px] ${isHovered
+              className={`uppercase text-center text-[var(--neutral-10)] duration-700 ease-in-out font-inter font-extrabold  lg:text-[24px] lg:leading-[30px] ${isHovered
                 ? top
                   ? "-translate-y-8"
                   : "-translate-y-16"

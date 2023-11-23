@@ -9,8 +9,8 @@ export default function LanguageExam() {
                     <section className=" px-4  grid md:grid-cols-2 gap-6">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold'>Partnership Development</h3>
-                                <div className="text-lg text-gray-700">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
+                                <h3 className='text-3xl md:text-6xl font-semibold'>Partnership Development</h3>
+                                <div className=" text-gray-700">AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. AECO Educational Services has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
 
                             </section>
                         </div>
@@ -36,11 +36,11 @@ export default function LanguageExam() {
                         </div>
                         <div className='md:flex justify-center md:p-5 flex-col-reverse' >
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold'>What we do</h3>
+                                <h3 className='text-3xl md:text-6xl font-semibold'>What we do</h3>
                                 {
                                     [1, 1, 1, 1, 1].map((item, index) => {
                                         return (
-                                            <div key={index} className="text-lg font-light p-3 text-gray-700  border-[1px] rounded shadow border-[var(--primary-500)]">Institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guarante</div>
+                                            <div key={index} className=" font-light p-3 text-gray-700  border-[1px] rounded shadow border-[var(--primary-500)]">Institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guarante</div>
                                         )
                                     })
                                 }
@@ -58,7 +58,7 @@ export default function LanguageExam() {
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='text-5xl font-semibold mb-10'>Administration of Exams</h3>
+                                    <h3 className='text-3xl md:text-6xl font-semibold mb-10'>Administration of Exams</h3>
                                 </section>
                             </div>
                             <section className='md:grid-cols-3 grid gap-10'>
@@ -66,7 +66,7 @@ export default function LanguageExam() {
                                     return (
                                         <div key={index} className='p-4 md:p-10 bg-[var(--primary-500)] space-y-2 text-white'>
                                             <h2 className="text-3xl">Action {index + 1}</h2>
-                                            <div className='text-lg font-light'>
+                                            <div className=' font-light'>
                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo sunt quo nobis aliquam aut veniam numquam voluptates iure doloremque.
                                             </div>
 
@@ -89,7 +89,7 @@ export default function LanguageExam() {
                     <section className="px-4">
                         <div className='md:flex flex-col justify-center md:p-5' >
                             <section className="space-y-4">
-                                <h3 className='text-5xl font-semibold mb-10'>Our Language Exams</h3>
+                                <h3 className='text-3xl md:text-6xl font-semibold mb-10'>Our Language Exams</h3>
                             </section>
                         </div>
                         <section className='md:grid-cols-3 grid gap-10'>
@@ -97,7 +97,7 @@ export default function LanguageExam() {
                                 return (
                                     <div key={index} className='p-4 md:p-10 border-[var(--primary-500)] space-y-2 border rounded'>
                                         <h2 className="text-3xl">Exam {index + 1}</h2>
-                                        <div className='text-lg font-light'>
+                                        <div className=' font-light'>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo sunt quo nobis aliquam aut veniam numquam voluptates iure doloremque.
                                         </div>
 
@@ -115,8 +115,8 @@ export default function LanguageExam() {
             <section className=' md:w-[85vw] m-auto'>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 ">
                     <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold text-5xl '>Exam Centers</h2>
-                        <div className="text-lg">These are our Exam centers around the world</div>
+                        <h2 className='font-semibold text-3xl md:text-6xl '>Premium language training centers</h2>
+                        <div className="">These are our Exam centers around the world</div>
 
                     </div>
                     <div className='col-span-2 my-8'>

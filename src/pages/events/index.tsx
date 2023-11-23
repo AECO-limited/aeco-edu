@@ -44,8 +44,8 @@ export default function Events() {
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                                        <h2 className="text-6xl font-bold">Events</h2>
-                                        <div className=" font-normal text-lg ">
+                                        <h2 className="text-6xl md:text-8xl font-bold">Events</h2>
+                                        <div className=" font-normal  ">
                                             Our Events provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
                                         </div>
                                         <button className="btn-secondary w-[200px]">
@@ -61,15 +61,15 @@ export default function Events() {
                                         <div className="text-3xl font-bold col-span-3 text-white">Search Event</div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Event Name</label>
-                                            <input type="text" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="text" className="border-none w-full  font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Place</label>
-                                            <input type="text" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="text" className="border-none w-full  font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Time</label>
-                                            <input type="time" className="border-none w-full text-lg font-light text-gray-300 outline-none block bg-transparent border-2" />
+                                            <input type="time" className="border-none w-full  font-light text-gray-300 outline-none block bg-transparent border-2" />
                                         </div>
                                         <div className="col-span-3 flex justify-end">
                                             <button className="btn-primary bg-[var(--primary-700)] w-[140px]">Search</button>
@@ -86,17 +86,17 @@ export default function Events() {
                                             Upcoming Events
                                         </div>
                                         <div className="flex gap-x-4 justify-center md:justify-end">
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Weekdays</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Category</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
+                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Event Type</option>
                                                 </select>
