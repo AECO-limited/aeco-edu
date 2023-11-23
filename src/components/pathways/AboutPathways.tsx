@@ -13,9 +13,9 @@ const AboutPathways = () => {
 
                             <section className="space-y-4">
                                 <h3 className='text-4xl font-semibold'>AECO Education Pathways</h3>
-                                <p className="text-lg text-gray-100">
+                                <div className="text-lg text-gray-100">
                                     Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options
-                                </p>
+                                </div>
                             </section>
 
 

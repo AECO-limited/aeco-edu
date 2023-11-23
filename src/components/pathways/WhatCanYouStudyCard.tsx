@@ -8,9 +8,9 @@ const WhatCanYouStudyCard = () => {
             <div >
                 <IoSchoolOutline className='text-6xl m-auto text-[var(--secondary-500)]' />
             </div>
-            <p className='p-3 text-gray-600 text-lg'>
+            <div className='p-3 text-gray-600 text-lg'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
-            </p>
+            </div>
 
         </section >
     )

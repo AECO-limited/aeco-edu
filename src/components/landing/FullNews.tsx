@@ -21,16 +21,16 @@ const FullNews: FC<Props> = ({ news }) => {
       </div>
       <div className="flex flex-col h-fit justify-between p-4 bg-[var(--neutral-100)]">
         <div className="grid gap-4">
-          <p className="text-[var(--neutral-400)] font-inter text-[15px] font-bold">
+          <div className="text-[var(--neutral-400)] font-inter text-[15px] font-bold">
             Date: {news?.date}
-          </p>
+          </div>
           <div className="grid gap-3">
-            <p className="text-[var(--neutral-600)] font-inter text-2xl font-bold">
+            <div className="text-[var(--neutral-600)] font-inter text-2xl font-bold">
               {news?.title}
-            </p>
-            <p className="text-[var(--neutral-600)] font-inter font-[500] text-[15px]">
+            </div>
+            <div className="text-[var(--neutral-600)] font-inter font-[500] text-[15px]">
               {news?.body}
-            </p>
+            </div>
           </div>
         </div>
         <div className="flex gap-2 items-center hover:gap-x-5 transition-all">

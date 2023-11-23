@@ -46,9 +46,9 @@ export default function StudentPlacement() {
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
                                         <h2 className="text-6xl font-bold">Student Placement</h2>
-                                        <p className=" font-normal text-lg ">
+                                        <div className=" font-normal text-lg ">
                                             Discover the perfect educational path for your future success with AECO Education's Student Placement services.
-                                        </p>
+                                        </div>
                                         <button className="btn-secondary w-[200px]">
                                             Get Started
                                         </button>
@@ -70,9 +70,9 @@ export default function StudentPlacement() {
 
                                 <div className="items-center justify-center flex flex-col px-4 md:px-10 pb-20">
                                     <div className="grid items-center justify-center px-10">
-                                        <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
+                                        <div className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
                                             Testimonials
-                                        </p>
+                                        </div>
                                     </div>
                                     <div className="mt-4  ">
                                         <Testimonials />

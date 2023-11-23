@@ -58,19 +58,19 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
                   }`}
               >
                 <div className="grid mx-8 my-2 self-center">
-                  <p
+                  <div
                     className={`text-center text-[var(--neutral-10)] font-inter text-[15px] lg:leading-[22px] lg:text-[18px]`}
                   >
                     {service.tag}
-                  </p>
+                  </div>
                 </div>
                 <Link
                   href={service.link}
                   className="flex gap-2 items-center justify-center w-full"
                 >
-                  <p className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
+                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
                     Discover more
-                  </p>
+                  </div>
                   <BsArrowRight
                     size={24}
                     className="text-center text-[var(--secondary-400)] font-bold font-inter text-2xl"
@@ -78,7 +78,7 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
                 </Link>
               </div>
             )}
-            <p
+            <div
               className={`uppercase text-center text-[var(--neutral-10)] duration-700 ease-in-out font-inter font-extrabold text-lg lg:text-[24px] lg:leading-[30px] ${isHovered
                 ? top
                   ? "-translate-y-8"
@@ -87,26 +87,26 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
                 }`}
             >
               {service.title}
-            </p>
+            </div>
             {!top && (
               <div
                 className={`absolute left-0 right-0 bottom-0  duration-200 ease-in-out ${isHovered ? "-translate-y-16 opacity-100" : "-translate-y-14 opacity-0"
                   }`}
               >
                 <div className="grid mx-8 my-2 self-center">
-                  <p
+                  <div
                     className={`text-center text-[var(--neutral-10)] font-inter text-[15px] lg:leading-[22px] lg:text-[18px]`}
                   >
                     {service.tag}
-                  </p>
+                  </div>
                 </div>
                 <Link
                   href={service.link}
                   className="flex gap-2 items-center justify-center w-full"
                 >
-                  <p className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
+                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
                     Discover more
-                  </p>
+                  </div>
                   <BsArrowRight
                     size={24}
                     className="text-center text-[var(--secondary-400)] font-bold font-inter text-2xl"
@@ -115,12 +115,14 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
               </div>
             )}
           </div>
-          {top && (
-            <span className="w-0 h-0 border-t-[24px] border-t-[#45220c63] self-center m-auto border-l-[24px] border-r-[24px] border-l-transparent border-r-transparent" />
-          )}
-        </div>
-      </div>
-    </div>
+          {
+            top && (
+              <span className="w-0 h-0 border-t-[24px] border-t-[#45220c63] self-center m-auto border-l-[24px] border-r-[24px] border-l-transparent border-r-transparent" />
+            )
+          }
+        </div >
+      </div >
+    </div >
   );
 };
 

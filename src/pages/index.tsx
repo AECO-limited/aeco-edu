@@ -12,6 +12,9 @@ import { useGetAllNews } from "@/hooks/newsHooks";
 import Head from "next/head";
 import { Inter } from 'next/font/google'
 import EventCards from "@/components/landing/EventCards";
+import Document from "./_document";
+import Link from "next/link";
+import { IoArrowForward } from "react-icons/io5";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -78,36 +81,69 @@ export default function Home() {
 
               <section className="relative">
                 <div
-                  className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[85vh] overflow-hidden relative"
+                  className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[90vh] overflow-hidden relative"
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
-                  <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                    <h2 className="text-6xl font-bold">Your Journey Starts here</h2>
-                    <p className=" font-normal text-lg ">
-                      Kick start your higher education journey globally with AECO Education and unlock a world of opportunities through our International year Programme, Direct Placement in Home and Abroad Universities.
-                    </p>
-                    <button className="btn-secondary w-[200px]">
+                  <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
+                    <h2 className="text-7xl font-bold">Your Journey Starts here</h2>
+                    <div className=" font-normal text-xl ">
+                      Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
+                    </div>
+                    <button className="btn-secondary w-[200px] m-auto">
                       Get Started
                     </button>
                   </div>
                 </div>
-                <div className=" md-height:absolute bottom-0 backdrop-blur-md bg-[#ffffffc4] ">
-                  <PartnersLogo />
+
+                <div className=" lg:absolute bottom-0  font-bold w-full ">
+                  <div className=" p-5 grid md:grid-cols-5 gap-4 text-center w-full backdrop-blur-sm bg-[#ffffffa9] mb-14 lg:mb-0">
+                    <div className=" flex justify-center items-center py-10">
+                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="text-4xl font-bold text-start">
+                        <div className="flex items-center gap-x-4"> All-in-one <IoArrowForward className="text-[var(--secondary-500)]" /></div>
+                        <div>Student</div>
+                      </Link>
+                    </div>
+                    <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="bg-[var(--secondary-500)] text-white flex justify-center items-center py-10 px-5">
+                      <div className="text-2xl ">Find Programs</div>
+                    </Link>
+                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-400)] text-white flex justify-center items-center py-10 px-5">
+                      <div className="text-2xl ">Request for Applications</div>
+                    </Link>
+                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-300)] text-black flex justify-center items-center py-10 px-5">
+                      <div className="text-2xl ">Upload information and documents</div>
+                    </Link>
+                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-200)] text-black flex justify-center items-center py-10 px-5">
+                      <div className="text-2xl ">Application Updates</div>
+                    </Link>
+                  </div>
+                  <div className="backdrop-blur-md bg-[#fffffff9] font-bold w-full mb-14 lg:mb-0">
+                    <PartnersLogo />
+                  </div>
                 </div>
+
               </section>
+
+
+              <div className="p-5">
+
+
+
+
+              </div>
+
 
               <div className="my-16 mb-28 mx-4 md:mx-10">
                 <Services />
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-3 capitalize text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
+                  <div className="text-center mb-3 capitalize font-bold font-clash text-6xl">
                     Partner Highlights
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
+                  </div>
+                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4 text-xl">
                     We believe in the power of collaboration and building strong
                     alliances to achieve success together.
-                  </p>
+                  </div>
                 </div>
                 <div className="grid grid-cols-1 py-3  items-center justify-center md:grid-cols-2 xl:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
                   {partners.map((partner, index) => (
@@ -119,12 +155,12 @@ export default function Home() {
 
               <section className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
+                  <div className="text-center mb-2 font-bold text-6xl font-clash">
                     Upcoming Events
-                  </p>
-                  {/* <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
+                  </div>
+                  {/* <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
-                  </p> */}
+                  </div> */}
                 </div>
                 <div >
                   <EventCards />
@@ -133,12 +169,12 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl">
+                  <div className="text-center mb-2 font-clash font-bold text-6xl">
                     News
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
+                  </div>
+                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
-                  </p>
+                  </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4 px-6 lg:px-10 md:px-8 w-full">
                   <div className="md:grid row-span-1">
@@ -168,18 +204,18 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-4 text-[var(--neutral-600)] font-bold text-5xl lg:text-6xl my-2">
+                  <div className="text-center mb-4 font-clash font-bold text-6xl my-2">
                     Testimonials
-                  </p>
+                  </div>
                 </div>
                 <div className="mt-4  ">
                   <Testimonials />
                 </div>
               </div>
-            </div>
-          </TopNav>
-        </div>
-      </main>
+            </div >
+          </TopNav >
+        </div >
+      </main >
     </>
   );
 }

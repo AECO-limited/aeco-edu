@@ -52,9 +52,9 @@ export default function LanguageEducation() {
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
                                         <h2 className="text-6xl font-bold">Language Education</h2>
-                                        <p className=" font-normal text-lg ">
+                                        <div className=" font-normal text-lg ">
                                             Our Language Education provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
-                                        </p>
+                                        </div>
                                         <button className="btn-secondary w-[200px]">
                                             Get Started
                                         </button>

@@ -75,15 +75,13 @@ export default function Home() {
               >
                 <div className="w-[90vw] md:w-[75vw] lg:w-[60vw] m-auto h-full  grid items-center justify-center">
                   <div className="grid w-full bg-[#000508c1] p-8  px-[15%] col-span-2 gap-1">
-                    <p className="text-center pb-6 text-[var(--neutral-10)] font-inter font-bold text-2xl lg:text-5xl lg:leading-10">
+                    <div className="text-center pb-6 text-[var(--neutral-10)] font-inter font-bold text-2xl lg:text-5xl lg:leading-10">
                       Your Journey Starts Here!
-                    </p>
-                    <p className="text-center text-[var(--tetiary-500)] font-inter font-light text-[16px] leeading-[24px]">
-                      Kick start your higher education journey globally with
-                      AECO Education and unlock a world of opportunities through
-                      our International year Programme, Direct Placement in Home
-                      and Abroad Universities.
-                    </p>
+                    </div>
+                    <div className="text-center text-[var(--tetiary-500)] font-inter font-light text-[16px] leeading-[24px]">
+                      Replace text to Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
+
+                    </div>
                   </div>
                   {/* <div className="col-span-1">
                     <div
@@ -112,13 +110,13 @@ export default function Home() {
               </div>
               <div className="mt-2  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-3 uppercase text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl">
+                  <div className="text-center mb-3 uppercase text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl">
                     Partner Highlights
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
+                  </div>
+                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
                     We believe in the power of collaboration and building strong
                     alliances to achieve success together.
-                  </p>
+                  </div>
                 </div>
                 <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-6 my-8 px-6 lg:px-10 md:px-8 mt-4">
                   {partners.map((partner, index) => (
@@ -128,12 +126,12 @@ export default function Home() {
               </div>
               <div className="mt-12 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center mb-2 text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl">
+                  <div className="text-center mb-2 text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl">
                     NEWS
-                  </p>
-                  <p className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
+                  </div>
+                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto font-inter text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
-                  </p>
+                  </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4 px-6 lg:px-10 md:px-8 w-full">
                   <div className="grid row-span-1">
@@ -163,9 +161,9 @@ export default function Home() {
               </div>
               <div className="mt-20 items-center justify-center flex flex-col mx-4 md:mx-10">
                 <div className="grid items-center justify-center px-10">
-                  <p className="text-center uppercase mb-4 text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl my-2">
+                  <div className="text-center uppercase mb-4 text-[var(--neutral-600)] font-inter font-bold text-5xl lg:text-6xl my-2">
                     Testimonials
-                  </p>
+                  </div>
                 </div>
                 <div className="mt-4">
                   <Testimonials />

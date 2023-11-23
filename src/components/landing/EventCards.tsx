@@ -83,23 +83,23 @@ const events = [
 const EventCards = () => {
     return (
         <div className=' p-4 md:p-10'>
-            <div className=" grid md:grid-cols-2 xl:grid-cols-4 gap-10">
+            <div className=" grid md:grid-cols-2 xl:grid-cols-4 gap-5">
                 {
                     events.map((event, index) => {
                         return (
-                            <div key={index} className="shadow bg-white rounded-lg ">
+                            <div key={index} className="shadow-md bg-white rounded-lg ">
                                 <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />
                                 <div className="px-6 py-10">
-                                    <div className="flex gap-7">
+                                    <div className="flex gap-4">
                                         <section>
                                             <small className='text-lg text-[var(--secondary-500)]'>{event.date.month}</small>
                                             <h2 className='text-3xl font-semibold'>{event.date.day}</h2>
                                         </section>
                                         <section>
                                             <div className="font-bold text-2xl mb-2">{event.title}</div>
-                                            <p className="text-gray-600 text-lg">
+                                            <div className="text-gray-600 text-lg">
                                                 {event.description.length > 100 ? event.description.substring(0, 100) + '...' : event.description}
-                                            </p>
+                                            </div>
                                             <div className="h-2"></div>
                                             <span className='bg-orange-200 text-lg p-2 px-3 rounded-full border-orange-500 '>Education</span>
                                         </section>

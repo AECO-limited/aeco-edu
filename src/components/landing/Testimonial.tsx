@@ -28,14 +28,14 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
       <div className="flex flex-col justify-between py-8 px-8  rounded-b-sm">
         <div className="grid gap-y-6">
           <div className="grid ">
-            <p className=" font-inter  text-md text-gray-700 mb-4">
+            <div className=" font-inter  text-md text-gray-700 mb-4">
               {`"${testimonial.message}"`}
-            </p>
+            </div>
             <hr />
             <div className="flex mt-2 gap-8 items-center justify-between">
-              <p className="mt-2 px-2 italic ">
+              <div className="mt-2 px-2 italic ">
                 {testimonial.name}
-              </p>
+              </div>
               <div className="flex gap-2">
                 {Array(whole)
                   .fill("a")
@@ -52,9 +52,9 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
               </div>
             </div>
             <div>
-              <p className="mt-2 px-2 font-[550] font-inter  ">
+              <div className="mt-2 px-2 font-[550] font-inter  ">
                 {testimonial.university} <br />({testimonial.program})
-              </p>
+              </div>
             </div>
           </div>
         </div>

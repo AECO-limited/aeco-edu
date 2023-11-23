@@ -8,14 +8,14 @@ export default function LanguageTraining() {
         <section>
             <section className="m-auto md:w-[86vw]  ">
                 <section>
-                    <section className="md:p-10 ">
+                    <section className="md:p-10 bg-[var(--primary-500)] text-white">
                         <section className=" px-4  grid md:grid-cols-2 gap-6">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-6xl font-semibold'>Language Training</h3>
-                                    <p className="text-lg text-gray-700">
+                                    <div className="text-lg ">
                                         Here, we work in collaboration with language training institutions from around the globe. We help students find and be placed in the best language institutions to prepare them for their language exams
-                                    </p>
+                                    </div>
 
                                 </section>
                             </div>
@@ -49,9 +49,9 @@ export default function LanguageTraining() {
                                     return (
                                         <div key={index} className='p-4 md:p-10 bg-[var(--primary-500)] space-y-2 text-white'>
                                             <h2 className="text-3xl">Lang {index + 1}</h2>
-                                            <p className='text-lg font-light'>
+                                            <div className='text-lg font-light'>
                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo sunt quo nobis aliquam aut veniam numquam voluptates iure doloremque.
-                                            </p>
+                                            </div>
 
                                         </div>
                                     )
@@ -80,9 +80,9 @@ export default function LanguageTraining() {
                                 return (
                                     <div key={index} className='p-4 md:p-10 border-[var(--primary-500)] space-y-2 border rounded'>
                                         <h2 className="text-3xl">Exam {index + 1}</h2>
-                                        <p className='text-lg font-light'>
+                                        <div className='text-lg font-light'>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo sunt quo nobis aliquam aut veniam numquam voluptates iure doloremque.
-                                        </p>
+                                        </div>
 
                                     </div>
                                 )

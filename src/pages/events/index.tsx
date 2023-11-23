@@ -45,9 +45,9 @@ export default function Events() {
                                 >
                                     <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
                                         <h2 className="text-6xl font-bold">Events</h2>
-                                        <p className=" font-normal text-lg ">
+                                        <div className=" font-normal text-lg ">
                                             Our Events provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
-                                        </p>
+                                        </div>
                                         <button className="btn-secondary w-[200px]">
                                             Get Started
                                         </button>
@@ -82,9 +82,9 @@ export default function Events() {
                             <section>
                                 <section className="">
                                     <div className="md:flex justify-between w-full px-10">
-                                        <p className="text-center mb-5 md:mb-2 font-bold text-4xl">
+                                        <div className="text-center mb-5 md:mb-2 font-bold text-4xl">
                                             Upcoming Events
-                                        </p>
+                                        </div>
                                         <div className="flex gap-x-4 justify-center md:justify-end">
                                             <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3 text-lg font-light">
                                                 <select className="bg-transparent">

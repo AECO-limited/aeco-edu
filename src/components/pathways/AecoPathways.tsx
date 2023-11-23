@@ -11,27 +11,30 @@ const AecoPathways = () => {
 
             <section className=" bg-white">
                 <div className=' md:w-[86vw] m-auto pb-16' >
-                    <div className="md:p-10 ">
+                    <div className="md:p-10 bg-[var(--primary-500)] text-white">
                         <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-6xl font-semibold'>International Year Programs (IYP)</h3>
-                                    <p className="text-lg text-gray-700">
+                                    <div className="text-lg ">
                                         Our International Year Program is a transformative experience that prepares you for success in higher education. Designed for international students, this program combines language development, academic skills enhancement, and cultural integration, setting you up for a seamless transition to universities abroad. Immerse yourself in a supportive learning environment, gain invaluable cross-cultural insights, and develop the academic and personal skills needed to thrive in your future studies.
-                                    </p>
+                                    </div>
                                 </section>
                             </div>
                             <div className='md:flex gap-x-4 hidden '>
-                                <Image width="500" height="500" style={{
-                                    height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
-                                }}
-                                    className='rounded-md'
-                                    src="/assets/landscape/international.jpg" alt='' ></Image>
-                                <Image width="500" height="500" style={{
-                                    height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
-                                }}
-                                    className='rounded-md'
-                                    src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                <div className="bg-[var(--secondary-500)] rounded">
+                                    <Image width="500" height="500" className=' opacity-80 rounded' style={{
+                                        height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
+                                    }}
+                                        src="/assets/landscape/international.jpg" alt='' ></Image>
+                                </div>
+                                <div className='bg-[var(--secondary-500)] h-fit rounded'>
+                                    <Image width="500" height="500" style={{
+                                        height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
+                                    }}
+                                        className='rounded-md opacity-70'
+                                        src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                </div>
                             </div>
 
                         </section>
@@ -50,7 +53,7 @@ const AecoPathways = () => {
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-5xl font-semibold'>Why Join a pathway</h3>
-                                    <p className="text-lg text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                                    <div className="text-lg text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
 
                                 </section>
                             </div>
@@ -127,9 +130,9 @@ const AecoPathways = () => {
                                         <div >
                                             <IoSchoolOutline className='text-6xl m-auto ' />
                                         </div>
-                                        <p className='p-3 text-lg font-light'>
+                                        <div className='p-3 text-lg font-light'>
                                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
-                                        </p>
+                                        </div>
 
                                     </section>
                                 )
@@ -143,28 +146,30 @@ const AecoPathways = () => {
 
 
             <section className="m-auto md:w-[86vw] ">
-                <div className="md:p-10 mb-5">
-                    <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2">
+                <div className="md:p-10 mb-5 bg-[var(--primary-500)] text-white">
+                    <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2 ">
 
                         <div className='md:flex gap-x-4 hidden '>
-                            <Image width="500" height="500" style={{
-                                height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
-                            }}
-                                className='rounded-md'
-                                src="/assets/landscape/international1.jpg" alt='' ></Image>
-                            <Image width="500" height="500" style={{
-                                height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
-                            }}
-                                className='rounded-md'
-                                src="/assets/landscape/international.jpg" alt='' ></Image>
-
+                            <div className='bg-[var(--secondary-500)] h-fit rounded'>
+                                <Image width="500" height="500" style={{
+                                    height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
+                                }}
+                                    className='rounded-md opacity-70'
+                                    src="/assets/landscape/international1.jpg" alt='' ></Image>
+                            </div>
+                            <div className="bg-[var(--secondary-500)] rounded">
+                                <Image width="500" height="500" className=' opacity-80 rounded' style={{
+                                    height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
+                                }}
+                                    src="/assets/landscape/international.jpg" alt='' ></Image>
+                            </div>
                         </div>
 
                         <div className='md:flex flex-col justify-center md:p-5' >
 
                             <section className="space-y-4">
                                 <h3 className='text-6xl font-semibold'>Partner Pathways</h3>
-                                <p className="text-lg text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </p>
+                                <div className="text-lg ">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
                             </section>
                         </div>
 
