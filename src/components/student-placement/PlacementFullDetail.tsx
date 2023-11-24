@@ -30,13 +30,42 @@ const PlacementFullDetail = () => {
 
 
     return (
-        <section className=' p-5 md:p-10'>
+        <section className=' p-6'>
+            <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
+                <div className='col-span-6 flex flex-col justify-center gap-y-6'>
+                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
+                        Study Abroad
+                    </h3>
+                    <div>
+                        {" Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country."}
+                    </div>
+
+                </div>
+                <div className='col-span-4'>
+                    <Image width="1000" height="1000" src="/assets/avatar/image avatar two.png" alt="" style={{ width: "100%" }} />
+                </div>
+                <section className="grid md:grid-cols-3 p-2 col-span-10 py-14">
+                    <div className='flex flex-col justify-center gap-y-6'>
+                        <h2 className='font-semibold text-4xl md:text-6xl mb-5'>Our Partners</h2>
+                        <div>We have Partners all Over the world, we are here to help you get the best education. Find Courses, Courses and programs provided by these partners</div>
+                        <button className="btn-secondary w-[200px]">
+                            Get Started
+                        </button>
+                    </div>
+                    <div className='col-span-2 my-8'>
+                        <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
+                    </div>
+
+                </section >
+            </section >
+
+            <div className="h-4 my-10 bg-gray-50"></div>
             <section className="md:grid grid-cols-10  md:w-[75vw] m-auto mb-14">
                 <div className='col-span-4'>
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div id="study-locally" className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-3xl md:text-6xl font-semibold'>
+                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
                         Study Locally
                     </h3>
                     <div>
@@ -45,7 +74,7 @@ const PlacementFullDetail = () => {
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14 gap-3 ">
                     <div className='flex flex-col justify-center gap-y-6 '>
-                        <h2 className='text-5xl font-semibold' >Supported Countries</h2>
+                        <h2 className='text-4xl md:text-6xl mb-5 font-semibold' >Supported Countries</h2>
                         <div>Aeco Education currently supports local student placement in the following countries</div>
                         <button className="btn-secondary w-[200px]">
                             Get Started
@@ -66,42 +95,14 @@ const PlacementFullDetail = () => {
             </section >
             <div className="h-4 my-10 bg-gray-50"></div>
 
-            <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
-                <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-3xl md:text-6xl font-semibold'>
-                        Study Abroad
-                    </h3>
-                    <div>
-                        {" Studying locally offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options. Our team of experienced advisors will assist you in exploring the various programs available, matching your academic goals and aspirations. By choosing to study locally, you'll benefit from a supportive community, connections to industry professionals, and potential career opportunities in your home country."}
-                    </div>
 
-                </div>
-                <div className='col-span-4'>
-                    <Image width="1000" height="1000" src="/assets/avatar/image avatar two.png" alt="" style={{ width: "100%" }} />
-                </div>
-                <section className="grid md:grid-cols-3 p-2 col-span-10 py-14">
-                    <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold text-5xl'>Our Partners</h2>
-                        <div>We have Partners all Over the world, we are here to help you get the best education. Find Courses, Courses and programs provided by these partners</div>
-                        <button className="btn-secondary w-[200px]">
-                            Get Started
-                        </button>
-                    </div>
-                    <div className='col-span-2 my-8'>
-                        <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
-                    </div>
-
-                </section >
-            </section >
-
-            <div className="h-4 my-10 bg-gray-50"></div>
 
             <section className="grid md:grid-cols-10  md:w-[80vw] m-auto" id='study-online'>
                 <div className='col-span-4'>
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-3xl md:text-6xl font-semibold'>
+                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
                         Study Online
                     </h3>
                     <div>

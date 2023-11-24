@@ -5,8 +5,8 @@ export default function EducationServicesStakeHolders() {
     return (
         <div className="">
 
-            <div className="grid md:grid-cols-3   m-auto gap-5 p-10 md:w-[80vw]">
-                <h3 className='text-3xl md:text-6xl font-semibold col-span-3'>Benefits to Stakeholders</h3>
+            <section className="mid:grid md:grid-cols-3 space-y-6  m-auto gap-5 p-6 md:w-[80vw]">
+                <h3 className='text-4xl md:text-6xl mb-5 font-semibold col-span-3'>Benefits to Stakeholders</h3>
                 <div className="shadow p-4 space-y-4 border border-orange-300 rounded-md  py-10 ">
                     <button className="p-2 bg-orange-500 rounded-md">
                         <IoLaptopOutline className="text-3xl " />
@@ -49,7 +49,7 @@ export default function EducationServicesStakeHolders() {
                 <div className="">
 
                 </div>
-            </div>
+            </section>
             <div className="h-4 bg-gray-50"></div>
         </div>
     )

@@ -7,7 +7,7 @@ export default function LanguageServices() {
         <div>
 
             <div className="grid md:grid-cols-2  m-auto gap-5 p-10 md:w-[80vw]">
-                <div className="shadow  p-4 md:p-10 space-y-4 bg-white py-10 ">
+                <div className="shadow  p-4 p-6 space-y-4 bg-white py-10 ">
                     <button className="p-2 bg-blue-500 rounded-md">
                         <IoPencilOutline className="text-3xl text-white" />
                     </button>
@@ -20,7 +20,7 @@ export default function LanguageServices() {
                     </div>
 
                 </div>
-                <div className="shadow  p-4 md:p-10  space-y-4 bg-white py-10">
+                <div className="shadow  p-4 p-6  space-y-4 bg-white py-10">
                     <button className="p-2 bg-green-500 rounded-md">
                         <IoPeopleOutline className="text-3xl text-white" />
                     </button>

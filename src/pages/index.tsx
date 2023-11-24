@@ -15,6 +15,8 @@ import EventCards from "@/components/landing/EventCards";
 import Document from "./_document";
 import Link from "next/link";
 import { IoArrowDown, IoArrowForward } from "react-icons/io5";
+import Script from "next/script";
+import { useEffect, useRef } from "react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +25,7 @@ export const partners = [
   {
     name: "Opuvia",
     logo: "/assets/opuvia.png",
-    image: "https://media.licdn.com/dms/image/C4E22AQGJaLLipRm0XQ/feedshare-shrink_800/0/1664358048541?e=1700697600&v=beta&t=mKmPGNeCwE1aJrNNLmul2tvE_nCSVKg8KSCdFFYoSQE",
+    image: "/assets/opuvia-pic.jpeg",
     tag: "We Power Human Capital Globally",
     body: "Opuvia is on a mission to close the gap between education and employment and curb the global problem of graduate under and unemployment. Opuvia believes that every person deserves an opportunity to succeed and thrive in their chosen career, and are committed to providing the tools and resources necessary to make that a reality",
     link: "https://opuvia.org/",
@@ -60,7 +62,22 @@ export default function Home() {
     () => { }
   );
 
-  console.log({ news });
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    // <Script src="https://studentpanel.net/widget/ams-widget-loader.js" ag="13059" wid="104" class="amsSearch" strategy="afterInteractive" defer={false}></Script>
+
+    const script = document.createElement("script")
+    script.src = "https://studentpanel.net/widget/ams-widget-loader.js";
+    script.setAttribute("ag", "13059");
+    script.setAttribute("wid", "104");
+    script.className = "amsSearch";
+
+    (sectionRef.current as any).appendChild(script);
+
+  }, [])
+
+
   return (
     <>
       <Head>
@@ -92,6 +109,8 @@ export default function Home() {
                     <button className="btn-secondary w-[200px] m-auto">
                       Get Started
                     </button>
+                    <div ref={sectionRef} id='script-container' className="rounded-lg bg-black border border-2">
+                    </div>
                   </div>
                 </div>
 
@@ -133,12 +152,13 @@ export default function Home() {
               </div>
 
 
+
               <div className="my-16 mb-28 mx-4 md:mx-10">
                 <Services />
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-3 capitalize font-bold font-inter text-3xl md:text-6xl">
+                  <div className="text-center mb-3 capitalize font-bold font-inter text-4xl md:text-6xl mb-5">
                     Partner Highlights
                   </div>
                   <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4 text-xl">
@@ -156,7 +176,7 @@ export default function Home() {
 
               <section className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-bold text-3xl md:text-6xl font-inter">
+                  <div className="text-center mb-2 font-bold text-4xl md:text-6xl mb-5 font-inter">
                     Upcoming Events
                   </div>
                   {/* <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -170,7 +190,7 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-inter font-bold text-3xl md:text-6xl">
+                  <div className="text-center mb-2 font-inter font-bold text-4xl md:text-6xl mb-5">
                     News
                   </div>
                   <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
@@ -205,7 +225,7 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center font-inter font-bold text-3xl md:text-6xl my-2 mb-6">
+                  <div className="text-center font-inter font-bold text-4xl md:text-6xl mb-5 my-2 mb-6">
                     What People Say About Us
                   </div>
                 </div>

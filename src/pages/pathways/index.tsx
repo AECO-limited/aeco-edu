@@ -45,7 +45,7 @@ export default function Pathways() {
                                     style={{ backgroundImage: `url("/assets/landscape/pathways-hero.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="text-6xl md:text-7xl font-bold">Pathways</h2>
+                                        <h2 className="text-3xl md:text-7xl font-bold">Pathways</h2>
                                         <div className=" font-normal text-lg ">
                                             Discover the perfect educational path for your future success with AECO Education's Student Placement services.
                                         </div>
