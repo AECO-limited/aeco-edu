@@ -46,12 +46,12 @@ export default function EducationServices() {
                                     className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
                                     style={{ backgroundImage: `url("/assets/landscape/education-hero.jpg")` }}
                                 >
-                                    <div className="h-full w-[98%] sm:w-[90%] md:w-[75%] xl:w-[55%] from-[#000000c5] to-transparent bg-gradient-to-r w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                                        <h2 className="text-6xl md:text-8xl font-bold">Education Services</h2>
-                                        <div className=" font-normal  ">
-                                            Our Education Services provide you with the necessary preparation, guidance, and connections to ensure a smooth transition to your dream university or institution.
+                                    <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
+                                        <h2 className="text-6xl md:text-7xl font-bold">Education Services</h2>
+                                        <div className=" font-normal text-lg ">
+                                            Discover the perfect educational path for your future success with AECO Education's Student Placement services.
                                         </div>
-                                        <button className="btn-secondary w-[200px]">
+                                        <button className="btn-secondary w-[200px] m-auto">
                                             Get Started
                                         </button>
                                     </div>

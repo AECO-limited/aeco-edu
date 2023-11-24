@@ -14,7 +14,7 @@ import { Inter } from 'next/font/google'
 import EventCards from "@/components/landing/EventCards";
 import Document from "./_document";
 import Link from "next/link";
-import { IoArrowForward } from "react-icons/io5";
+import { IoArrowDown, IoArrowForward } from "react-icons/io5";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -85,7 +85,7 @@ export default function Home() {
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
                   <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                    <h2 className="text-6xl md:text-8xl font-bold">Your Journey Starts here</h2>
+                    <h2 className="text-6xl md:text-7xl font-bold">Your Journey Starts here</h2>
                     <div className=" font-normal text-xl ">
                       Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
                     </div>
@@ -95,24 +95,25 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className=" lg:absolute bottom-0  font-bold w-full ">
-                  <div className=" p-5 grid md:grid-cols-5 gap-4 text-center w-full backdrop-blur-sm bg-[#ffffffa9] mb-14 lg:mb-0">
-                    <div className=" flex justify-center items-center py-10">
-                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="text-4xl font-bold text-start">
-                        <div className="flex items-center gap-x-4"> All-in-one <IoArrowForward className="text-[var(--secondary-500)]" /></div>
-                        <div>Student</div>
+                <div className="  font-bold w-full ">
+                  <div className=" p-5 grid md:grid-cols-5 gap-4 text-center w-full bg-[#d9d9d9] mb-14 lg:mb-0">
+                    <div className=" flex justify-center items-center py-6 space-y-3">
+                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="text-3xl font-bold text-start">
+                        <div className="flex items-center gap-x-4"> All-in-one <IoArrowForward className="text-[var(--secondary-500)] hidden md:block" /></div>
+                        <div>Student Portal</div>
+                        <IoArrowDown className="text-[var(--secondary-500)] block md:hidden" />
                       </Link>
                     </div>
-                    <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="bg-[var(--secondary-500)] text-white flex justify-center items-center py-10 px-5">
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/search/academic/program" className="bg-[var(--secondary-500)] text-white flex justify-center items-center py-10 px-5">
                       <div className="text-2xl ">Find Programs</div>
                     </Link>
-                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-400)] text-white flex justify-center items-center py-10 px-5">
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-400)] text-white flex justify-center items-center py-10 px-5">
                       <div className="text-2xl ">Request for Applications</div>
                     </Link>
-                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-300)] text-black flex justify-center items-center py-10 px-5">
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-300)] text-black flex justify-center items-center py-10 px-5">
                       <div className="text-2xl ">Upload information and documents</div>
                     </Link>
-                    <Link href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-200)] text-black flex justify-center items-center py-10 px-5">
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-200)] text-black flex justify-center items-center py-10 px-5">
                       <div className="text-2xl ">Application Updates</div>
                     </Link>
                   </div>

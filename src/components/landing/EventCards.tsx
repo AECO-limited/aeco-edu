@@ -1,83 +1,77 @@
 import Image from 'next/image';
 import React from 'react'
 
-const events = [
-
-    {
-        "image": "/assets/event-1.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
-        },
-        "title": "Ignite Your Creativity",
-        "description": "Unleash your creativity and explore the limitless possibilities of artistic expression. Join us for an immersive event that celebrates the power of art, music, and culture. Experience captivating performances, engage in interactive workshops, and connect with fellow artists from around the world. Discover new techniques, gain inspiration, and leave with a renewed passion for your craft. Ignite your creativity and let your imagination soar to new heights."
+const events: {
+    "image": string,
+    "date": {
+        "month": string,
+        "day": string,
+        "year": string
     },
-    {
-        "image": "/assets/event-2.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
+    "title": string,
+    "description": string,
+    "category": string,
+    "time": string,
+    "location": string,
+    "id": string
+}[] = [
+        {
+            "image": "",
+            "date": {
+                "month": "December",
+                "day": "14",
+                "year": "2024"
+            },
+            "title": "Launch IU Online Programs in Cameroon",
+            "description": "Join us for the launch of IU Online Programs in Cameroon. Learn about our diverse range of online courses and programs.",
+            "category": "Webinar",
+            "time": "14:00 - 16:00",
+            "location": "Online",
+            "id": "event-1"
         },
-        "title": "Empowering Women in Business",
-        "description": "Join us for an empowering event dedicated to celebrating and supporting women in business. Gain valuable insights from successful female leaders who have shattered glass ceilings and overcome challenges. Learn strategies for personal and professional growth, network with like-minded individuals, and discover opportunities for collaboration. Together, let's break barriers, inspire change, and create a more inclusive and diverse business landscape."
-    },
-    {
-        "image": "/assets/event-3.jpeg",
-        "date": {
-            "month": "APR",
-            "day": "14"
+        {
+            "image": "",
+            "date": {
+                "month": "January",
+                "day": "13",
+                "year": "2024"
+            },
+            "title": "Opuvia Career Hub Platform Launch",
+            "description": "Be part of the Opuvia Career Hub Platform Launch event. Discover new career opportunities and network with professionals in your industry.",
+            "category": "Webinar",
+            "time": "10:00 - 12:00",
+            "location": "Online",
+            "id": "event-2"
         },
-        "title": "Health and Wellness Retreat",
-        "description": "Take a break from the demands of daily life and embark on a transformative journey to prioritize your health and well-being. Join us for a rejuvenating retreat that combines mindfulness practices, physical activities, and expert guidance to help you achieve balance and inner harmony. Recharge your mind, body, and soul in a serene and supportive environment. Leave feeling refreshed, inspired, and equipped with tools to maintain a healthy lifestyle."
-    },
-    {
-        "image": "/assets/event-4.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
+        {
+            "image": "",
+            "date": {
+                "month": "January",
+                "day": "13",
+                "year": "2024"
+            },
+            "title": "Progress to Bioengineering at Loughborough University",
+            "description": "Join this informative webinar to learn about the progress in the field of bioengineering at Loughborough University.",
+            "category": "Webinar",
+            "time": "15:00 - 17:00",
+            "location": "Online",
+            "id": "event-3"
         },
-        "title": "Health and Wellness Retreat",
-        "description": "Take a break from the demands of daily life and embark on a transformative journey to prioritize your health and well-being. Join us for a rejuvenating retreat that combines mindfulness practices, physical activities, and expert guidance to help you achieve balance and inner harmony. Recharge your mind, body, and soul in a serene and supportive environment. Leave feeling refreshed, inspired, and equipped with tools to maintain a healthy lifestyle."
-    },
-    {
-        "image": "/assets/event-1.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
-        },
-        "title": "Ignite Your Creativity",
-        "description": "Unleash your creativity and explore the limitless possibilities of artistic expression. Join us for an immersive event that celebrates the power of art, music, and culture. Experience captivating performances, engage in interactive workshops, and connect with fellow artists from around the world. Discover new techniques, gain inspiration, and leave with a renewed passion for your craft. Ignite your creativity and let your imagination soar to new heights."
-    },
-    {
-        "image": "/assets/event-2.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
-        },
-        "title": "Empowering Women in Business",
-        "description": "Join us for an empowering event dedicated to celebrating and supporting women in business. Gain valuable insights from successful female leaders who have shattered glass ceilings and overcome challenges. Learn strategies for personal and professional growth, network with like-minded individuals, and discover opportunities for collaboration. Together, let's break barriers, inspire change, and create a more inclusive and diverse business landscape."
-    },
-    {
-        "image": "/assets/event-3.jpeg",
-        "date": {
-            "month": "APR",
-            "day": "14"
-        },
-        "title": "Health and Wellness Retreat",
-        "description": "Take a break from the demands of daily life and embark on a transformative journey to prioritize your health and well-being. Join us for a rejuvenating retreat that combines mindfulness practices, physical activities, and expert guidance to help you achieve balance and inner harmony. Recharge your mind, body, and soul in a serene and supportive environment. Leave feeling refreshed, inspired, and equipped with tools to maintain a healthy lifestyle."
-    },
-    {
-        "image": "/assets/event-4.webp",
-        "date": {
-            "month": "APR",
-            "day": "14"
-        },
-        "title": "Health and Wellness Retreat",
-        "description": "Take a break from the demands of daily life and embark on a transformative journey to prioritize your health and well-being. Join us for a rejuvenating retreat that combines mindfulness practices, physical activities, and expert guidance to help you achieve balance and inner harmony. Recharge your mind, body, and soul in a serene and supportive environment. Leave feeling refreshed, inspired, and equipped with tools to maintain a healthy lifestyle."
-    },
-
-
-];
+        {
+            "image": "",
+            "date": {
+                "month": "January",
+                "day": "26",
+                "year": "2024"
+            },
+            "title": "Launch of IU Study Lounge in Cameroon",
+            "description": "Experience the launch of IU Study Lounge in Cameroon. Discover a conducive environment for studying and collaboration.",
+            "category": "Webinar",
+            "time": "18:00 - 20:00",
+            "location": "Online",
+            "id": "event-4"
+        }
+    ];
 
 
 const EventCards = () => {
@@ -87,8 +81,8 @@ const EventCards = () => {
                 {
                     events.map((event, index) => {
                         return (
-                            <div key={index} className="shadow-md bg-white rounded-lg ">
-                                <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />
+                            <div key={index} className="shadow-md bg-white rounded-lg border border-gray-100 ">
+                                {event.image && <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />}
                                 <div className="px-6 py-10">
                                     <div className="flex gap-4">
                                         <section>
@@ -101,7 +95,10 @@ const EventCards = () => {
                                                 {event.description.length > 100 ? event.description.substring(0, 100) + '...' : event.description}
                                             </div>
                                             <div className="h-2"></div>
-                                            <span className='bg-orange-200  p-2 px-3 rounded-full border-orange-500 '>Education</span>
+                                            <div className="flex gap-2">
+                                                <span className='bg-orange-200  text-xs p-2 px-3 rounded-full border-orange-500 '>{event.category}</span>
+                                                <span className='bg-orange-200  text-xs p-2 px-3 rounded-full border-orange-500 '>{event.location}</span>
+                                            </div>
                                         </section>
                                     </div>
                                 </div>

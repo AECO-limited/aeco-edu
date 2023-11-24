@@ -36,7 +36,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div id="study-locally" className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-7xl font-semibold'>
+                    <h3 className='text-3xl md:text-6xl font-semibold'>
                         Study Locally
                     </h3>
                     <div>
@@ -68,7 +68,7 @@ const PlacementFullDetail = () => {
 
             <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-7xl font-semibold'>
+                    <h3 className='text-3xl md:text-6xl font-semibold'>
                         Study Abroad
                     </h3>
                     <div>
@@ -101,7 +101,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-7xl font-semibold'>
+                    <h3 className='text-3xl md:text-6xl font-semibold'>
                         Study Online
                     </h3>
                     <div>

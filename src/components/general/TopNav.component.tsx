@@ -24,6 +24,7 @@ const navItems = [
   {
     name: "Home",
     subs: [],
+    link: "/"
   },
   {
     name: "Student Placement",
@@ -64,11 +65,11 @@ const navItems = [
     subs: [
       {
         name: "Exam Preparations",
-        link: "/language-education/exam-preparations",
+        link: "/language-education/#exam-preparations",
       },
       {
         name: "Language Trainings",
-        link: "/language-education/language-trainings",
+        link: "/language-education/#language-trainings",
       },
     ],
   },
@@ -78,15 +79,15 @@ const navItems = [
     subs: [
       {
         name: "Teachmint ISP",
-        link: "/education-services/teachmin-isp",
+        link: "/education-services/#teachmint-isp",
       },
       {
         name: "Partnership development",
-        link: "/education-services/partnership-development",
+        link: "/education-services/#partnership-development",
       },
       {
         name: "Student recruitment",
-        link: "/education-services/student-recruitment",
+        link: "/education-services/#student-recruitment",
       },
     ],
   },
@@ -182,8 +183,13 @@ const bottomNavItems = [
 
 const others = [
   {
-    name: "Student Portal",
+    name: "Partner Portal",
     link: "https://aeco.ams4you.net/amslogin.html",
+    new: "tab",
+  },
+  {
+    name: "Student Portal",
+    link: "https://aecoedu.studentpanel.net/search/academic/program",
     new: "tab",
   },
   {
@@ -372,8 +378,10 @@ const TopNav: FC<Props> = ({ children }) => {
           </div>
         )}
       </div>
-      <div className="hidden md:block  fixed top-16 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
-        <div className="flex w-full h-full items-center justify-between">
+
+      <div className="hidden md:block   fixed top-16 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
+        <div className="py-2 md:px-8 lg:px-14 backdrop-blur-md -z-20 bg-white bg-opacity-80 w-[100vw] fixed top-[128px] right-0 text-black text-sm font-bold"> You are a stepcloser from studying at your dream school</div>
+        <div className="flex z-30 w-full h-full items-center justify-between">
           <div className="flex items-center">
             {navItems.map((item, index) => {
               const pathName = item.name.toLowerCase().split(" ").join("-");
@@ -425,6 +433,7 @@ const TopNav: FC<Props> = ({ children }) => {
           </Link>
         </div>
       </div>
+
       <main className="mt-20 md:mt-32">{children}</main>
       <div className="bottom-0 right-0 left-0 bg-[var(--primary-800)] text-[var(--tetiary-500)] px-14 py-12 z-[99999]">
         <div className="w-full h-full gap-2">

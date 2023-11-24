@@ -8,10 +8,10 @@ export default function StudentRecruitments() {
         <section className="bg-white">
             <section >
 
-                <section className=' md:w-[85vw] m-auto'>
+                <section className=' md:w-[85vw] m-auto' id='student-recruitment'>
                     {/* <div className="h-4 bg-gray-50 my-16"></div> */}
-                    <section className="md:p-10 text-white bg-[var(--primary-500)]">
-                        <section className=" px-4  grid md:grid-cols-2 gap-6">
+                    <section className="md:p-10 ">
+                        <section className=" px-4  grid md:grid-cols-2 gap-6 py-4  md:py-0">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
                                     <h3 className='text-3xl md:text-6xl font-semibold'>Student Recruitment</h3>
