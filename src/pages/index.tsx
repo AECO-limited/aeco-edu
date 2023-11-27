@@ -99,14 +99,14 @@ export default function Home() {
 
               <section className="relative">
                 <div
-                  className="bg-cover bg-center w-full h-[100vh] md:h-[80vh] xl:h-[60vh] overflow-hidden relative"
+                  className="bg-cover bg-center w-full  sm:h-[900px] lg:h-[700px] xl:h-[650px]  relative "
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
-                  <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center gap-y-10 md:gap-y-24 flex-col px-10 md:px-32 text-white space-y-8">
+                  <div className="h-full w-[100%] text-center from-[#000000c5] py-20 to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center gap-y-10 md:gap-y-24 flex-col px-10 md:px-32 text-white space-y-8">
                     <div>
                       <div className="h-14"></div>
                       <h2 className="text-7xl mb-5 font-bold md:heading1">Your Journey Starts here</h2>
-                      <div className="heading44" >
+                      <div className="heading44 md:w-2/3 m-auto" >
                         Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
                       </div>
                     </div>
