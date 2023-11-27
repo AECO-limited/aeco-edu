@@ -551,7 +551,7 @@ const TopNav: FC<Props> = ({ children }) => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-y-6 md:grid-cols-5 lg:grid-cols-7 gap-x-2 md:gap-x-10 lg:gap-x-28 w-full items-center font-inter text-[var(--neutral-600)] [&>*]:hover:cursor-pointer p-2 mt-8">
+        {/* <div className="grid grid-cols-1 gap-y-6 md:grid-cols-5 lg:grid-cols-7 gap-x-2 md:gap-x-10 lg:gap-x-28 w-full items-center font-inter text-[var(--neutral-600)] [&>*]:hover:cursor-pointer p-2 mt-8">
           <Link href="" className="grid gap-2 col-span-2 text-[#b8bec0] hover:text-[var(--secondary-500)]  font-inter">
             Contact Us
           </Link>
@@ -577,7 +577,7 @@ const TopNav: FC<Props> = ({ children }) => {
             </Link>
           </div>
 
-        </div>
+        </div> */}
         <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
         <span className="font-light ">
           Aeco Education  ©  {(new Date()).getFullYear()}

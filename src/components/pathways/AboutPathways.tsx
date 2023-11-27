@@ -12,9 +12,8 @@ const AboutPathways = () => {
                         <div className='flex flex-col justify-center p-5 ' >
 
                             <section className="space-y-4">
-                                <h3 className='heading2 mb-5'>AECO Pathways</h3>
                                 <div className=" text-gray-100">
-                                    Students are  availed with the right knowledge, skills, competencies and attitude they need for education and career success in this new world(21st century).
+                                    Our pathways avail students with the right knowledge, skills, competencies and attitude they need for education and career success in this new world(21st century).
                                 </div>
                             </section>
 
