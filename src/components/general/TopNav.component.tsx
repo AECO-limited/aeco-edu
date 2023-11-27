@@ -510,8 +510,9 @@ const TopNav: FC<Props> = ({ children }) => {
               </Link>
             </div>
             <div className="grid col-span-1 md:col-span-5  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10">
-              {bottomNavItems.map((item, index) => {
+              {navItems.map((item, index) => {
                 const unique = 4 * (index + 1);
+                if (item.name.toLowerCase() == "home" || index == 2 || index > 4) return;
                 return (
                   <div
                     className="col-span-1 [&>*]:hover:cursor-pointer w-fit"
