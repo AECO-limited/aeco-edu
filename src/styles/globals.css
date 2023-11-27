@@ -12,16 +12,28 @@ body>* {
 * {
   /* //inter font */
   font-family: var(--font-inter);
+
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4 {
+  text-transform: capitalize;
 }
 
 .heading1 {
   font-size: 75.94px;
   font-weight: 800;
+  line-height: 83.4px;
+  letter-spacing: -6%;
 }
 
 .heading2 {
   font-size: 50.63px;
   font-weight: 800;
+  letter-spacing: -5%;
+
 }
 
 .heading3 {

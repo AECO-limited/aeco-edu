@@ -116,10 +116,7 @@ const bottomNavItems = [
         name: "About Us",
         link: "/about",
       },
-      {
-        name: "Careers",
-        link: "/careers",
-      },
+
       {
         name: "News",
         link: "/news",

@@ -44,7 +44,7 @@ export default function Events() {
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="heading2 md:heading1">Highly Sought After Education Eevnts</h2>
+                                        <h2 className="heading1">Highly Sought After Education Events</h2>
                                         <h2 className="md:heading44">
                                             We bring you different categories of eduction events includings Fairs, Webinars and Workshop with the unique opportunity to have a one-on-one conversation with representatives your future institution.
                                         </h2>
