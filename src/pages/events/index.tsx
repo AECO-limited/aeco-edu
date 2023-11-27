@@ -40,12 +40,12 @@ export default function Events() {
                         <div className="overflow-x-hidden bg-gray-50">
                             <section className="relative mb-14">
                                 <div
-                                    className="bg-cover bg-center w-full h-[70vh] sm:h-[75vh] md:h-[70vh] overflow-hidden relative"
+                                    className="bg-cover bg-center w-full h-[900px] lg:h-[700px] xl:h-[650px] overflow-hidden relative"
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="heading1">Highly Sought After Education Events</h2>
-                                        <h2 className="md:heading44">
+                                        <h2 className="heading2 md:heading1 ">Highly Sought After Education Events</h2>
+                                        <h2 className="md:heading44 lg:w-2/3 m-auto">
                                             We bring you different categories of eduction events includings Fairs, Webinars and Workshop with the unique opportunity to have a one-on-one conversation with representatives your future institution.
                                         </h2>
                                     </div>

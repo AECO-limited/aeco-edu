@@ -376,7 +376,7 @@ const TopNav: FC<Props> = ({ children }) => {
       </div>
 
       <div className="hidden md:block   fixed top-16 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
-        {(path.match("student-placement") || path.match("education-services")) && <AmsTopWidget />}
+        {/* {(path.match("student-placement") || path.match("education-services")) && <AmsTopWidget />} */}
         <div className="flex z-30 w-full h-full items-center justify-between">
           <div className="flex items-center">
             {navItems.map((item, index) => {

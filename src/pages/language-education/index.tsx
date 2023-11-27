@@ -47,12 +47,12 @@ export default function LanguageEducation() {
                         <div className="overflow-x-hidden bg-gray-50">
                             <section className="relative">
                                 <div
-                                    className="bg-cover bg-center w-full h-[90vh] sm:h-[85vh] md:h-[80vh] overflow-hidden relative"
+                                    className="bg-cover bg-center w-full h-[900px] lg:h-[700px] xl:h-[650px] overflow-hidden relative"
                                     style={{ backgroundImage: `url("/assets/landscape/language-hero.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
                                         <h2 className="heading2 md:heading1">Language Training for each of your goals</h2>
-                                        <h2 className="heading44">
+                                        <h2 className="heading44 lg:w-3/4 m-auto">
                                             Have you got dreams, wishes and plans?
                                             We've got the method, the experts and a record of success.
                                             Give it a go!  </h2>

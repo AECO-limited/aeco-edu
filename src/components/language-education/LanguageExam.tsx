@@ -93,7 +93,7 @@ export default function LanguageExam() {
             <section className=' md:w-[85vw] m-auto'>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 ">
                     <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold   mb-5 '>Premium language training centers</h2>
+                        <h2 className='font-semibold heading2  mb-5 '>Premium language training centers</h2>
                         <div className="">Premium language training and exam centers around the world we collaborate with</div>
 
                     </div>

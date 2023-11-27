@@ -345,21 +345,6 @@ const AecoPathways = () => {
             </section>
 
             <div className="h-4 bg-gray-50 my-16"></div>
-
-            <section className='m-auto md:w-[86vw] mb-24'>
-                <h3 className=' headung2 mb-6 font-semibold text-center '>
-                    Partner institutions
-                </h3>
-                <aside className="p-2 md:grid-cols-4 gap-5 grid " >
-                    {institutions.map((item, index) => {
-                        return (
-                            <section key={index} >
-                                <PartnerPathwayCard partner={item} />
-                            </section>
-                        )
-                    })}
-                </aside>
-            </section>
         </div >
     )
 }
