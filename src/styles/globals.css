@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+.text,
+body>* {
+  font-size: 17px;
+  /* font-weight: 500; */
+}
+
 * {
   /* //inter font */
   font-family: var(--font-inter);
@@ -33,10 +39,6 @@
   font-weight: normal;
 }
 
-.text {
-  font-size: 15px;
-  font-weight: 500;
-}
 
 
 :root {
