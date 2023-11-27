@@ -9,7 +9,7 @@ export default function ExamOverview() {
                     <section className=" px-4  grid md:grid-cols-2 gap-6 py-4  md:py-0">
                         <div className='md:flex flex-col justify-center md:p-5 ' >
                             <section className="space-y-4">
-                                <h3 className='heading2 mb-5 my-10'>Langauge Exam</h3>
+                                <h3 className='heading2 mb-5 my-10'>Language Exam</h3>
                                 <div className="space-y-4">
                                     <p>
                                         The solution for acing your language certification exam.
@@ -31,7 +31,7 @@ export default function ExamOverview() {
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'
-                                src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                src="https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                         </div>
                     </section>
                 </section>
@@ -63,7 +63,7 @@ export default function ExamOverview() {
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'
-                                src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                src="https://images.pexels.com/photos/5940706/pexels-photo-5940706.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                         </div>
                     </section>
                 </section>

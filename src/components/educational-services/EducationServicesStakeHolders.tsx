@@ -35,7 +35,7 @@ export default function EducationServicesStakeHolders() {
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <div className=" font-light">
-                        classroom operations seamless.
+                        Create an enriching learning environment in your school by integrating top digital tools that make classroom operations seamless.
                         Enable Better Outcomes for School Teacher
                     </div>
 
@@ -64,7 +64,7 @@ export default function EducationServicesStakeHolders() {
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <div className=" font-light">
-                        Studying education services offers numerous advantages, from cost savings to familiarity with the local education system. AECO Education works closely with esteemed universities, colleges, and educational institutions in your area to provide you with a comprehensive selection of local study options
+                        Get complete transparency over your child’s progress and stay up to date on all school activities. A unique opportunity for parents to be involved in the training process of their children.
                     </div>
 
                 </div>

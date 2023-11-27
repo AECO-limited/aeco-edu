@@ -29,14 +29,14 @@ export default function LanguageTraining() {
                         </section>
                     </section>
 
-                    <div className="h-4 bg-gray-50 my-16"></div>
+                    {/* <div className="h-4 bg-gray-50 my-16"></div> */}
                 </section>
 
 
 
 
 
-                <section className=' md:w-[85vw] m-auto'>
+                {/* <section className=' md:w-[85vw] m-auto'>
                     <section className="p-6 ">
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
@@ -60,12 +60,12 @@ export default function LanguageTraining() {
 
                         </section>
                     </section>
-                </section>
+                </section> */}
 
             </section>
 
 
-            <div className="h-4 bg-gray-50 my-16"></div>
+            {/* <div className="h-4 bg-gray-50 my-16"></div>
 
             <section className=' md:w-[85vw] m-auto'>
                 <section className="md:pb-10 ">
@@ -91,9 +91,9 @@ export default function LanguageTraining() {
 
                     </section>
                 </section>
-            </section>
+            </section> */}
 
-            <div className="h-4 bg-gray-50 my-16"></div>
+            <div className=" bg-white h-20"></div>
 
 
 

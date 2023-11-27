@@ -44,9 +44,9 @@ export default function Events() {
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="heading2 md:heading1 ">Highly Sought After Education Events</h2>
+                                        <h2 className="heading2 md:heading1  ">Highly Sought After Education Events</h2>
                                         <h2 className="md:heading44 lg:w-2/3 m-auto">
-                                            We bring you different categories of eduction events includings Fairs, Webinars and Workshop with the unique opportunity to have a one-on-one conversation with representatives your future institution.
+                                            We bring you different categories of education events includings Fairs, Webinars and Workshop with the unique opportunity to have a one-on-one conversation with representatives your future institution.
                                         </h2>
                                     </div>
                                 </div>
@@ -79,21 +79,21 @@ export default function Events() {
                             <section>
                                 <section className="">
                                     <div className="md:flex justify-between w-full px-10">
-                                        <div className="text-center mb-5 md:mb-2 font-bold ">
+                                        <div className="text-center mb-5 md:mb-2 heading2">
                                             Upcoming Events
                                         </div>
-                                        <div className="flex gap-x-4 flex-col md:flex-row gap-3 justify-center md:justify-end">
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
+                                        <div className="md:flex space-x-2 gap-x-4 flex-col md:flex-row gap-3 justify-center items-center md:justify-end">
+                                            <button className="bg-gray-200 rounded-full py-2 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Weekdays</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
+                                            <button className="bg-gray-200 rounded-full py-2 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Category</option>
                                                 </select>
                                             </button>
-                                            <button className="bg-gray-200 rounded-full p-2 md:py-0 px-3  font-light">
+                                            <button className="bg-gray-200 rounded-full py-2 px-3  font-light">
                                                 <select className="bg-transparent">
                                                     <option value="">Event Type</option>
                                                 </select>

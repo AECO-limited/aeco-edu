@@ -65,8 +65,8 @@ const IYPHostCenters = [
         "name": "St. Allessandro University Institute (SAU)",
         "id": "sau",
         "body": "St. Allessandro University Institute (SAU) is a prestigious institution dedicated to providing quality education.",
-        "logo": "/assets/sau.jpg",
-        image: "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_264812.jpg",
+        "logo": "/assets/sau.png",
+        image: "https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "tag": "",
         'link': ""
     },
@@ -74,8 +74,8 @@ const IYPHostCenters = [
         "name": "St. Louis University Institute (SLUI)",
         "id": "slui",
         "body": "St. Louis University Institute (SLUI) is committed to academic excellence and innovation.",
-        "logo": "",
-        image: "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_264812.jpg",
+        "logo": "https://www.slui.org/images/logo_red.webp",
+        image: "https://www.chiodini.com/wp-content/uploads/2017/07/Untitled-2.jpg",
         "tag": "",
         'link': ""
     },
@@ -92,8 +92,8 @@ const IYPHostCenters = [
         "name": "Mountain Higher Institute of Sustainable Studies (MHISS)",
         "id": "mhiss",
         "body": "Mountain Higher Institute of Sustainable Studies (MHISS) focuses on sustainability and environmental studies.",
-        "logo": "",
-        image: "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_264812.jpg",
+        "logo": "https://z-p3-scontent.fnsi1-2.fna.fbcdn.net/v/t39.30808-1/277557853_370860431718022_5728520329575471247_n.png?stp=c13.0.480.480a_dst-png_p480x480&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFd7wmMWrQ2ClLiLs11NGk-t4LrkkwfVjC3guuSTB9WMJNYsUzHFZ5mdrH4TyeD_yxsyuDVTOtSDuFM6Dhdu0V3&_nc_ohc=rfud68Tn2FAAX8wc7wB&_nc_ht=z-p3-scontent.fnsi1-2.fna&oh=00_AfB4WFTPyE7qs19676q5fnKyN_Q-ZoEZTnUVTpP4uRXKfg&oe=65690E9F",
+        image: "https://images.pexels.com/photos/7395911/pexels-photo-7395911.jpeg?auto=compress&cs=tinysrgb&w=1600",
         "tag": "",
         'link': ""
     }
@@ -168,7 +168,7 @@ const AecoPathways = () => {
                                 </section>
                             </div>
                             <div className='md:flex gap-x-4 hidden '>
-                                <div className="bg-[var(--secondary-500)] rounded h-fit w-fit h-fit">
+                                <div className="bg-[var(--secondary-500)] rounded w-fit h-fit">
                                     <Image width="500" height="500" className=' opacity-80 rounded ' style={{
                                         height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
                                     }}
@@ -179,7 +179,7 @@ const AecoPathways = () => {
                                         height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
                                     }}
                                         className='rounded-md opacity-70'
-                                        src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                        src="https://images.pexels.com/photos/4350108/pexels-photo-4350108.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                                 </div>
                             </div>
 
@@ -221,7 +221,7 @@ const AecoPathways = () => {
                                     width: "100%", objectFit: "cover", objectPosition: "center left"
                                 }}
                                     className='rounded-md'
-                                    src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                    src="https://images.pexels.com/photos/2943603/pexels-photo-2943603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt='' ></Image>
                             </div>
 
                         </section>
@@ -288,7 +288,7 @@ const AecoPathways = () => {
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >
                             {studyOptions.map((item, index) => {
                                 return (
-                                    <section key={index} className='shadow-xl text-center space-y-4  rounded-md py-6 bg-[var(--primary-500)] text-white'>
+                                    <section key={index} className={`shadow-xl text-center space-y-4  rounded-md py-6 ${index == 0 ? "bg-[var(--primary-800)]" : index == 1 ? "bg-[var(--primary-700)]" : index == 2 ? "bg-[var(--primary-600)]" : "bg-[var(--primary-500)]"} text-white`}>
                                         <div className=' font-bold p-3 text-center heading4'>Progression {index + 1}</div>
                                         <div >
                                             <IoSchoolOutline className='  mb-5 m-auto text-5xl ' />
@@ -318,13 +318,13 @@ const AecoPathways = () => {
                                     height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
                                 }}
                                     className='rounded-md opacity-70'
-                                    src="/assets/landscape/international1.jpg" alt='' ></Image>
+                                    src="https://images.pexels.com/photos/6077122/pexels-photo-6077122.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                             </div>
                             <div className="bg-[var(--secondary-500)] rounded h-fit w-fit">
                                 <Image width="500" height="500" className=' opacity-80 rounded ' style={{
                                     height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
                                 }}
-                                    src="/assets/landscape/international.jpg" alt='' ></Image>
+                                    src="https://images.pexels.com/photos/4560079/pexels-photo-4560079.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                             </div>
                         </div>
 

@@ -106,7 +106,7 @@ export default function Home() {
                     <div>
                       <div className="h-14"></div>
                       <h2 className="text-7xl mb-5 font-bold md:heading1">Your Journey Starts here</h2>
-                      <div className="heading44 md:w-2/3 m-auto" >
+                      <div className="heading44 lg:w-2/3 m-auto" >
                         Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
                       </div>
                     </div>

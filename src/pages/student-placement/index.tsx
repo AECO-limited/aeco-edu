@@ -45,7 +45,7 @@ export default function StudentPlacement() {
                                     style={{ backgroundImage: `url("/assets/landscape/student-placement1.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className=" heading2 md:heading1  ">Study At Your Dream University</h2>
+                                        <h2 className=" heading2 md:heading1   ">Study At Your Dream University</h2>
                                         <div className=" heading44  lg:w-2/3 m-auto">
                                             Find your ideal field of study and get placed in a top-tier university, home and abroad.
                                         </div>

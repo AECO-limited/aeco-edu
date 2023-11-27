@@ -101,7 +101,7 @@ const EventCards = () => {
                                                     <span className='bg-orange-200  text-xs p-2 px-3 rounded-full border-orange-500 '>{event.location}</span>
                                                 </div>
                                             </div>
-                                            <div className=' mt-6 w-full bg-white'>
+                                            <div className=' mt-6 w-full '>
                                                 <button className="btn-secondary bg-white border-[var(--secondary-500)] border hover:bg-orange-300 text-[var(--secondary-500)] w-[180px]">
                                                     Attend
                                                 </button>

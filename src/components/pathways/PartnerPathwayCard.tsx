@@ -22,10 +22,10 @@ const PartnerPathwayCard: React.FC<{ partner: Partner }> = ({ partner }) => {
             <button className='text-white bg-[var(--secondary-500)] px-3 p-2 rounded-full text-sm m-4'>{partner.name}</button>
             <div className="h-[60%] absolute bottom-0 overflow-hidden rounded-b-md  w-full p-3" style={{ backgroundImage: "linear-gradient(to top, black, #000d,#000b,#000a,  transparent)" }}>
                 <motion.section
-                    initial={{ y: 250 }}
-                    animate={{ y: hovered ? 0 : 250 }}
+                    initial={{ y: 200 }}
+                    animate={{ y: hovered ? 0 : 200 }}
                     className='md:pr-10 space-y-4'>
-                    <Image alt='' src={partner.logo} width={"100"} height={100} objectFit='contain' className='rounded-md' />
+                    <Image alt='' style={{ height: "70px", objectFit: "contain" }} src={partner.logo} width={"100"} height={100} objectFit='contain' className='rounded-md' />
                     <div className=' text-white'>
                         {partner.body.length > 200 ? partner.body.substring(0, 150) + '...' : partner.body}
                     </div>
