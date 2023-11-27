@@ -580,7 +580,7 @@ const TopNav: FC<Props> = ({ children }) => {
         </div> */}
         <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
         <span className="font-light ">
-          Aeco Education  ©  {(new Date()).getFullYear()}
+          AECO Education  ©  {(new Date()).getFullYear()}
         </span>
       </div>
     </div >
