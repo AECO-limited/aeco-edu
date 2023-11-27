@@ -28,7 +28,7 @@ const Testimonial: FC<Props> = ({ testimonial }) => {
       <div className="flex flex-col justify-between py-8 px-8  rounded-b-sm">
         <div className="grid gap-y-6">
           <div className="grid ">
-            <div className=" font-inter  text-md text-gray-700 mb-4">
+            <div className=" font-inter   text-gray-700 mb-4">
               {`"${testimonial.message}"`}
             </div>
             <hr />

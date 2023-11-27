@@ -44,10 +44,10 @@ export default function Events() {
                                     style={{ backgroundImage: `url("/assets/landscape/events.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="text-6xl md:text-7xl font-bold">Events</h2>
-                                        <div className=" font-normal text-lg ">
-                                            Discover the perfect educational path for your future success with AECO Education's Student Placement services.
-                                        </div>
+                                        <h2 className="heading1">Highly Sought After Education Eevnts</h2>
+                                        <h2 className="heading44">
+                                            We bring you different categories of eduction events includings Fairs, Webinars and Workshop with the unique opportunity to have a one-on-one conversation with representatives your future institution.
+                                        </h2>
                                         <button className="btn-secondary w-[200px] m-auto">
                                             Get Started
                                         </button>
@@ -58,7 +58,7 @@ export default function Events() {
                             <div className="px-10 -translate-y-28">
                                 <section className="bg-[var(--primary-500)] p-3 rounded-xl">
                                     <div className="md:grid grid-cols-3 p-8 py-3 gap-10 gap-y-5 space-y-5">
-                                        <div className="text-3xl font-bold col-span-3 text-white">Search Event</div>
+                                        <div className=" font-bold col-span-3 text-white">Search Event</div>
                                         <div className="border-b border-white text-white">
                                             <label htmlFor="">Event Name</label>
                                             <input type="text" className="border-none w-full  font-light text-gray-300 outline-none block bg-transparent border-2" />
@@ -82,7 +82,7 @@ export default function Events() {
                             <section>
                                 <section className="">
                                     <div className="md:flex justify-between w-full px-10">
-                                        <div className="text-center mb-5 md:mb-2 font-bold text-4xl">
+                                        <div className="text-center mb-5 md:mb-2 font-bold ">
                                             Upcoming Events
                                         </div>
                                         <div className="flex gap-x-4 justify-center md:justify-end">
@@ -112,8 +112,8 @@ export default function Events() {
                         </div>
 
                     </TopNav>
-                </div>
-            </main>
+                </div >
+            </main >
         </>
     );
 }

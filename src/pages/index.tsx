@@ -17,6 +17,7 @@ import Link from "next/link";
 import { IoArrowDown, IoArrowForward } from "react-icons/io5";
 import Script from "next/script";
 import { useEffect, useRef } from "react";
+import { BsArrowRight } from "react-icons/bs";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -98,42 +99,52 @@ export default function Home() {
 
               <section className="relative">
                 <div
-                  className="bg-cover bg-center w-full h-[95vh] sm:h-[90vh] md:h-[90vh] overflow-hidden relative"
+                  className="bg-cover bg-center w-full h-[95vh] md:h-[75vh] xl:h-[60vh] overflow-hidden relative"
                   style={{ backgroundImage: `url("/assets/hero.png")` }}
                 >
-                  <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8">
-                    <h2 className="text-6xl md:text-7xl font-bold">Your Journey Starts here</h2>
-                    <div className=" font-normal text-xl ">
-                      Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
+                  <div className="h-full w-[100%] text-center from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center gap-y-10 md:gap-y-24 flex-col px-10 md:px-32 text-white space-y-8">
+                    <div>
+                      <div className="h-14"></div>
+                      <h2 className="heading1">Your Journey Starts here</h2>
+                      <div className="heading44" >
+                        Kick start your higher education journey globally with us, and unlock a world of opportunities through our university pathways, language education, and direct placement in home and abroad universities.
+                      </div>
                     </div>
-                    <button className="btn-secondary w-[200px] m-auto">
-                      Get Started
-                    </button>
-                    <div ref={sectionRef} id='script-container' className="rounded-lg bg-black border border-2">
+                    <div ref={sectionRef} id='script-container' className="rounded-lg bg-black border">
                     </div>
                   </div>
                 </div>
 
                 <div className="  font-bold w-full ">
-                  <div className=" p-5 grid md:grid-cols-5 gap-4 text-center w-full bg-[#d9d9d9] mb-14 lg:mb-0">
-                    <div className=" flex justify-center items-center py-6 space-y-3">
-                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" className="text-3xl font-bold text-start">
-                        <div className="flex items-center gap-x-4"> All-in-one <IoArrowForward className="text-[var(--secondary-500)] hidden md:block" /></div>
-                        <div>Student Portal</div>
-                        <IoArrowDown className="text-[var(--secondary-500)] block md:hidden" />
+                  <div className="px-5 p-3 grid md:grid-cols-5 gap-4 text-center w-full bg-[#d9d9d9] mb-14 lg:mb-0">
+                    <div className=" flex justify-center items-center  space-y-3">
+                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" target="_blank" className="heading3 text-start hidden md:block ">
+                        <div className="flex items-center gap-x-4"> All-in-one <BsArrowRight className="text-[var(--secondary-500)]  " /></div>
+                        <div >Student Portal</div>
+                      </Link>
+                      <Link href="https://aecoedu.studentpanel.net/search/academic/program" target="_blank" className="heading3 text-start md:hidden">
+                        <div className="flex ">
+                          <div>
+                            <div className="flex items-center gap-x-4"> All-in-one </div>
+                            <div >Student Portal</div>
+                          </div>
+                          <div>
+                            <BsArrowRight className="text-[var(--secondary-500)] rotate-90" />
+                          </div>
+                        </div>
                       </Link>
                     </div>
-                    <Link target="_blank" href="https://aecoedu.studentpanel.net/search/academic/program" className="bg-[var(--secondary-500)] text-white flex justify-center items-center py-10 px-5">
-                      <div className="text-2xl ">Find Programs</div>
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/search/academic/program" className="bg-[var(--secondary-500)] text-white flex justify-center heading4 items-center py-5 md:py-0 px-3">
+                      <div className=" ">Find Programs</div>
                     </Link>
-                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-400)] text-white flex justify-center items-center py-10 px-5">
-                      <div className="text-2xl ">Request for Applications</div>
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-400)] text-white flex justify-center heading4 items-center py-5 md:py-0 px-3">
+                      <div className=" ">Request for Applications</div>
                     </Link>
-                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-300)] text-black flex justify-center items-center py-10 px-5">
-                      <div className="text-2xl ">Upload information and documents</div>
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-300)] text-black flex justify-center heading4 items-center py-5 md:py-0 px-3">
+                      <div className=" ">Upload information and documents</div>
                     </Link>
-                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-200)] text-black flex justify-center items-center py-10 px-5">
-                      <div className="text-2xl ">Application Updates</div>
+                    <Link target="_blank" href="https://aecoedu.studentpanel.net/login" className="bg-[var(--secondary-200)] text-black flex justify-center heading4 items-center py-5 md:py-0 px-3">
+                      <div className=" ">Application Updates</div>
                     </Link>
                   </div>
                   <div className="backdrop-blur-md bg-[#fffffff9] font-bold w-full mb-14 lg:mb-0">
@@ -144,12 +155,7 @@ export default function Home() {
               </section>
 
 
-              <div className="p-5">
-
-
-
-
-              </div>
+              <div className="p-5"> </div>
 
 
 
@@ -158,10 +164,10 @@ export default function Home() {
               </div>
               <div className="py-10 bg-gray-50  items-center mjustify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-3 capitalize font-bold font-inter text-4xl md:text-6xl mb-5">
+                  <div className="text-center capitalize font-bold font-inter mb-5 heading2">
                     Partner Highlights
                   </div>
-                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4 text-xl">
+                  <div className="text-center heading44 text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4 ">
                     We believe in the power of collaboration and building strong
                     alliances to achieve success together.
                   </div>
@@ -176,9 +182,9 @@ export default function Home() {
 
               <section className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-bold text-4xl md:text-6xl mb-5 font-inter">
+                  <h2 className="text-center mb-5 heading2">
                     Upcoming Events
-                  </div>
+                  </h2>
                   {/* <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
                   </div> */}
@@ -190,10 +196,10 @@ export default function Home() {
 
               <div className="mt-12 py-10 items-center justify-center flex flex-col">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center mb-2 font-inter font-bold text-4xl md:text-6xl mb-5">
+                  <div className="text-center font-inter font-bold  heading2 mb-5">
                     News
                   </div>
-                  <div className="text-center text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
+                  <div className="text-center heading44 text-[var(--neutral-500)] w-full md:w-[80%] m-auto text-[18px] mb-4">
                     Breaking News: Stay updated with the latest opportunities
                   </div>
                 </div>
@@ -225,7 +231,7 @@ export default function Home() {
               </div>
               <div className="mt-20  py-10 bg-gray-50 items-center justify-center flex flex-col px-4 md:px-10">
                 <div className="grid items-center justify-center px-10">
-                  <div className="text-center font-inter font-bold text-4xl md:text-6xl mb-5 my-2 mb-6">
+                  <div className="text-center font-inter font-bold heading2 my-2 mb-6">
                     What People Say About Us
                   </div>
                 </div>

@@ -9,10 +9,10 @@ export default function EducationServicesOverView() {
             <div className="grid md:grid-cols-3  m-auto gap-5 p-10 md:w-[80vw]">
                 <div className="shadow p-4 space-y-4 bg-white py-10">
                     <button className="p-2 bg-blue-500 rounded-md">
-                        <IoLaptopOutline className="text-3xl text-white" />
+                        <IoLaptopOutline className=" text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3 className='text-3xl font-medium'>Teachermint ISP</h3>
+                        <h3 className=' font-medium'>Teachermint ISP</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <div className=" text-gray-700">
@@ -22,10 +22,10 @@ export default function EducationServicesOverView() {
                 </div>
                 <div className="shadow p-4 space-y-4 bg-white py-10">
                     <button className="p-2 bg-green-500 rounded-md">
-                        <IoPeopleOutline className="text-3xl text-white" />
+                        <IoPeopleOutline className=" text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3 className='text-3xl font-medium'>Partnership Development</h3>
+                        <h3 className=' font-medium'>Partnership Development</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <div className=" text-gray-700">
@@ -35,10 +35,10 @@ export default function EducationServicesOverView() {
                 </div>
                 <div className="shadow p-4 space-y-4 bg-white py-10">
                     <button className="p-2 bg-yellow-500 rounded-md">
-                        <IoSchoolOutline className="text-3xl text-white" />
+                        <IoSchoolOutline className=" text-white" />
                     </button>
                     <section className="space-y-2">
-                        <h3 className='text-3xl font-medium'>Student Recruitment</h3>
+                        <h3 className=' font-medium'>Student Recruitment</h3>
                         <div className="w-1/4 h-[2px] bg-orange-500"></div>
                     </section>
                     <div className=" text-gray-700">

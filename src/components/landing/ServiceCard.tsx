@@ -68,12 +68,12 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
                   href={service.link}
                   className="flex gap-2 items-center justify-center w-full"
                 >
-                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
+                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter ">
                     Discover more
                   </div>
                   <BsArrowRight
                     size={24}
-                    className="text-center text-[var(--secondary-400)] font-bold font-inter text-2xl"
+                    className="text-center text-[var(--secondary-400)] font-bold font-inter "
                   />
                 </Link>
               </div>
@@ -104,12 +104,12 @@ const ServiceCard: FC<Props> = ({ service, top = true }) => {
                   href={service.link}
                   className="flex gap-2 items-center justify-center w-full"
                 >
-                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter text-2xl">
+                  <div className=" text-center text-[var(--secondary-400)] font-bold font-inter ">
                     Discover more
                   </div>
                   <BsArrowRight
                     size={24}
-                    className="text-center text-[var(--secondary-400)] font-bold font-inter text-2xl"
+                    className="text-center text-[var(--secondary-400)] font-bold font-inter "
                   />
                 </Link>
               </div>

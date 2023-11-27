@@ -81,16 +81,16 @@ const EventCards = () => {
                 {
                     events.map((event, index) => {
                         return (
-                            <div key={index} className="shadow-md bg-white rounded-lg border border-gray-100 ">
+                            <div key={index} className="shadow-md bg-white relative rounded-lg border border-gray-100 h-[380px]">
                                 {event.image && <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />}
-                                <div className="px-6 py-10">
+                                <div className="px-6 py-10 relative h-full">
                                     <div className="flex gap-4">
                                         <section>
                                             <small className=' text-[var(--secondary-500)]'>{event.date.month}</small>
-                                            <h2 className='text-3xl font-semibold'>{event.date.day}</h2>
+                                            <h2 className=' font-semibold'>{event.date.day}</h2>
                                         </section>
                                         <section>
-                                            <div className="font-bold text-2xl mb-2">{event.title}</div>
+                                            <div className="heading4  mb-2">{event.title}</div>
                                             <div className="text-gray-600 ">
                                                 {event.description.length > 100 ? event.description.substring(0, 100) + '...' : event.description}
                                             </div>
@@ -99,8 +99,15 @@ const EventCards = () => {
                                                 <span className='bg-orange-200  text-xs p-2 px-3 rounded-full border-orange-500 '>{event.category}</span>
                                                 <span className='bg-orange-200  text-xs p-2 px-3 rounded-full border-orange-500 '>{event.location}</span>
                                             </div>
+
                                         </section>
+
                                     </div>
+                                </div>
+                                <div className='absolute bottom-5 w-full bg-white'>
+                                    <button className="btn-secondary bg-white border-[var(--secondary-500)] border hover:bg-orange-300 text-[var(--secondary-500)] w-[180px] m-auto">
+                                        Attend
+                                    </button>
                                 </div>
                             </div>
                         )

@@ -15,6 +15,7 @@ import {
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { IoArrowForward } from "react-icons/io5";
 import SmoothScroll from "./SmoothScroll";
+import AmsTopWidget from "./AmsTopWidget";
 
 type Props = {
   children?: any;
@@ -205,6 +206,8 @@ const TopNav: FC<Props> = ({ children }) => {
   const buttonRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
 
+
+
   useEffect(() => {
     const activePath = path.split("/")[1];
     activePath === "" ? setActive("/") : setActive(activePath);
@@ -250,7 +253,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 href={"https://www.facebook.com/aecoeducation"}
                 target="_blank"
               >
-                <BsFacebook className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsFacebook className=" text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--facebook)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
               <Link
                 href={
@@ -258,7 +261,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 }
                 target="_blank"
               >
-                <BsInstagram className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsInstagram className=" text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--instagram)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
               <Link
                 href={
@@ -266,7 +269,7 @@ const TopNav: FC<Props> = ({ children }) => {
                 }
                 target="_blank"
               >
-                <BsLinkedin className="text-3xl text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
+                <BsLinkedin className=" text-[var(--primary-600)] hover:cursor-pointer hover:text-[var(--linkedin)] transition-transform duration-500 hover:scale-110 relative" />
               </Link>
             </div>
             <div className="flex gap-2">
@@ -287,7 +290,7 @@ const TopNav: FC<Props> = ({ children }) => {
             onClick={() => setMenuOpen(!menuOpen)}
             ref={buttonRef}
           >
-            <AiOutlineMenu className="text-4xl hover:cursor-pointer" />
+            <AiOutlineMenu className=" hover:cursor-pointer" />
           </div>
         </div>
         {menuOpen && (
@@ -376,7 +379,7 @@ const TopNav: FC<Props> = ({ children }) => {
       </div>
 
       <div className="hidden md:block   fixed top-16 right-0 left-0 h-16 bg-black text-white capitalize px-8 lg:px-10 z-[99999]">
-        <div className="py-2 md:px-8 lg:px-14 backdrop-blur-md -z-20 bg-white bg-opacity-80 w-[100vw] fixed top-[128px] right-0 text-black text-sm font-bold"> You are a stepcloser from studying at your dream school</div>
+        {(path.match("student-placement") || path.match("education-services")) && <AmsTopWidget />}
         <div className="flex z-30 w-full h-full items-center justify-between">
           <div className="flex items-center">
             {navItems.map((item, index) => {
@@ -413,7 +416,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     >
                       {item.subs.map((sub, index) => (
                         <Link href={sub.link || ""} key={index}>
-                          <div className="text-md font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
+                          <div className=" font-inter truncate w-fit font-light transition-all duration-500 py-2 hover:font-semibold">
                             {sub.name}
                           </div>
                         </Link>
@@ -425,7 +428,7 @@ const TopNav: FC<Props> = ({ children }) => {
             })}
           </div>
           <Link className="text-[var(--secondary-400)] uppercase  font-bold flex gap-x-3 items-center" href={"/apply"}>
-            Apply Now <IoArrowForward className="text-3xl" />
+            Apply Now <IoArrowForward className="" />
           </Link>
         </div>
       </div>
@@ -517,7 +520,7 @@ const TopNav: FC<Props> = ({ children }) => {
                     className="col-span-1 [&>*]:hover:cursor-pointer w-fit"
                     key={index}
                   >
-                    <div className="mb-8 text-[var(--tetiary-500)] text-md font-inter font-semibold">
+                    <div className="mb-8 text-[var(--tetiary-500)]  font-inter font-semibold">
                       {item.name.toUpperCase()}
                     </div>
                     <div className="grid gap-2">
@@ -578,7 +581,7 @@ const TopNav: FC<Props> = ({ children }) => {
 
         </div>
         <hr className="mt-10 mb-2 border-t border-[#055b5be3] opacity-70" />
-        <span className="font-light text-md">
+        <span className="font-light ">
           Aeco Education  ©  {(new Date()).getFullYear()}
         </span>
       </div>

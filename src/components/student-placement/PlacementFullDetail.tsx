@@ -33,7 +33,7 @@ const PlacementFullDetail = () => {
         <section className=' p-6'>
             <section id="study-abroad" className="lg:grid grid-cols-10  md:w-[80vw] m-auto mb-14">
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
+                    <h3 className='  mb-5 heading2'>
                         Study Abroad
                     </h3>
                     <div>
@@ -46,7 +46,7 @@ const PlacementFullDetail = () => {
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14">
                     <div className='flex flex-col justify-center gap-y-6'>
-                        <h2 className='font-semibold text-4xl md:text-6xl mb-5'>Our Partners</h2>
+                        <h2 className='heading2   mb-5'>Our Partners</h2>
                         <div>We have Partners all Over the world, we are here to help you get the best education. Find Courses, Courses and programs provided by these partners</div>
                         <button className="btn-secondary w-[200px]">
                             Get Started
@@ -65,7 +65,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div id="study-locally" className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
+                    <h3 className='  mb-5 heading2'>
                         Study Locally
                     </h3>
                     <div>
@@ -74,7 +74,7 @@ const PlacementFullDetail = () => {
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14 gap-3 ">
                     <div className='flex flex-col justify-center gap-y-6 '>
-                        <h2 className='text-4xl md:text-6xl mb-5 font-semibold' >Supported Countries</h2>
+                        <h2 className='  mb-5 heading2' >Supported Countries</h2>
                         <div>Aeco Education currently supports local student placement in the following countries</div>
                         <button className="btn-secondary w-[200px]">
                             Get Started
@@ -102,7 +102,7 @@ const PlacementFullDetail = () => {
                     <Image width="1000" height="1000" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
-                    <h3 className='text-4xl md:text-6xl mb-5 font-semibold'>
+                    <h3 className='  mb-5 heading2'>
                         Study Online
                     </h3>
                     <div>

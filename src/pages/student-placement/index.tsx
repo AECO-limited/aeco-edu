@@ -45,8 +45,8 @@ export default function StudentPlacement() {
                                     style={{ backgroundImage: `url("/assets/landscape/student-placement1.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="text-4xl md:text-6xl mb-5 font-bold">Study At Your Dream University</h2>
-                                        <div className=" font-normal text-lg ">
+                                        <h2 className=" heading1 mb-5 ">Study At Your Dream University</h2>
+                                        <div className=" heading44 font-normal  ">
                                             Find your ideal field of study and get placed in a top-tier university, home and abroad.
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ export default function StudentPlacement() {
 
                                 <div className="items-center justify-center flex flex-col px-4 md:px-10 pb-20">
                                     <div className="grid items-center justify-center px-10">
-                                        <div className="text-center mb-4 text-[var(--neutral-600)] font-bold text-4xl md:text-6xl mb-5 my-2">
+                                        <div className="text-center text-[var(--neutral-600)] font-bold   mb-5 my-2 heading2">
                                             What People Say About Us
                                         </div>
                                     </div>

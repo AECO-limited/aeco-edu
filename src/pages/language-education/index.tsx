@@ -51,10 +51,11 @@ export default function LanguageEducation() {
                                     style={{ backgroundImage: `url("/assets/landscape/language-hero.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="text-6xl md:text-7xl font-bold">Language Education</h2>
-                                        <div className=" font-normal text-lg ">
-                                            Discover the perfect educational path for your future success with AECO Education's Student Placement services.
-                                        </div>
+                                        <h2 className="heading1">Language Training for each of your goals</h2>
+                                        <h2 className="heading44">
+                                            Have you got dreams, wishes and plans?
+                                            We've got the method, the experts and a record of success.
+                                            Give it a go!  </h2>
                                         <button className="btn-secondary w-[200px] m-auto">
                                             Get Started
                                         </button>
@@ -87,8 +88,8 @@ export default function LanguageEducation() {
                             </section> */}
                         </div>
                     </TopNav>
-                </div>
-            </main>
+                </div >
+            </main >
         </>
     );
 }
