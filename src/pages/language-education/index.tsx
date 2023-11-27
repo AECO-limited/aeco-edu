@@ -55,9 +55,9 @@ export default function LanguageEducation() {
                                         <h2 className="heading44 lg:w-3/4 m-auto">
                                             Have you got dreams, wishes and plans?
                                             We've got the method, the experts and a record of success.
-                                            Give it a go!  </h2>
+                                        </h2>
                                         <button className="btn-secondary w-[200px] m-auto">
-                                            Get Started
+                                            Give it a go!
                                         </button>
                                     </div>
                                 </div>

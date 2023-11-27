@@ -47,9 +47,9 @@ export default function EducationServices() {
                                     style={{ backgroundImage: `url("/assets/landscape/education-hero.jpg")` }}
                                 >
                                     <div className="h-full w-full from-[#000000c5] to-transparent bg-gradient-to-t w-100 bg-opacity-25 flex justify-center flex-col px-10 md:px-32 text-white space-y-8 text-center">
-                                        <h2 className="heading2 md:heading1 "> Our Value-added Services For Education Institutiions.</h2>
+                                        <h2 className="heading2 md:heading1 "> Our Value-adding Services For Education Institutions.</h2>
                                         <h2 className="heading44 lg:w-2/3 m-auto">
-                                            We are committted to helping local and international institutions reach higher highs, grow and achieve maximum ROI with our win-win solutions and services.
+                                            We are committted to helping local and international institutions reach higher heights, grow and achieve maximum ROI with our win-win solutions and services.
                                         </h2>
                                         <button className="btn-secondary w-[200px] m-auto">
                                             Get Started

@@ -98,7 +98,6 @@ export default function LanguageExam() {
                     <div className='col-span-2 my-8'>
                         <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
                     </div>
-
                 </section>
             </section>
 
