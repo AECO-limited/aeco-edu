@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { partners } from ".."
 import PartnerPathwayCard from "@/components/pathways/PartnerPathwayCard"
+import { languages } from "@/components/language-education/_data"
 
 export default function LanguageTraining() {
 
@@ -14,7 +15,9 @@ export default function LanguageTraining() {
                                 <section className="space-y-4">
                                     <h3 className='heading2 mb-5'>Language Training</h3>
                                     <div className=" ">
-                                        Here, we work in collaboration with language training institutions from around the globe. We help students find and be placed in the best language institutions to prepare them for their language exams
+                                        The solution for learning a new language
+                                        Begin or continue learning the language of your choice. Practice, speak, and gain confidence.
+                                        With our unique approach and global leading partners delivering premium language training, we will provide you with the perfect solution for the language you desired to learn any where you are or in your preferred destination.
                                     </div>
 
                                 </section>
@@ -29,30 +32,27 @@ export default function LanguageTraining() {
                         </section>
                     </section>
 
-                    {/* <div className="h-4 bg-gray-50 my-16"></div> */}
+                    <div className="h-4 bg-gray-50 my-16"></div>
                 </section>
 
 
 
 
 
-                {/* <section className=' md:w-[85vw] m-auto'>
+                <section className=' md:w-[86vw] m-auto'>
                     <section className="p-6 ">
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='heading2 mb-5 mb-10'>Our Languages</h3>
+                                    <h3 className='heading3 mb-5'>Our Languages</h3>
+                                    <p>What Language will you like to Learn ?</p>
                                 </section>
                             </div>
                             <section className='md:grid-cols-3 grid gap-5 md:gap-10'>
-                                {[1, 1, 1].map((item, index) => {
+                                {languages.map((lang, index) => {
                                     return (
-                                        <div key={index} className='p-4 p-6 bg-[var(--primary-500)] space-y-2 text-white'>
-                                            <h2 className="">Lang {index + 1}</h2>
-                                            <div className=' font-light'>
-                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo sunt quo nobis aliquam aut veniam numquam voluptates iure doloremque.
-                                            </div>
-
+                                        <div key={index} className='p-6 bg-[var(--primary-500)] space-y-2 text-white'>
+                                            <h2 className="">{lang.language}</h2>
                                         </div>
                                     )
                                 })}
@@ -60,7 +60,7 @@ export default function LanguageTraining() {
 
                         </section>
                     </section>
-                </section> */}
+                </section>
 
             </section>
 
