@@ -39,7 +39,7 @@ export default function LanguageTraining() {
 
 
 
-                <section className=' md:w-[86vw] m-auto'>
+                <section className=' md:w-[90vw] m-auto'>
                     <section className="p-6 ">
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >

@@ -41,7 +41,7 @@ export default function ExamOverview() {
 
 
             <section className="m-auto md:w-[86vw]  " id="exam-preparations">
-                <section className=" text-black ">
+                <section className=" text-black md:px-11">
                     <h3 className="heading3 mb-6">Which certification are you preparing for?</h3>
                     <LanguageTabs />
                 </section>
