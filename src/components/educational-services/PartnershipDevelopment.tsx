@@ -37,7 +37,7 @@ export default function PartnershipDevelopment() {
                         </div>
                         <div className='md:flex justify-center md:p-5 flex-col-reverse' >
                             <section className="space-y-4">
-                                <h3 className='heading2 mb-5'>What we do</h3>
+                                <h3 className='heading3 mb-5'>What we do</h3>
                                 <p>
 
                                     A  partnership is a win-win for you and the institution you’re partnering with. The deeply embedded nature of our partnerships will enable your institution achieve its wildest dreams.

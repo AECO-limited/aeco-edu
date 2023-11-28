@@ -10,7 +10,7 @@ export default function EducationServicesStakeHolders() {
         <div className="">
 
             <section className="md:grid grid-cols-4 space-y-6  m-auto gap-5 p-6 md:w-[80vw]">
-                <h3 className='heading2 mb-5 col-span-4'>Benefits to Stakeholders</h3>
+                <h3 className='heading3 mb-5 col-span-4'>Benefits to Stakeholders</h3>
                 <div className="shadow p-4 space-y-4 border border-orange-300 rounded-md  py-10 ">
                     <button className="p-2 bg-orange-500 rounded-md">
                         <IoSchoolOutline className=" " />

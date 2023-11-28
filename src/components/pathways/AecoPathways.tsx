@@ -198,7 +198,7 @@ const AecoPathways = () => {
                         <section className=" px-4  grid md:grid-cols-2 gap-6 py-4  md:py-0">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4 text-gray-700">
-                                    <h3 className='heading2 text-black'>Why Join a pathway</h3>
+                                    <h3 className='heading3 text-black'>Why Join a pathway</h3>
                                     <div className=" text-gray-700">AECO Education has established strong partnerships with renowned universities and institutions worldwide, offering you exclusive pathways to further your education. Through our partner pathways, you can enjoy a range of benefits, including guaranteed admission, credit transfers, specialized programs, and seamless transition processes. </div>
                                     <ol className='pl-3 '>
                                         {
@@ -233,7 +233,7 @@ const AecoPathways = () => {
 
                 <section className="m-auto md:w-[86vw] ">
 
-                    <h3 className='heading2 mb-5 text-center '>
+                    <h3 className='heading3 mb-5 text-center '>
                         What you can study
                     </h3>
                     <aside className="p-2 md:grid-cols-4 gap-5 grid " >
@@ -255,7 +255,7 @@ const AecoPathways = () => {
                 <section className="m-auto md:w-[86vw] mb-24">
 
                     <div className='mb-24 text-center '>
-                        <h3 className='heading2'>
+                        <h3 className='heading3'>
                             Our IYP Host Centers
                         </h3>
                         <p className='mb-8 heading44'>
@@ -282,7 +282,7 @@ const AecoPathways = () => {
             <section className="bg-gray-50 py-16">
                 <section className="m-auto md:w-[86vw] ">
                     <div className=''>
-                        <h3 className='heading2 text-center mb-6'>
+                        <h3 className='heading3 text-center mb-6'>
                             Progression Options
                         </h3>
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >

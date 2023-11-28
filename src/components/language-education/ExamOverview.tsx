@@ -1,4 +1,9 @@
 import Image from "next/image";
+import LanguageTabs from "./LanguageTabs";
+
+
+
+
 
 export default function ExamOverview() {
 
@@ -16,12 +21,7 @@ export default function ExamOverview() {
                                         Practice, gain confidence, and get your certification with our innovative approach and partner coaching centers across the globe as well as personalized preparation for language exams.
                                     </p>
                                     <p>
-                                        Which certification are you preparing for? https://global-exam.com/en/exam
-                                        English,
-                                        French,
-                                        Spanish,
-                                        German,
-                                        Mandarin
+
                                     </p>
                                 </div>
                             </section>
@@ -39,7 +39,15 @@ export default function ExamOverview() {
 
             <div className="h-4 bg-gray-50 my-16"></div>
 
+
             <section className="m-auto md:w-[86vw]  " id="exam-preparations">
+                <section className=" text-black ">
+                    <h3 className="heading3 mb-6">Which certification are you preparing for?</h3>
+                    <LanguageTabs />
+                </section>
+            </section>
+            <div className="h-4 bg-gray-50 my-16"></div>
+            {/* <section className="m-auto md:w-[86vw]  " id="exam-preparations">
                 <section className="p-6 text-black ">
                     <section className=" px-4  grid md:grid-cols-2 gap-6 py-4  md:py-0">
                         <div className='md:flex flex-col justify-center md:p-5 ' >
@@ -69,7 +77,7 @@ export default function ExamOverview() {
                 </section>
             </section>
 
-            <div className="h-4 bg-gray-50 my-16"></div>
+            <div className="h-4 bg-gray-50 my-16"></div> */}
 
         </section>
     )

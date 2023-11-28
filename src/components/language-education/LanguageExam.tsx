@@ -40,7 +40,7 @@ export default function LanguageExam() {
                         <section className="px-4">
                             <div className='md:flex flex-col justify-center md:p-5' >
                                 <section className="space-y-4">
-                                    <h3 className='heading2 mb-5 '>Our Language Exam solutions include</h3>
+                                    <h3 className='heading3 mb-5 '>Our Language Exam solutions include</h3>
                                 </section>
                             </div>
                             <section className='md:grid-cols-3 grid gap-10'>

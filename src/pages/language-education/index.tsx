@@ -73,7 +73,7 @@ export default function LanguageEducation() {
                                     <LanguageExam />
                                 </section>
                                 <section>
-                                    {/* <LanguageTraining /> */}
+                                    <LanguageTraining />
                                 </section>
                                 <section>
                                     {/* <EducationServicesStakeHolders /> */}
