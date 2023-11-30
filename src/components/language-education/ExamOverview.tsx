@@ -27,7 +27,7 @@ export default function ExamOverview() {
                             </section>
                         </div>
                         <div className='md:flex gap-x-4'>
-                            <Image width="500" height="500" style={{
+                            <Image width="200" height="200" style={{
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'

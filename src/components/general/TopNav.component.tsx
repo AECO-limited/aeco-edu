@@ -238,7 +238,7 @@ const TopNav: FC<Props> = ({ children }) => {
               <Image
                 src={"/assets/logo.png"}
                 alt={"Logo"}
-                width={120}
+                width={100}
                 height={64}
                 className="w-24 md:w-32"
               />

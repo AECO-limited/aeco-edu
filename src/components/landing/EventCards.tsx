@@ -82,7 +82,7 @@ const EventCards = () => {
                     events.map((event, index) => {
                         return (
                             <div key={index} className="shadow-md bg-white relative rounded-lg border border-gray-100 ">
-                                {event.image && <Image width={1000} height={1000} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />}
+                                {event.image && <Image width={300} height={300} style={{ width: "100%", height: "auto" }} src={event.image} className='w-full rounded-t-lg' alt="" />}
                                 <div className="px-6 py-10 relative h-full">
                                     <div className="flex gap-4 h-full">
                                         <section>

@@ -96,7 +96,7 @@ export default function LanguageExam() {
                         <div className="">We collaborate with premium language training and exam centers around the world.</div>
                     </div>
                     <div className='col-span-2 my-8'>
-                        <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
+                        <Image src="/assets/landscape/map.png" width="200" height="200" alt="" />
                     </div>
                 </section>
             </section>

@@ -17,7 +17,7 @@ export default function EducationServiceOverview() {
                             </section>
                         </div>
                         <div className='md:flex gap-x-4'>
-                            <Image width="500" height="500" style={{
+                            <Image width="100" height="100" style={{
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'

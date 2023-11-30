@@ -23,7 +23,7 @@ export default function LanguageTraining() {
                                 </section>
                             </div>
                             <div className='md:flex gap-x-4'>
-                                <Image width="500" height="500" style={{
+                                <Image width="300" height="300" style={{
                                     width: "100%", objectFit: "cover", objectPosition: "center left"
                                 }}
                                     className='rounded-md'

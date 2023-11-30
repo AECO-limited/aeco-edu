@@ -85,7 +85,7 @@ const PlacementFullDetail = () => {
 
                 </div>
                 <div className='col-span-4'>
-                    <Image width="1000" height="1000" src="/assets/avatar/image avatar two.png" alt="" style={{ width: "100%" }} />
+                    <Image width="300" height="300" src="/assets/avatar/image avatar two.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <section className="grid md:grid-cols-3 p-2 col-span-10 py-14">
                     <div className='flex flex-col justify-center gap-y-6'>
@@ -96,7 +96,7 @@ const PlacementFullDetail = () => {
                         </Link>
                     </div>
                     <div className='col-span-2 my-8'>
-                        <Image src="/assets/landscape/map.png" width="1000" height="1000" alt="" />
+                        <Image src="/assets/landscape/map.png" width="300" height="300" alt="" />
                     </div>
 
                 </section >
@@ -105,7 +105,7 @@ const PlacementFullDetail = () => {
             <div className="h-4 my-10 bg-gray-50"></div>
             <section className="md:grid grid-cols-10  md:w-[75vw] m-auto mb-14">
                 <div className='col-span-4'>
-                    <Image width="1000" height="1000" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
+                    <Image width="300" height="300" src="/assets/avatar/image avatar one.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div id="study-locally" className='col-span-6 flex flex-col justify-center gap-y-6'>
                     <h3 className='  mb-5 heading2'>
@@ -149,7 +149,7 @@ const PlacementFullDetail = () => {
 
             <section className="grid md:grid-cols-10  md:w-[80vw] m-auto" id='study-online'>
                 <div className='col-span-4'>
-                    <Image width="1000" height="1000" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
+                    <Image width="300" height="300" src="/assets/avatar/image avatar three.png" alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='col-span-6 flex flex-col justify-center gap-y-6'>
                     <h3 className='  mb-5 heading2'>

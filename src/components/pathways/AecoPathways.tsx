@@ -168,14 +168,14 @@ const AecoPathways = () => {
                                 </section>
                             </div>
                             <div className='md:flex gap-x-4 hidden '>
-                                <div className="bg-[var(--secondary-500)] rounded w-fit h-fit">
-                                    <Image width="500" height="500" className=' opacity-80 rounded ' style={{
+                                <div className="bg-[var(--secondary-200)] rounded w-fit h-fit">
+                                    <Image width="200" height="200" className=' opacity-80 rounded ' style={{
                                         height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
                                     }}
                                         src="/assets/landscape/international.jpg" alt='' ></Image>
                                 </div>
-                                <div className='bg-[var(--secondary-500)] h-fit rounded'>
-                                    <Image width="500" height="500" style={{
+                                <div className='bg-[var(--secondary-200)] h-fit rounded'>
+                                    <Image width="200" height="200" style={{
                                         height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
                                     }}
                                         className='rounded-md opacity-70'
@@ -217,7 +217,7 @@ const AecoPathways = () => {
                                 </section>
                             </div>
                             <div className='md:flex gap-x-4'>
-                                <Image width="500" height="500" style={{
+                                <Image width="200" height="200" style={{
                                     width: "100%", objectFit: "cover", objectPosition: "center left"
                                 }}
                                     className='rounded-md'
@@ -288,7 +288,7 @@ const AecoPathways = () => {
                         <aside className="p-2 md:grid-cols-4 gap-5 grid " >
                             {studyOptions.map((item, index) => {
                                 return (
-                                    <section key={index} className={`shadow-xl text-center space-y-4  rounded-md py-6 ${index == 0 ? "bg-[var(--primary-800)]" : index == 1 ? "bg-[var(--primary-700)]" : index == 2 ? "bg-[var(--primary-600)]" : "bg-[var(--primary-500)]"} text-white`}>
+                                    <section key={index} className={`shadow-xl text-center space-y-4  rounded-md py-6 ${index == 0 ? "bg-[var(--primary-800)]" : index == 1 ? "bg-[var(--primary-700)]" : index == 2 ? "bg-[var(--primary-600)]" : "bg-[var(--primary-200)]"} text-white`}>
                                         <div className=' font-bold p-3 text-center heading4'>Progression {index + 1}</div>
                                         <div >
                                             <IoSchoolOutline className='  mb-5 m-auto text-5xl ' />
@@ -313,15 +313,15 @@ const AecoPathways = () => {
                     <section className=" px-4 py-10 md:py-0  grid md:grid-cols-2 ">
 
                         <div className='md:flex gap-x-4 hidden '>
-                            <div className='bg-[var(--secondary-500)] h-fit rounded'>
-                                <Image width="500" height="500" style={{
+                            <div className='bg-[var(--secondary-200)] h-fit rounded'>
+                                <Image width="200" height="200" style={{
                                     height: "250px", objectFit: "cover", width: "200px", objectPosition: "center left"
                                 }}
                                     className='rounded-md opacity-70'
                                     src="https://images.pexels.com/photos/6077122/pexels-photo-6077122.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>
                             </div>
-                            <div className="bg-[var(--secondary-500)] rounded h-fit w-fit">
-                                <Image width="500" height="500" className=' opacity-80 rounded ' style={{
+                            <div className="bg-[var(--secondary-200)] rounded h-fit w-fit">
+                                <Image width="200" height="200" className=' opacity-80 rounded ' style={{
                                     height: "400px", objectFit: "cover", width: "300px", objectPosition: "center right"
                                 }}
                                     src="https://images.pexels.com/photos/4560079/pexels-photo-4560079.jpeg?auto=compress&cs=tinysrgb&w=1600" alt='' ></Image>

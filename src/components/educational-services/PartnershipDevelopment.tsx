@@ -16,7 +16,7 @@ export default function PartnershipDevelopment() {
                             </section>
                         </div>
                         <div className='md:flex gap-x-4'>
-                            <Image width="500" height="500" style={{
+                            <Image width="100" height="100" style={{
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'
@@ -29,7 +29,7 @@ export default function PartnershipDevelopment() {
                 <section className="p-6 ">
                     <section className=" px-4  grid md:grid-cols-2 gap-6 py-4  md:py-0">
                         <div className='md:flex gap-x-4'>
-                            <Image width="500" height="500" style={{
+                            <Image width="200" height="200" style={{
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'
@@ -74,7 +74,7 @@ export default function PartnershipDevelopment() {
                             </section>
                         </div>
                         <div className='md:flex gap-x-4'>
-                            <Image width="500" height="500" style={{
+                            <Image width="200" height="200" style={{
                                 width: "100%", objectFit: "cover", objectPosition: "center left"
                             }}
                                 className='rounded-md'
